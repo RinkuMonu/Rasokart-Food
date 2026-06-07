@@ -1,0 +1,44 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Chef Marco Rossi",
+      "business": "Osteria Italiana Restaurant",
+      "rating": 5,
+      "content": "Rasokart Foods Private Limited has been our trusted supplier for over 3 years. The quality of their ingredients is exceptional, and their service is always reliable. Our customers can taste the difference!",
+      "image": "/testimonials/chef-marco.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "business": "The Gourmet Kitchen Catering",
+      "rating": 5,
+      "content": "The consistency and freshness of Rasokart Foods Private Limited's products is unmatched. We've tried several suppliers, but Rasokart Foods Private Limited offers the best combination of quality and competitive pricing.",
+      "image": "/testimonials/sarah.jpg"
+    },
+    {
+      "id": 3,
+      "name": "David Chen",
+      "business": "Fusion Bistro",
+      "rating": 5,
+      "content": "Excellent customer service and reliable delivery. Rasokart Foods Private Limited understands the needs of restaurants and delivers premium products on time, every time.",
+      "image": "/testimonials/david.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Emily Rodriguez",
+      "business": "Coastal Seafood Events",
+      "rating": 4.8,
+      "content": "Their seafood selection is outstanding. Fresh, premium quality, and always available when we need it for large events. Highly recommended!",
+      "image": "/testimonials/emily.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Michael Thompson",
+      "business": "The Silver Spoon Inn",
+      "rating": 5,
+      "content": "Rasokart Foods Private Limited has become integral to our kitchen operations. Their commitment to quality and sustainability aligns perfectly with our restaurant's values.",
+      "image": "/testimonials/michael.jpg"
+    }
+  ]
+}
