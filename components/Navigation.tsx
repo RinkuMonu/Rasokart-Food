@@ -1,98 +1,209 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X, ShoppingCart } from 'lucide-react';
-import { motion } from 'framer-motion';
+import {
+  Search,
+  ShoppingCart,
+  User,
+  LogOut,
+} from 'lucide-react';
+
 import { useCart } from '@/lib/cart-context';
+import productsData from '@/data/products.json';
 
 export function Navigation() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [query, setQuery] = useState('');
+  const [showSuggestions, setShowSuggestions] =
+    useState(false);
+
+  const [user, setUser] = useState(null);
+
   const { cartCount } = useCart();
 
-  const navItems = [
-    { label: 'Home', href: '/' },
-    { label: 'Products', href: '/products' },
-    { label: 'About Us', href: '/about' },
-    { label: 'Contact', href: '/contact' }
-  ];
+  useEffect(() => {
+    const loggedUser =
+      localStorage.getItem('loggedInUser');
+
+    if (loggedUser) {
+      setUser(JSON.parse(loggedUser));
+    }
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem('loggedInUser');
+    localStorage.removeItem('token');
+
+    setUser(null);
+
+    window.location.reload();
+  };
+
+  const filteredProducts =
+    productsData.products
+      .filter((product) => {
+        const search = query.toLowerCase();
+
+        return (
+          product.productName
+            ?.toLowerCase()
+            .includes(search) ||
+          product.brand
+            ?.toLowerCase()
+            .includes(search) ||
+          product.category
+            ?.toLowerCase()
+            .includes(search)
+        );
+      })
+      .slice(0, 8);
 
   return (
-    <nav className="sticky top-0 z-50 bg-background border-b border-border">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+    <header className="sticky top-0 z-50 bg-white shadow-sm border-b">
+      <div className="max-w-7xl mx-auto">
+
+        <div className="h-20 flex items-center gap-4 px-4">
+
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-           <img src="/mainlogo.png" alt="Rasokart Foods Private Limited Logo" className="h-16 w-auto" />
-            
+          <Link href="/">
+            <img
+              src="/mainlogo.png"
+              alt="logo"
+              className="h-14 object-contain"
+            />
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="text-foreground hover:text-primary transition-colors"
-              >
-                {item.label}
-              </Link>
-            ))}
-            <Link href="/cart" className="relative">
-              <button className="p-2 hover:bg-muted rounded-lg transition-colors">
-                <ShoppingCart size={20} className="text-foreground" />
-                {cartCount > 0 && (
-                  <span className="absolute -top-2 -right-2 bg-accent text-accent-foreground text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
-                    {cartCount}
-                  </span>
+          {/* Search */}
+          <div className="flex-1 relative">
+
+            <div className="flex items-center bg-gray-100 rounded-xl overflow-hidden border-2 border-transparent focus-within:border-green-500">
+
+              <Search
+                size={20}
+                className="ml-4 text-gray-500"
+              />
+
+              <input
+                type="text"
+                placeholder="Search chips, kurkure, cold drinks..."
+                className="w-full bg-transparent px-3 py-4 outline-none"
+                value={query}
+                onChange={(e) => {
+                  setQuery(e.target.value);
+                  setShowSuggestions(true);
+                }}
+                onFocus={() =>
+                  setShowSuggestions(true)
+                }
+              />
+            </div>
+
+            {/* Search Results */}
+            {showSuggestions && query.length > 0 && (
+              <div className="absolute top-full mt-2 left-0 right-0 bg-white border rounded-xl shadow-xl overflow-hidden z-50 max-h-[450px] overflow-y-auto">
+
+                {filteredProducts.length > 0 ? (
+                  filteredProducts.map((product) => (
+                    <Link
+                      key={product.id}
+                      href={`/products/${product.slug}`}
+                      onClick={() => {
+                        setQuery('');
+                        setShowSuggestions(false);
+                      }}
+                    >
+                      <div className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 cursor-pointer border-b">
+
+                        <img
+                          src={
+                            product.images?.[0] ||
+                            '/products/placeholder.jpg'
+                          }
+                          alt={product.productName}
+                          className="h-12 w-12 object-contain"
+                        />
+
+                        <div className="flex-1">
+                          <p className="font-medium text-sm text-gray-900">
+                            {product.productName}
+                          </p>
+
+                          <p className="text-xs text-gray-500">
+                            {product.brand}
+                          </p>
+                        </div>
+
+                        <div>
+                          <p className="text-sm font-bold text-green-600">
+                            ₹
+                            {(
+                              product.bulkPricing?.[0]
+                                ?.pricePerUnit ||
+                              product.sellingPrice
+                            ).toLocaleString('en-IN')}
+                          </p>
+                        </div>
+
+                      </div>
+                    </Link>
+                  ))
+                ) : (
+                  <div className="p-4 text-gray-500">
+                    No products found
+                  </div>
                 )}
-              </button>
-            </Link>
-            <button className="bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:opacity-90 transition-opacity">
-              Get Quote
-            </button>
+              </div>
+            )}
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2"
-            aria-label="Toggle menu"
+          {/* Cart */}
+          <Link
+            href="/cart"
+            className="relative p-3 rounded-xl hover:bg-gray-100 transition"
           >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
+            <ShoppingCart size={22} />
 
-        {/* Mobile Navigation */}
-        {isOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            className="md:hidden pb-4 space-y-4"
-          >
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="block text-foreground hover:text-primary transition-colors"
-                onClick={() => setIsOpen(false)}
+            {cartCount > 0 && (
+              <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs min-w-[20px] h-5 px-1 flex items-center justify-center rounded-full font-bold">
+                {cartCount}
+              </span>
+            )}
+          </Link>
+
+          {/* User Section */}
+          {user ? (
+            <div className="hidden md:flex items-center gap-3">
+
+              <div className="text-right">
+                <p className="text-sm font-semibold text-gray-800">
+                  Welcome,
+                </p>
+
+                <p className="text-sm font-bold text-green-600">
+                  {user.name}
+                </p>
+              </div>
+
+              <button
+                onClick={handleLogout}
+                className="flex items-center gap-2 bg-red-500 text-white px-4 py-3 rounded-xl hover:bg-red-600 transition"
               >
-                {item.label}
-              </Link>
-            ))}
-            <Link href="/cart" className="block" onClick={() => setIsOpen(false)}>
-              <button className="w-full bg-muted text-foreground px-6 py-2 rounded-lg hover:bg-muted/80 transition-colors flex items-center justify-center gap-2">
-                <ShoppingCart size={18} />
-                Cart ({cartCount})
+                <LogOut size={18} />
+                Logout
+              </button>
+
+            </div>
+          ) : (
+            <Link href="/login">
+              <button className="hidden md:flex items-center gap-2 bg-green-600 text-white px-5 py-3 rounded-xl hover:bg-green-700 transition">
+                <User size={18} />
+                Login
               </button>
             </Link>
-            <button className="w-full bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:opacity-90 transition-opacity">
-              Get Quote
-            </button>
-          </motion.div>
-        )}
+          )}
+
+        </div>
       </div>
-    </nav>
+    </header>
   );
 }

@@ -1,57 +1,57 @@
 export const CATEGORIES = [
-  {
-    id: 'Water',
-    name: 'Water',
-    description: 'Packaged Drinking Water',
-    icon: '💧'
-  },
+  // {
+  //   id: 'Water',
+  //   name: 'Water',
+  //   description: 'Packaged Drinking Water',
+  //   icon: '💧'
+  // },
   {
     id: 'chips',
-    name: 'Chips & Dips',
+    name: 'Chips & Crisps',
     description: 'Premium Chips and high-quality Dips',
     icon: '🍟'
   },
   {
-    id: 'candies',
-    name: 'Candies , Gums & Mints',
+    id: 'Rusks',
+    name: 'Rusks & Wafers',
     description: 'Fresh Candies and premium gums',
     icon: '🍬'
   },
   {
-    id: 'chocolates',
-    name: 'Chocolates',
-    description: 'Premium chocolates and confectionery',
+    id: 'Energy',
+    name: 'Energy Bars',
+    description: 'Premium energy bars and confectionery',
     icon: '🍫'
   },
   {
-    id: 'cookies',
-    name: 'Cookies & Biscuits',
-    description: 'Freshly baked cookies and premium biscuits',
-    icon: '🍪'
+    id: 'Nachos',
+    name: 'Nachos',
+    description: 'Crispy nachos and delicious dips for snacking',
+    icon: '🌮'
   },
    {
-    id: 'cereals',
-    name: 'Cereals & Tarts',
-    description: 'Premium cereals and freshly baked tarts',
-    icon: '🥣'
+    id: 'Bhujia',
+    name: 'Bhujia & Mixtures',
+    description: 'Spicy and savory bhujia and traditional Indian mixtures',
+    icon: '🍲'
   },
   {
-    id: 'noodles',
-    name: 'Noodles & Pasta',
-    description: 'High-quality noodles and premium pasta',
-    icon: '🍜'
+    id: 'Popcorn',
+    name: 'Popcorn',
+    description: 'Gourmet popcorn in a variety of flavors for movie nights and snacking',
+    icon: '🍿'
   },
   {
-    id: 'Snacks',
-    name: 'Healthy Snacks',
-    description: 'Nutritious and delicious healthy snack options',
-    icon: '🥗'
+    id: 'Imported Snacks',
+    name: 'Imported Snacks',
+    description: 'A variety of imported snacks from around the world',
+    icon: '🌏'
   },
   {
-    id: 'Sauces',
-    name: 'Sauces & Spreads',
-    description: 'Premium sauces and delicious spreads to elevate your meals',
-    icon: '🍯'
+    id: 'Namkeen Snacks',
+    name: 'Namkeen Snacks',
+    description: 'Namkeen Snacks',
+    icon: '🍛'
   }
 ];
 

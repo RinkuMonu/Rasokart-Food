@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
-import { Navigation } from '@/components/Navigation';
-import { Footer } from '@/components/Footer';
-import { useCart } from '@/lib/cart-context';
-import Link from 'next/link';
-import { Trash2, Plus, Minus, ShoppingCart as CartIcon } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { Navigation } from "@/components/Navigation";
+import { Footer } from "@/components/Footer";
+import { useCart } from "@/lib/cart-context";
+import Link from "next/link";
+import { Trash2, ShoppingCart as CartIcon } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function CartPage() {
-  const { items, removeFromCart, updateQuantity, cartTotal, clearCart } = useCart();
+  const { items, removeFromCart, cartTotal, clearCart } = useCart();
 
   return (
     <>
@@ -21,8 +21,12 @@ export default function CartPage() {
             animate={{ opacity: 1, y: 0 }}
             className="mb-12"
           >
-            <h1 className="text-4xl font-bold text-foreground mb-2">Shopping Quote</h1>
-            <p className="text-muted-foreground">Review your wholesale order before requesting a quote</p>
+            <h1 className="text-4xl font-bold text-foreground mb-2">
+              Shopping Quote
+            </h1>
+            <p className="text-muted-foreground">
+              Review your wholesale order before requesting a quote
+            </p>
           </motion.div>
 
           {items.length === 0 ? (
@@ -33,8 +37,12 @@ export default function CartPage() {
               className="text-center py-20"
             >
               <CartIcon size={64} className="mx-auto text-muted mb-6" />
-              <h2 className="text-2xl font-bold text-foreground mb-4">Your quote is empty</h2>
-              <p className="text-muted-foreground mb-8">Start adding products to build your wholesale order</p>
+              <h2 className="text-2xl font-bold text-foreground mb-4">
+                Your quote is empty
+              </h2>
+              <p className="text-muted-foreground mb-8">
+                Start adding products to build your wholesale order
+              </p>
               <Link href="/products">
                 <button className="bg-primary text-primary-foreground px-8 py-3 rounded-lg hover:opacity-90 transition-opacity">
                   Continue Shopping
@@ -54,43 +62,47 @@ export default function CartPage() {
                     className="bg-card border border-border rounded-lg p-6 flex items-start justify-between"
                   >
                     {/* Product Info */}
-                    <div className="flex-1">
-                      <h3 className="text-lg font-bold text-foreground">{item.name}</h3>
-                      <p className="text-sm text-muted-foreground mb-2">{item.category}</p>
-                      <div className="flex items-baseline gap-2 mb-4">
-                        <span className="text-2xl font-bold text-primary">
-                          ${item.bulkPrice.toFixed(2)}
-                        </span>
-                        <span className="text-sm text-muted-foreground line-through">
-                          ${item.price.toFixed(2)}
-                        </span>
-                        <span className="text-xs text-accent font-semibold">
-                          per {item.unit}
-                        </span>
-                      </div>
+                    <div className="flex gap-4">
+                      <img
+                        src={item.image || "/products/placeholder.jpg"}
+                        alt={item.name}
+                        className="h-24 w-24 rounded-lg object-contain border"
+                      />
 
-                      {/* Quantity Controls */}
-                      <div className="flex items-center gap-2">
-                        <button
-                          onClick={() => updateQuantity(item.id, item.quantity - 1)}
-                          className="p-1 hover:bg-muted rounded transition"
-                        >
-                          <Minus size={16} />
-                        </button>
-                        <span className="text-sm font-semibold w-8 text-center">{item.quantity}</span>
-                        <button
-                          onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                          className="p-1 hover:bg-muted rounded transition"
-                        >
-                          <Plus size={16} />
-                        </button>
+                      <div className="flex-1">
+                        <h3 className="text-lg font-bold text-foreground">
+                          {item.name}
+                        </h3>
+
+                        <p className="text-sm text-muted-foreground mb-2">
+                          {item.category}
+                        </p>
+
+                        <div className="mb-4">
+                          <p className="text-lg font-bold text-green-600">
+                            ₹{item.bulkPrice.toLocaleString("en-IN")} /{" "}
+                            {item.unit}
+                          </p>
+
+                          <p className="text-sm text-gray-400 line-through">
+                            ₹{item.price.toLocaleString("en-IN")}
+                          </p>
+                        </div>
+
+                        <span className="rounded-full bg-blue-50 px-3 py-1 text-sm font-semibold text-blue-700">
+                          MOQ: {item.quantity.toLocaleString("en-IN")}{" "}
+                          {item.unit}
+                        </span>
                       </div>
                     </div>
 
                     {/* Total and Remove */}
                     <div className="text-right ml-6">
                       <p className="text-xl font-bold text-foreground mb-4">
-                        ${(item.bulkPrice * item.quantity).toFixed(2)}
+                        ₹
+                        {(item.bulkPrice * item.quantity).toLocaleString(
+                          "en-IN",
+                        )}
                       </p>
                       <button
                         onClick={() => removeFromCart(item.id)}
@@ -110,56 +122,65 @@ export default function CartPage() {
                 className="lg:col-span-1"
               >
                 <div className="bg-card border border-border rounded-lg p-6 sticky top-24 space-y-6">
-                  <h2 className="text-xl font-bold text-foreground">Order Summary</h2>
+                  <h2 className="text-xl font-bold text-foreground">
+                    Order Summary
+                  </h2>
 
                   {/* Order Details */}
                   <div className="space-y-3 border-b border-border pb-6">
                     <div className="flex justify-between text-sm">
                       <span className="text-muted-foreground">Subtotal:</span>
-                      <span className="font-semibold text-foreground">${cartTotal.toFixed(2)}</span>
+                      <span className="font-semibold text-foreground">
+                        ₹{cartTotal.toLocaleString("en-IN")}
+                      </span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span className="text-muted-foreground">Items:</span>
-                      <span className="font-semibold text-foreground">{items.length}</span>
+                      <span className="font-semibold text-foreground">
+                        {items.length}
+                      </span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span className="text-muted-foreground">Quantity:</span>
                       <span className="font-semibold text-foreground">
-                        {items.reduce((sum, item) => sum + item.quantity, 0)} units
+                        {items
+                          .reduce((sum, item) => sum + item.quantity, 0)
+                          .toLocaleString("en-IN")}{" "}
+                        units units
                       </span>
                     </div>
                   </div>
 
                   {/* Savings */}
                   <div className="bg-accent/10 rounded-lg p-4 text-center">
-                    <p className="text-sm text-muted-foreground mb-1">Estimated Savings</p>
+                    <p className="text-sm text-muted-foreground mb-1">
+                      Estimated Savings
+                    </p>
                     <p className="text-2xl font-bold text-accent">
-                      ${(
-                        items.reduce((sum, item) => {
-                          const savings = (item.price - item.bulkPrice) * item.quantity;
+                      ₹
+                      {items
+                        .reduce((sum, item) => {
+                          const savings =
+                            (item.price - item.bulkPrice) * item.quantity;
+
                           return sum + savings;
                         }, 0)
-                      ).toFixed(2)}
+                        .toLocaleString("en-IN")}
                     </p>
                   </div>
 
                   {/* Buttons */}
-                  <div className="space-y-3 pt-6 border-t border-border">
-                    <button className="w-full bg-primary text-primary-foreground py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
-                      Request Quote
+                  <Link href="/checkout">
+                    <button className="w-full bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700 transition">
+                      Process To Pay
                     </button>
-                    <Link href="/products" className="block">
-                      <button className="w-full bg-secondary text-secondary-foreground py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity">
-                        Continue Shopping
-                      </button>
-                    </Link>
-                    <button
-                      onClick={clearCart}
-                      className="w-full text-destructive hover:bg-destructive/10 py-3 rounded-lg font-semibold transition-colors"
-                    >
-                      Clear Quote
-                    </button>
-                  </div>
+                  </Link>
+                  <button
+                    onClick={clearCart}
+                    className="w-full mt-3 border border-red-500 text-red-500 py-3 rounded-lg font-semibold hover:bg-red-50"
+                  >
+                    Clear Cart
+                  </button>
                 </div>
               </motion.div>
             </div>

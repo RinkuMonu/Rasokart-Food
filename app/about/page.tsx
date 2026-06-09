@@ -3,233 +3,185 @@
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import { motion } from 'framer-motion';
-import { CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, Sparkles, Rocket, Users } from 'lucide-react';
 
 export default function AboutPage() {
   const values = [
-    {
-      title: 'Quality First',
-      description: 'We source only the finest ingredients from trusted suppliers worldwide.'
-    },
-    {
-      title: 'Reliability',
-      description: 'Consistent delivery and support your business can depend on.'
-    },
-    {
-      title: 'Sustainability',
-      description: 'Committed to eco-friendly practices and responsible sourcing.'
-    },
-    {
-      title: 'Partnership',
-      description: 'We see ourselves as partners in your culinary success.'
-    }
+    { title: 'Quality First', description: 'We source only the finest ingredients from trusted suppliers worldwide.' },
+    { title: 'Reliability', description: 'Consistent delivery and support your business can depend on.' },
+    { title: 'Sustainability', description: 'Committed to eco-friendly practices and responsible sourcing.' },
+    { title: 'Partnership', description: 'We see ourselves as partners in your culinary success.' }
   ];
 
   const milestones = [
-    { year: '2015', event: 'Rasokart Foods Private Limited Founded' },
+    { year: '2015', event: 'Founded Rasokart Foods' },
     { year: '2017', event: '500+ Restaurant Partnerships' },
-    { year: '2019', event: 'Expanded to 3 Distribution Centers' },
-    { year: '2021', event: 'Launch of Premium Specialty Line' },
-    { year: '2023', event: 'Nationwide Sustainability Initiative' },
-    { year: '2024', event: '1000+ Satisfied Clients' }
+    { year: '2019', event: '3 Distribution Centers' },
+    { year: '2021', event: 'Premium Product Line Launch' },
+    { year: '2023', event: 'Nationwide Expansion' },
+    { year: '2024', event: '1000+ Happy Clients' }
   ];
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.4 },
-    },
-  };
 
   return (
     <>
       <Navigation />
-      <main>
-        {/* Hero */}
-        <section className="bg-gradient-to-br from-primary/5 to-accent/5 py-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <motion.div
+
+      <main className="bg-white">
+
+        {/* HERO */}
+        <section className="relative overflow-hidden bg-gradient-to-br from-orange-50 via-white to-orange-100 py-20">
+          <div className="max-w-6xl mx-auto px-6 text-center space-y-6">
+
+            <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="space-y-4"
+              className="text-4xl md:text-5xl font-bold"
             >
-              <h1 className="text-4xl lg:text-5xl font-bold text-foreground">
-                About Rasokart Foods Private Limited
-              </h1>
-              <p className="text-lg text-muted-foreground max-w-2xl">
-                Serving the hospitality industry with premium wholesale groceries since 2015.
-              </p>
-            </motion.div>
-          </div>
-        </section>
+              About <span className="text-orange-600">Rasokart Foods</span>
+            </motion.h1>
 
-        {/* Company Overview */}
-        <section className="py-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6 }}
-                viewport={{ once: true }}
-              >
-                <h2 className="text-3xl font-bold text-foreground mb-6">
-                  Our Story
-                </h2>
-                <p className="text-muted-foreground mb-4 leading-relaxed">
-                  Rasokart Foods Private Limited was founded with a simple mission: to connect professional kitchens with the finest premium ingredients at wholesale prices. We believed that quality shouldn't be expensive when you buy smart.
-                </p>
-                <p className="text-muted-foreground mb-4 leading-relaxed">
-                  What started as a small local operation has grown into a trusted supplier for restaurants, catering companies, and food services across the nation. Our success is built on the success of our clients.
-                </p>
-                <p className="text-muted-foreground leading-relaxed">
-                  Today, we're proud to serve over 1,000 businesses, providing them with consistent quality, reliable delivery, and outstanding customer service.
-                </p>
-              </motion.div>
+            <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+              Premium wholesale grocery supplier helping restaurants grow with quality ingredients since 2015.
+            </p>
 
-              <motion.div
-                initial={{ opacity: 0, x: 20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6 }}
-                viewport={{ once: true }}
-                className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg p-12 flex items-center justify-center h-96"
-              >
-                <div className="text-center">
-                  <p className="text-5xl font-bold text-primary mb-4">1,000+</p>
-                  <p className="text-lg text-foreground">Happy Clients Nationwide</p>
-                </div>
-              </motion.div>
+            <div className="flex justify-center gap-6 pt-6">
+
+              <div className="bg-white shadow rounded-xl px-6 py-4">
+                <p className="text-2xl font-bold text-orange-600">1000+</p>
+                <p className="text-sm text-gray-500">Clients</p>
+              </div>
+
+              <div className="bg-white shadow rounded-xl px-6 py-4">
+                <p className="text-2xl font-bold text-orange-600">10K+</p>
+                <p className="text-sm text-gray-500">Products Delivered</p>
+              </div>
+
+              <div className="bg-white shadow rounded-xl px-6 py-4">
+                <p className="text-2xl font-bold text-orange-600">99%</p>
+                <p className="text-sm text-gray-500">Satisfaction</p>
+              </div>
+
             </div>
           </div>
         </section>
 
-        {/* Values */}
-        <section className="py-16 bg-muted">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="text-center mb-12"
-            >
-              <h2 className="text-3xl font-bold text-foreground mb-4">
-                Our Values
-              </h2>
-              <p className="text-lg text-muted-foreground">
-                The principles that guide everything we do
-              </p>
-            </motion.div>
+        {/* STORY */}
+        <section className="py-20">
+          <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
-            <motion.div
-              variants={containerVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              className="grid md:grid-cols-2 lg:grid-cols-4 gap-6"
-            >
-              {values.map((value) => (
-                <motion.div
-                  key={value.title}
-                  variants={itemVariants}
-                  className="bg-card border border-border rounded-lg p-6"
-                >
-                  <CheckCircle2 className="text-primary mb-4" size={28} />
-                  <h3 className="font-semibold text-foreground text-lg mb-2">
-                    {value.title}
-                  </h3>
-                  <p className="text-muted-foreground text-sm">
-                    {value.description}
-                  </p>
-                </motion.div>
-              ))}
-            </motion.div>
+            <div className="space-y-4">
+              <h2 className="text-3xl font-bold">Our Story</h2>
+
+              <p className="text-gray-600 leading-relaxed">
+                Rasokart Foods started with a simple mission — make premium ingredients affordable for every professional kitchen.
+              </p>
+
+              <p className="text-gray-600 leading-relaxed">
+                From a small local supplier to a nationwide network, we’ve grown by focusing on trust, quality, and consistency.
+              </p>
+
+              <div className="flex gap-3 pt-4">
+                <Sparkles className="text-orange-600" />
+                <span className="text-sm text-gray-600">Premium Quality Focused</span>
+              </div>
+
+              <div className="flex gap-3">
+                <Rocket className="text-orange-600" />
+                <span className="text-sm text-gray-600">Fast Growing Network</span>
+              </div>
+
+              <div className="flex gap-3">
+                <Users className="text-orange-600" />
+                <span className="text-sm text-gray-600">Trusted by 1000+ Businesses</span>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-orange-100 to-orange-50 rounded-2xl p-10 text-center shadow">
+              <h3 className="text-5xl font-bold text-orange-600">10+</h3>
+              <p className="text-gray-600 mt-2">Years of Experience</p>
+            </div>
+
           </div>
         </section>
 
-        {/* Timeline */}
-        <section className="py-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="text-center mb-12"
-            >
-              <h2 className="text-3xl font-bold text-foreground mb-4">
-                Our Journey
-              </h2>
-              <p className="text-lg text-muted-foreground">
-                A timeline of growth and achievements
-              </p>
-            </motion.div>
+        {/* VALUES */}
+        <section className="bg-gray-50 py-20">
+          <div className="max-w-6xl mx-auto px-6 text-center mb-10">
+            <h2 className="text-3xl font-bold">Our Values</h2>
+            <p className="text-gray-600">What drives us every day</p>
+          </div>
 
-            <motion.div
-              variants={containerVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
-            >
-              {milestones.map((milestone) => (
-                <motion.div
-                  key={milestone.year}
-                  variants={itemVariants}
-                  className="bg-card border border-border rounded-lg p-6"
-                >
-                  <p className="text-accent font-bold text-lg mb-2">
-                    {milestone.year}
-                  </p>
-                  <p className="text-foreground font-semibold">
-                    {milestone.event}
-                  </p>
-                </motion.div>
-              ))}
-            </motion.div>
+          <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-4 gap-6">
+
+            {values.map((v) => (
+              <div
+                key={v.title}
+                className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+              >
+                <CheckCircle2 className="text-orange-600 mb-3" />
+                <h3 className="font-semibold mb-2">{v.title}</h3>
+                <p className="text-sm text-gray-600">{v.description}</p>
+              </div>
+            ))}
+
+          </div>
+        </section>
+
+        {/* TIMELINE */}
+        <section className="py-20">
+          <div className="max-w-6xl mx-auto px-6 text-center mb-10">
+            <h2 className="text-3xl font-bold">Our Journey</h2>
+            <p className="text-gray-600">Milestones that define us</p>
+          </div>
+
+          <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-6">
+
+            {milestones.map((m) => (
+              <div
+                key={m.year}
+                className="border rounded-xl p-6 bg-white hover:shadow-md transition"
+              >
+                <p className="text-orange-600 font-bold text-lg">{m.year}</p>
+                <p className="text-gray-700 mt-2">{m.event}</p>
+              </div>
+            ))}
+
           </div>
         </section>
 
         {/* CTA */}
-        <section className="py-16 bg-primary text-primary-foreground">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-              className="space-y-6"
+        <section className="bg-orange-600 text-white py-16 text-center">
+
+          <h2 className="text-3xl font-bold">
+            Let’s Grow Together
+          </h2>
+
+          <p className="mt-3 opacity-90">
+            Join hundreds of businesses already working with us
+          </p>
+
+          <div className="mt-6 flex justify-center gap-4">
+
+            <a
+              href="/products"
+              className="bg-white text-orange-600 px-6 py-3 rounded-lg font-semibold"
             >
-              <h2 className="text-3xl font-bold">
-                Ready to Join Our Community?
-              </h2>
-              <p className="text-lg opacity-90 max-w-2xl mx-auto">
-                Experience the Rasokart Foods Private Limited difference. Browse our products or get in touch for a personalized quote.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/products" className="px-8 py-3 bg-primary-foreground text-primary rounded-lg font-semibold hover:opacity-90 transition-opacity">
-                  Browse Products
-                </a>
-                <a href="/contact" className="px-8 py-3 border-2 border-primary-foreground text-primary-foreground rounded-lg font-semibold hover:bg-primary-foreground/10 transition-colors">
-                  Contact Us
-                </a>
-              </div>
-            </motion.div>
+              Browse Products
+            </a>
+
+            <a
+              href="/contact"
+              className="border border-white px-6 py-3 rounded-lg"
+            >
+              Contact Us
+            </a>
+
           </div>
+
         </section>
+
       </main>
+
       <Footer />
     </>
   );

@@ -1,265 +1,250 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Navigation } from '@/components/Navigation';
-import { Footer } from '@/components/Footer';
-import { ProductCard } from '@/components/ProductCard';
-import { Star, ShoppingCart, Heart, Truck, Shield, RotateCcw } from 'lucide-react';
-import { motion } from 'framer-motion';
-import productsData from '@/data/products.json';
-import Link from 'next/link';
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
-import { useCart } from '@/lib/cart-context';
+import { useEffect, useState } from "react";
+import { useParams } from "next/navigation";
+import productsData from "@/data/products.json";
+import { useCart } from "@/lib/cart-context";
+import { Star, ShoppingCart, Heart } from "lucide-react";
+import Link from "next/link";
+import toast from "react-hot-toast";
+export default function ProductDetailPage() {
+  const params = useParams();
+  const id = Array.isArray(params.id) ? params.id[0] : params.id;
 
-interface ProductDetailPageProps {
-  params: Promise<{
-    id: string;
-  }>;
-}
-
-export default function ProductDetailPage({ params: paramsPromise }: ProductDetailPageProps) {
-  const router = useRouter();
   const { addToCart } = useCart();
-  const [product, setProduct] = useState<typeof productsData.products[0] | null>(null);
-  const [quantity, setQuantity] = useState(1);
-  const [addedToCart, setAddedToCart] = useState(false);
+
+  const [product, setProduct] = useState<any>(null);
 
   useEffect(() => {
-    paramsPromise.then((params) => {
-      const productId = parseInt(params.id);
-      const foundProduct = productsData.products.find((p) => p.id === productId);
-      setProduct(foundProduct || null);
-    });
-  }, [paramsPromise]);
+    if (!id) return;
 
-  const handleAddToCart = () => {
-    if (product) {
-      addToCart({
-        id: product.id,
-        name: product.name,
-        price: product.price,
-        bulkPrice: product.bulkPrice,
-        quantity,
-        unit: product.unit,
-        category: product.category,
-      });
-      setAddedToCart(true);
-      setTimeout(() => setAddedToCart(false), 2000);
-    }
-  };
+    const found = productsData.products.find((p) => p.slug === id);
+
+    setProduct(found || null);
+  }, [id]);
 
   if (!product) {
     return (
-      <>
-        <Navigation />
-        <main className="min-h-screen flex items-center justify-center">
-          <div className="text-center">
-            <h1 className="text-2xl font-bold mb-4">Product not found</h1>
-            <Link href="/products" className="text-primary hover:underline">
-              Back to products
-            </Link>
-          </div>
-        </main>
-        <Footer />
-      </>
+      <div className="flex h-screen items-center justify-center text-xl">
+        Product not found
+      </div>
     );
   }
 
-  const relatedProducts = productsData.products
-    .filter((p) => p.category === product.category && p.id !== product.id)
-    .slice(0, 3);
+  const bulkQty = product.bulkPricing?.[0]?.minQty || 1;
 
-  const savings = Math.round(((product.price - product.bulkPrice) / product.price) * 100);
+  const unitPrice =
+    product.bulkPricing?.[0]?.pricePerUnit || product.sellingPrice;
+
+  const totalPrice = bulkQty * unitPrice;
+  const totalMrp = product.mrp * bulkQty;
+
+  const related = productsData.products
+    .filter((p) => p.category === product.category && p.id !== product.id)
+    .slice(0, 4);
+
+  const handleAddToCart = () => {
+    addToCart({
+      id: product.id,
+      name: product.productName,
+
+      image: product.images?.[0] || "/products/placeholder.jpg",
+
+      // Original MRP Per Unit
+      price: product.mrp,
+
+      // Wholesale Per Unit Price
+      bulkPrice: unitPrice,
+
+      // MOQ Qty
+      quantity: bulkQty,
+
+      unit: product.unit || "packet",
+
+      category: product.category || "",
+    });
+
+    toast.success(`${product.productName} added successfully`, {
+      icon: "🛒",
+    });
+  };
 
   return (
-    <>
-      <Navigation />
-      <main>
-        {/* Breadcrumb */}
-        <section className="py-4 border-b border-border">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center gap-2 text-sm text-muted-foreground">
-              <Link href="/" className="hover:text-primary">Home</Link>
-              <span>/</span>
-              <Link href="/products" className="hover:text-primary">Products</Link>
-              <span>/</span>
-              <span className="text-foreground">{product.name}</span>
-            </div>
+    <div className="min-h-screen bg-gray-50">
+      {/* TOP BAR */}
+      <div className="bg-white p-4 shadow">
+        <Link href="/products" className="text-blue-600 font-medium">
+          ← Back to Products
+        </Link>
+      </div>
+
+      {/* MAIN SECTION */}
+      <div className="mx-auto grid max-w-6xl gap-10 p-6 md:grid-cols-2">
+        {/* PRODUCT IMAGE */}
+        <div className="flex items-center justify-center rounded-xl bg-white p-6 shadow">
+          <img
+            src={product.images?.[0]}
+            alt={product.productName}
+            className="h-80 object-contain"
+          />
+        </div>
+
+        {/* PRODUCT DETAILS */}
+        <div className="space-y-5">
+          <p className="text-sm text-gray-500">{product.brand}</p>
+
+          <h1 className="text-3xl font-bold">{product.productName}</h1>
+
+          {/* Rating */}
+          <div className="flex items-center gap-2">
+            {[...Array(5)].map((_, i) => (
+              <Star
+                key={i}
+                size={16}
+                className={
+                  i < Math.floor(product.rating)
+                    ? "fill-yellow-500 text-yellow-500"
+                    : "text-gray-300"
+                }
+              />
+            ))}
+
+            <span className="text-sm text-gray-600">{product.rating}</span>
           </div>
-        </section>
 
-        {/* Product Details */}
-        <section className="py-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-2 gap-12">
-              {/* Image */}
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                className="bg-muted rounded-lg overflow-hidden flex items-center justify-center h-96"
-              >
-                <div className="w-full h-full bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center text-8xl">
-                  {product.name.charAt(0)}
-                </div>
-              </motion.div>
+          {/* Description */}
+          <p className="text-gray-600">{product.description}</p>
 
-              {/* Details */}
-              <motion.div
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                className="space-y-6"
-              >
-                <div>
-                  <p className="text-primary text-sm font-semibold uppercase mb-2">
-                    {product.category}
-                  </p>
-                  <h1 className="text-4xl font-bold text-foreground mb-4">
-                    {product.name}
-                  </h1>
-                  <p className="text-lg text-muted-foreground mb-4">
-                    {product.description}
-                  </p>
+          {/* WHOLESALE PRICE BOX */}
+          <div className="space-y-4 rounded-xl bg-white p-5 shadow">
+            <div>
+              <p className="text-sm text-gray-500">Minimum Order Quantity</p>
 
-                  {/* Rating */}
-                  <div className="flex items-center gap-2">
-                    <div className="flex gap-1">
-                      {[...Array(5)].map((_, i) => (
-                        <Star
-                          key={i}
-                          size={18}
-                          className={i < Math.floor(product.rating) ? "fill-accent text-accent" : "text-muted"}
-                        />
-                      ))}
-                    </div>
-                    <span className="text-sm text-muted-foreground">
-                      {product.rating} • {Math.floor(Math.random() * 500) + 50} reviews
-                    </span>
-                  </div>
-                </div>
-
-                {/* Pricing */}
-                <div className="bg-muted rounded-lg p-6 space-y-4">
-                  <div>
-                    <p className="text-sm text-muted-foreground mb-1">Standard Price</p>
-                    <p className="text-lg line-through text-muted-foreground">
-                      ${product.price.toFixed(2)}
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground mb-1">Bulk Price</p>
-                    <p className="text-3xl font-bold text-primary">
-                      ${product.bulkPrice.toFixed(2)}
-                    </p>
-                  </div>
-                  <div className="pt-4 border-t border-border">
-                    <p className="text-sm font-semibold text-accent">
-                      Save {savings}% when you buy in bulk
-                    </p>
-                  </div>
-                </div>
-
-                {/* Units */}
-                <div>
-                  <p className="text-sm font-semibold text-foreground mb-2">Available Quantities</p>
-                  <div className="grid grid-cols-2 gap-3">
-                    <div className="border border-border rounded-lg p-3 text-center">
-                      <p className="text-xs text-muted-foreground">Standard</p>
-                      <p className="font-semibold text-foreground">{product.unit}</p>
-                      <p className="text-sm text-primary">${product.price.toFixed(2)}</p>
-                    </div>
-                    <div className="border border-primary bg-primary/5 rounded-lg p-3 text-center">
-                      <p className="text-xs text-muted-foreground">Bulk Discount</p>
-                      <p className="font-semibold text-foreground">{product.bulkQuantity}</p>
-                      <p className="text-sm text-primary font-bold">${product.bulkPrice.toFixed(2)}</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Quantity */}
-                <div>
-                  <p className="text-sm font-semibold text-foreground mb-3">Quantity</p>
-                  <div className="flex items-center gap-3">
-                    <button
-                      onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                      className="px-4 py-2 border border-border rounded hover:bg-muted transition"
-                    >
-                      −
-                    </button>
-                    <span className="text-xl font-semibold w-8 text-center">{quantity}</span>
-                    <button
-                      onClick={() => setQuantity(quantity + 1)}
-                      className="px-4 py-2 border border-border rounded hover:bg-muted transition"
-                    >
-                      +
-                    </button>
-                  </div>
-                </div>
-
-                {/* Actions */}
-                <div className="flex gap-3">
-                  <motion.button
-                    onClick={handleAddToCart}
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    disabled={!product.inStock}
-                    className="flex-1 bg-primary text-primary-foreground py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
-                  >
-                    <ShoppingCart size={20} />
-                    {addedToCart ? 'Added to Quote!' : (product.inStock ? 'Add to Quote' : 'Out of Stock')}
-                  </motion.button>
-                  <button className="px-6 py-3 border border-primary text-primary rounded-lg hover:bg-primary/10 transition">
-                    <Heart size={20} />
-                  </button>
-                </div>
-
-                {/* Benefits */}
-                <div className="space-y-3 border-t border-border pt-6">
-                  <div className="flex items-start gap-3">
-                    <Truck className="text-primary mt-1" size={20} />
-                    <div>
-                      <p className="font-semibold text-foreground text-sm">Free Delivery</p>
-                      <p className="text-xs text-muted-foreground">On orders over $500</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <Shield className="text-primary mt-1" size={20} />
-                    <div>
-                      <p className="font-semibold text-foreground text-sm">Quality Guaranteed</p>
-                      <p className="text-xs text-muted-foreground">100% satisfaction or your money back</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <RotateCcw className="text-primary mt-1" size={20} />
-                    <div>
-                      <p className="font-semibold text-foreground text-sm">Easy Returns</p>
-                      <p className="text-xs text-muted-foreground">30-day return policy</p>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
+              <p className="text-xl font-bold text-blue-600">
+                {bulkQty.toLocaleString("en-IN")} {product.unit}
+                {bulkQty > 1 ? "s" : ""}
+              </p>
             </div>
 
-            {/* Related Products */}
-            {relatedProducts.length > 0 && (
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3 }}
-                className="mt-16 space-y-8"
-              >
-                <h2 className="text-3xl font-bold text-foreground">Related Products</h2>
-                <div className="grid md:grid-cols-3 gap-6">
-                  {relatedProducts.map((relProduct) => (
-                    <ProductCard key={relProduct.id} product={relProduct} />
-                  ))}
-                </div>
-              </motion.div>
+            <div>
+              <p className="text-sm text-gray-500">Wholesale Price</p>
+
+              <p className="text-2xl font-bold text-green-600">
+                ₹{unitPrice} / {product.unit}
+              </p>
+            </div>
+
+            <div>
+              <p className="text-sm text-gray-500">Total Order Value</p>
+
+              <p className="text-4xl font-bold text-gray-900">
+                ₹{totalPrice.toLocaleString("en-IN")}
+              </p>
+            </div>
+
+            {totalMrp > totalPrice && (
+              <>
+                <p className="text-lg text-gray-400 line-through">
+                  ₹{totalMrp.toLocaleString("en-IN")}
+                </p>
+
+                <p className="font-medium text-red-500">
+                  Save ₹{(totalMrp - totalPrice).toLocaleString("en-IN")}
+                </p>
+              </>
             )}
           </div>
-        </section>
-      </main>
-      <Footer />
-    </>
+
+          {/* ACTION BUTTONS */}
+          <div className="flex gap-3">
+            <button
+              onClick={handleAddToCart}
+              className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-green-600 py-3 text-white transition hover:bg-green-700"
+            >
+              <ShoppingCart size={18} />
+              Add MOQ To Cart
+            </button>
+
+            <button className="rounded-lg border px-4">
+              <Heart />
+            </button>
+          </div>
+
+          {/* HIGHLIGHTS */}
+          <div className="rounded-xl bg-white p-4 shadow">
+            <h3 className="mb-3 font-bold">Highlights</h3>
+
+            <ul className="ml-5 list-disc space-y-1 text-sm text-gray-600">
+              {product.highlights?.map((highlight: string, index: number) => (
+                <li key={index}>{highlight}</li>
+              ))}
+            </ul>
+          </div>
+
+          {/* SPECIFICATIONS */}
+          <div className="rounded-xl bg-white p-4 shadow">
+            <h3 className="mb-3 font-bold">Specifications</h3>
+
+            <div className="grid grid-cols-2 gap-3 text-sm">
+              {Object.entries(product.specifications || {}).map(
+                ([key, value]) => (
+                  <div key={key}>
+                    <p className="capitalize text-gray-500">{key}</p>
+
+                    <p className="font-medium">{String(value)}</p>
+                  </div>
+                ),
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* RELATED PRODUCTS */}
+      <div className="mx-auto mt-10 max-w-6xl px-6 pb-12">
+        <h2 className="mb-6 text-2xl font-bold">Related Products</h2>
+
+        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-4">
+          {related.map((p) => {
+            const relatedBulkQty = p.bulkPricing?.[0]?.minQty || 1;
+
+            const relatedUnitPrice =
+              p.bulkPricing?.[0]?.pricePerUnit || p.sellingPrice;
+
+            const relatedTotalPrice = relatedBulkQty * relatedUnitPrice;
+
+            return (
+              <Link
+                key={p.id}
+                href={`/products/${p.slug}`}
+                className="rounded-xl bg-white p-4 shadow transition hover:shadow-lg"
+              >
+                <img
+                  src={p.images?.[0]}
+                  alt={p.productName}
+                  className="mx-auto h-32 object-contain"
+                />
+
+                <h3 className="mt-3 line-clamp-2 text-sm font-semibold">
+                  {p.productName}
+                </h3>
+
+                <p className="mt-1 text-xs text-blue-600">
+                  MOQ: {relatedBulkQty.toLocaleString("en-IN")}
+                </p>
+
+                <p className="mt-2 font-bold text-green-600">
+                  ₹{relatedTotalPrice.toLocaleString("en-IN")}
+                </p>
+
+                <p className="text-xs text-gray-500">
+                  ₹{relatedUnitPrice} / unit
+                </p>
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+    </div>
   );
 }

@@ -13,10 +13,10 @@ export default function Page() {
       <Navigation />
       <main>
         <HeroSection />
-        <CategoriesSection />
+        {/* <CategoriesSection /> */}
         <FeaturedProducts />
-        <BenefitsSection />
-        <TestimonialsCarousel />
+        {/* <BenefitsSection /> */}
+        {/* <TestimonialsCarousel /> */}
         <CTASection />
       </main>
       <Footer />

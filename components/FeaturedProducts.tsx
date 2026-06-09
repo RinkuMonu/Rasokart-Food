@@ -6,7 +6,7 @@ import productsData from '@/data/products.json';
 import Link from 'next/link';
 
 export function FeaturedProducts() {
-  const featuredProducts = productsData.products.slice(0, 6);
+  const featuredProducts = productsData.products.slice(0, 21);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -19,52 +19,86 @@ export function FeaturedProducts() {
   };
 
   return (
-    <section className="py-16 lg:py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-16 lg:py-20 bg-gray-50">
+      <div className="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8">
+
+        {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-12"
+          className="mb-12 text-center"
         >
-          <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+          <h2 className="mb-4 text-3xl font-bold text-gray-900 lg:text-4xl">
             Featured Products
           </h2>
-          <p className="text-lg text-muted-foreground mb-6">
-            Our most popular premium wholesale ingredients
+
+          <p className="mx-auto max-w-2xl text-lg text-gray-600">
+            Premium wholesale snacks, chips, namkeen and food products
+            at competitive bulk prices.
           </p>
         </motion.div>
 
+        {/* Products Grid */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8"
+          className="
+            grid
+            grid-cols-1
+            sm:grid-cols-2
+            md:grid-cols-3
+            lg:grid-cols-4
+            gap-6
+            justify-items-center
+          "
         >
           {featuredProducts.map((product, index) => (
-            <ProductCard key={product.id} product={product} index={index} />
+            <ProductCard
+              key={product.id}
+              product={product}
+              index={index}
+            />
           ))}
         </motion.div>
 
+        {/* View All Button */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
           viewport={{ once: true }}
-          className="text-center"
+          className="mt-12 text-center"
         >
           <Link href="/products">
             <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-colors"
+              whileHover={{
+                scale: 1.05,
+              }}
+              whileTap={{
+                scale: 0.95,
+              }}
+              className="
+                rounded-xl
+                border-2
+                border-green-600
+                px-8
+                py-3
+                font-semibold
+                text-green-600
+                transition-all
+                hover:bg-green-600
+                hover:text-white
+              "
             >
               View All Products
             </motion.button>
           </Link>
         </motion.div>
+
       </div>
     </section>
   );
