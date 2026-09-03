@@ -13,6 +13,7 @@ import {
 import { useCart } from '@/lib/cart-context';
 import { useWishlist } from '@/hooks/useWishlist';
 import productsData from '@/data/products.json';
+import { CategoryNavBar } from '@/components/CategoryNavBar';
 
 export function Navigation() {
   const [query, setQuery] = useState('');
@@ -225,6 +226,10 @@ export function Navigation() {
 
         </div>
       </div>
+
+      {/* Secondary Category Navigation Bar */}
+      <CategoryNavBar />
+
     </header>
   );
 }
