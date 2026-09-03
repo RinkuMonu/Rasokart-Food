@@ -4,14 +4,17 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import productsData from "@/data/products.json";
 import { useCart } from "@/lib/cart-context";
+import { useWishlist } from "@/hooks/useWishlist";
 import { Star, ShoppingCart, Heart } from "lucide-react";
 import Link from "next/link";
 import toast from "react-hot-toast";
+
 export default function ProductDetailPage() {
   const params = useParams();
   const id = Array.isArray(params.id) ? params.id[0] : params.id;
 
   const { addToCart } = useCart();
+  const { isInWishlist, toggleWishlist } = useWishlist();
 
   const [product, setProduct] = useState<any>(null);
 
@@ -165,8 +168,20 @@ export default function ProductDetailPage() {
               Add MOQ To Cart
             </button>
 
-            <button className="rounded-lg border px-4">
-              <Heart />
+            <button
+              type="button"
+              onClick={() => toggleWishlist(product.id)}
+              className="flex items-center justify-center rounded-lg border px-4 transition hover:bg-gray-50"
+              aria-label={isInWishlist(product.id) ? "Remove from wishlist" : "Add to wishlist"}
+            >
+              <Heart
+                size={22}
+                className={`transition-colors ${
+                  isInWishlist(product.id)
+                    ? "fill-red-500 text-red-500"
+                    : "text-gray-500 hover:text-red-500"
+                }`}
+              />
             </button>
           </div>
 

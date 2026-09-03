@@ -5,11 +5,13 @@ import Link from 'next/link';
 import {
   Search,
   ShoppingCart,
+  Heart,
   User,
   LogOut,
 } from 'lucide-react';
 
 import { useCart } from '@/lib/cart-context';
+import { useWishlist } from '@/hooks/useWishlist';
 import productsData from '@/data/products.json';
 
 export function Navigation() {
@@ -17,9 +19,10 @@ export function Navigation() {
   const [showSuggestions, setShowSuggestions] =
     useState(false);
 
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState<{ name?: string } | null>(null);
 
   const { cartCount } = useCart();
+  const { wishlistCount } = useWishlist();
 
   useEffect(() => {
     const loggedUser =
@@ -155,6 +158,24 @@ export function Navigation() {
               </div>
             )}
           </div>
+
+          {/* Wishlist */}
+          <Link
+            href="/wishlist"
+            className="relative p-3 rounded-xl hover:bg-gray-100 transition"
+            aria-label="Wishlist"
+          >
+            <Heart
+              size={22}
+              className={wishlistCount > 0 ? "text-red-500 fill-red-500" : "text-gray-700"}
+            />
+
+            {wishlistCount > 0 && (
+              <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs min-w-[20px] h-5 px-1 flex items-center justify-center rounded-full font-bold">
+                {wishlistCount}
+              </span>
+            )}
+          </Link>
 
           {/* Cart */}
           <Link

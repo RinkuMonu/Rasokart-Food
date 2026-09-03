@@ -6,11 +6,11 @@ export default function Login() {
   const [isLogin, setIsLogin] = useState(true);
   const [loginData, setLoginData] = useState({ email: '', password: '' });
   const [registerData, setRegisterData] = useState({ name: '', email: '', password: '', confirm: '' });
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState<{ text: string; type: string } | null>(null);
 
-  const showMsg = (msg, type = 'success') => {
+  const showMsg = (msg: string, type: string = 'success') => {
     setMessage({ text: msg, type });
-    setTimeout(() => setMessage(''), 3000);
+    setTimeout(() => setMessage(null), 3000);
   };
 
   const handleRegister = () => {
@@ -19,7 +19,7 @@ export default function Login() {
     if (password !== confirm) return showMsg('Passwords wrong!', 'error');
 
     const users = JSON.parse(localStorage.getItem('users') || '[]');
-    if (users.find(u => u.email === email)) return showMsg('Email already registered!', 'error');
+    if (users.find((u: any) => u.email === email)) return showMsg('Email already registered!', 'error');
 
     users.push({ name, email, password });
     localStorage.setItem('users', JSON.stringify(users));
@@ -38,7 +38,7 @@ const handleLogin = () => {
   const users = JSON.parse(localStorage.getItem('users') || '[]');
 
   const user = users.find(
-    (u) => u.email === email && u.password === password
+    (u: any) => u.email === email && u.password === password
   );
 
   if (!user) {
