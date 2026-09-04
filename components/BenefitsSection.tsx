@@ -69,7 +69,7 @@ export function BenefitsSection() {
   };
 
   return (
-    <section className="relative py-20 lg:py-24 overflow-hidden bg-gradient-to-b from-[#f9f6f0] via-white to-[#f3f8f4]">
+    <section className="relative py-10 lg:py-12 overflow-hidden bg-gradient-to-b from-[#f9f6f0] via-white to-[#f3f8f4]">
 
       {/* Decorative background blobs */}
       <div

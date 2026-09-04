@@ -19,7 +19,7 @@ export function FeaturedProducts() {
   };
 
   return (
-    <section className="py-16 lg:py-20 bg-gray-50">
+    <section className="py-8 lg:py-10 bg-gray-50">
       <div className="mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8">
 
         {/* Heading */}

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export function CTASection() {
   return (
-    <section className="py-16 lg:py-20 bg-gradient-to-r from-primary to-secondary">
+    <section className="py-8 lg:py-10 bg-gradient-to-r from-primary to-secondary">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

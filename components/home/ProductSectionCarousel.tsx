@@ -63,7 +63,7 @@ export function ProductSectionCarousel({
   if (!products || products.length === 0) return null;
 
   return (
-    <section className={`py-14 lg:py-18 overflow-hidden ${bgClassName}`}>
+    <section className={`py-8 lg:py-10 overflow-hidden ${bgClassName}`}>
       <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="mb-8 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
