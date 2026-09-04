@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bhujia-mixtures",
+    "slug": "bhujia-mixtures",
+    "name": "Bhujia & Mixtures",
+    "image": "/images/categories/bhujia-mixtures.svg"
+  },
+  {
+    "id": "chips-crisps",
+    "slug": "chips-crisps",
+    "name": "Chips & Crisps",
+    "image": "/images/categories/chips-crisps.svg"
+  },
+  {
+    "id": "nachos",
+    "slug": "nachos",
+    "name": "Nachos",
+    "image": "/images/categories/nachos.svg"
+  },
+  {
+    "id": "namkeen",
+    "slug": "namkeen",
+    "name": "Namkeen",
+    "image": "/images/categories/namkeen.svg"
+  },
+  {
+    "id": "wafers",
+    "slug": "wafers",
+    "name": "Wafers",
+    "image": "/images/categories/wafers.svg"
+  },
+  {
+    "id": "wafers-chips",
+    "slug": "wafers-chips",
+    "name": "Wafers & Chips",
+    "image": "/images/categories/wafers-chips.svg"
+  }
+]

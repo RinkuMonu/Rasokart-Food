@@ -1,1712 +1,4588 @@
 {
- "products": [
-  {  
-  "id": 1,  
-  "productName": "Let's Try Desi Masala Chips",
-  "slug": "lets-try-desi-masala-chips",
-  "brand": "Let's Try",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "45 g",
-  "mrp": 60,
-  "sellingPrice": 31,
-  "discountPercentage": 48,
-  "description": "Kettle cooked desi masala flavored potato chips made with groundnut oil.",
-  "highlights": [
-    "Kettle Cooked",
-    "Made with Groundnut Oil",
-    "Desi Masala Flavor",
-    "Zero Oil Mixing"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778056825358-6991.jpg"
-  ],
-  "specifications": {
-    "brand": "Let's Try",
-    "flavour": "Desi Masala",
-    "netQuantity": "45 g",
-    "foodType": "Vegetarian",
-    "oilType": "Groundnut Oil",
-    "chipType": "Kettle Cooked"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 31,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+  "products": [
     {
-      "minQty": 50,
-      "pricePerUnit": 29
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "Let's Try Desi Masala Chips 45g",
-    "description": "Buy Let's Try Desi Masala Chips online at wholesale prices."
-  }
-},
-{
-   "id":2,
-  "productName": "Let's Try Desi Masala Chips",
-  "slug": "lets-try-desi-masala-chips",
-  "brand": "Let's Try",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "45 g",
-  "mrp": 60,
-  "sellingPrice": 31,
-  "discountPercentage": 48,
-  "description": "Kettle cooked desi masala flavored potato chips made with groundnut oil.",
-  "highlights": [
-    "Kettle Cooked",
-    "Made with Groundnut Oil",
-    "Desi Masala Flavor",
-    "Zero Oil Mixing"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778056825358-6993.jpg"
-  ],
-  "specifications": {
-    "brand": "Let's Try",
-    "flavour": "Desi Masala",
-    "netQuantity": "45 g",
-    "foodType": "Vegetarian",
-    "oilType": "Groundnut Oil",
-    "chipType": "Kettle Cooked"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 31,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 1,
+      "productName": "Let's Try Desi Masala Chips",
+      "slug": "lets-try-desi-masala-chips",
+      "brand": "Let's Try",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "45 g",
+      "mrp": 60,
+      "sellingPrice": 31,
+      "discountPercentage": 48,
+      "description": "Kettle cooked desi masala flavored potato chips made with groundnut oil.",
+      "highlights": [
+        "Kettle Cooked",
+        "Made with Groundnut Oil",
+        "Desi Masala Flavor",
+        "Zero Oil Mixing"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778056825358-6991.jpg"
+      ],
+      "specifications": {
+        "brand": "Let's Try",
+        "flavour": "Desi Masala",
+        "netQuantity": "45 g",
+        "foodType": "Vegetarian",
+        "oilType": "Groundnut Oil",
+        "chipType": "Kettle Cooked"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 31,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 29
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Let's Try Desi Masala Chips 45g",
+        "description": "Buy Let's Try Desi Masala Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 100,
-      "pricePerUnit": 27
-    }
-    
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "Let's Try Desi Masala Chips 45g",
-    "description": "Buy Let's Try Desi Masala Chips online at wholesale prices."
-  }
-},
-{
-   "id":3,
-  "productName": "Let's Try Desi Masala Chips",
-  "slug": "lets-try-desi-masala-chips",
-  "brand": "Let's Try",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "45 g",
-  "mrp": 60,
-  "sellingPrice": 31,
-  "discountPercentage": 48,
-  "description": "Kettle cooked desi masala flavored potato chips made with groundnut oil.",
-  "highlights": [
-    "Kettle Cooked",
-    "Made with Groundnut Oil",
-    "Desi Masala Flavor",
-    "Zero Oil Mixing"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778056825358-6992.jpg"
-  ],
-  "specifications": {
-    "brand": "Let's Try",
-    "flavour": "Desi Masala",
-    "netQuantity": "45 g",
-    "foodType": "Vegetarian",
-    "oilType": "Groundnut Oil",
-    "chipType": "Kettle Cooked"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 31,
-    "currency": "INR"
-  },
-  "bulkPricing": [
-  
+      "id": 2,
+      "productName": "Let's Try Desi Masala Chips",
+      "slug": "lets-try-desi-masala-chips",
+      "brand": "Let's Try",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "45 g",
+      "mrp": 60,
+      "sellingPrice": 31,
+      "discountPercentage": 48,
+      "description": "Kettle cooked desi masala flavored potato chips made with groundnut oil.",
+      "highlights": [
+        "Kettle Cooked",
+        "Made with Groundnut Oil",
+        "Desi Masala Flavor",
+        "Zero Oil Mixing"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778056825358-6993.jpg"
+      ],
+      "specifications": {
+        "brand": "Let's Try",
+        "flavour": "Desi Masala",
+        "netQuantity": "45 g",
+        "foodType": "Vegetarian",
+        "oilType": "Groundnut Oil",
+        "chipType": "Kettle Cooked"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 31,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 27
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Let's Try Desi Masala Chips 45g",
+        "description": "Buy Let's Try Desi Masala Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 500,
-      "pricePerUnit": 25
-    }
-   
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "Let's Try Desi Masala Chips 45g",
-    "description": "Buy Let's Try Desi Masala Chips online at wholesale prices."
-  }
-},
-{
-   "id":4,
-  "productName": "Let's Try Desi Masala Chips",
-  "slug": "lets-try-desi-masala-chips",
-  "brand": "Let's Try",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "45 g",
-  "mrp": 60,
-  "sellingPrice": 31,
-  "discountPercentage": 48,
-  "description": "Kettle cooked desi masala flavored potato chips made with groundnut oil.",
-  "highlights": [
-    "Kettle Cooked",
-    "Made with Groundnut Oil",
-    "Desi Masala Flavor",
-    "Zero Oil Mixing"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/b6574a3dc6c04eb29d8c894b8039dd26.jpeg"
-  ],
-  "specifications": {
-    "brand": "Let's Try",
-    "flavour": "Desi Masala",
-    "netQuantity": "45 g",
-    "foodType": "Vegetarian",
-    "oilType": "Groundnut Oil",
-    "chipType": "Kettle Cooked"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 31,
-    "currency": "INR"
-  },
-  "bulkPricing": [
-    
+      "id": 3,
+      "productName": "Let's Try Desi Masala Chips",
+      "slug": "lets-try-desi-masala-chips",
+      "brand": "Let's Try",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "45 g",
+      "mrp": 60,
+      "sellingPrice": 31,
+      "discountPercentage": 48,
+      "description": "Kettle cooked desi masala flavored potato chips made with groundnut oil.",
+      "highlights": [
+        "Kettle Cooked",
+        "Made with Groundnut Oil",
+        "Desi Masala Flavor",
+        "Zero Oil Mixing"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778056825358-6992.jpg"
+      ],
+      "specifications": {
+        "brand": "Let's Try",
+        "flavour": "Desi Masala",
+        "netQuantity": "45 g",
+        "foodType": "Vegetarian",
+        "oilType": "Groundnut Oil",
+        "chipType": "Kettle Cooked"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 31,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 500,
+          "pricePerUnit": 25
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Let's Try Desi Masala Chips 45g",
+        "description": "Buy Let's Try Desi Masala Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 1000,
-      "pricePerUnit": 23
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "Let's Try Desi Masala Chips 45g",
-    "description": "Buy Let's Try Desi Masala Chips online at wholesale prices."
-  }
-},
-{
-  "id": 6,
-  "productName": "Kurkure Masala Munch Crisps",
-  "slug": "kurkure-masala-munch-crisps",
-  "brand": "Kurkure",
-  "category": "Chips & Crisps",
-  "subCategory": "Puffed Snacks",
-  "weight": "75 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Crunchy puffed rice, corn and gram based snack with signature Masala Munch flavour.",
-  "highlights": [
-    "Masala Munch Flavor",
-    "Crunchy Texture",
-    "Made From Rice, Corn & Gram",
-    "Ready To Eat Snack"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1780634830965-687.jpg"
-  ],
-  "specifications": {
-    "brand": "Kurkure",
-    "flavour": "Masala Munch",
-    "netQuantity": "75 g",
-    "foodType": "Vegetarian",
-    "snackType": "Puffed Snacks"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 4,
+      "productName": "Let's Try Desi Masala Chips",
+      "slug": "lets-try-desi-masala-chips",
+      "brand": "Let's Try",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "45 g",
+      "mrp": 60,
+      "sellingPrice": 31,
+      "discountPercentage": 48,
+      "description": "Kettle cooked desi masala flavored potato chips made with groundnut oil.",
+      "highlights": [
+        "Kettle Cooked",
+        "Made with Groundnut Oil",
+        "Desi Masala Flavor",
+        "Zero Oil Mixing"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/b6574a3dc6c04eb29d8c894b8039dd26.jpeg"
+      ],
+      "specifications": {
+        "brand": "Let's Try",
+        "flavour": "Desi Masala",
+        "netQuantity": "45 g",
+        "foodType": "Vegetarian",
+        "oilType": "Groundnut Oil",
+        "chipType": "Kettle Cooked"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 31,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 1000,
+          "pricePerUnit": 23
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Let's Try Desi Masala Chips 45g",
+        "description": "Buy Let's Try Desi Masala Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 50,
-      "pricePerUnit": 19
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.6,
-  "seo": {
-    "title": "Kurkure Masala Munch Crisps 75g",
-    "description": "Buy Kurkure Masala Munch Crisps online at wholesale prices."
-  }
-},
-{
-  "id": 7,
-  "productName": "Kurkure Masala Munch Crisps",
-  "slug": "kurkure-masala-munch-crisps",
-  "brand": "Kurkure",
-  "category": "Chips & Crisps",
-  "subCategory": "Puffed Snacks",
-  "weight": "75 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Crunchy puffed rice, corn and gram based snack with signature Masala Munch flavour.",
-  "highlights": [
-    "Masala Munch Flavor",
-    "Crunchy Texture",
-    "Made From Rice, Corn & Gram",
-    "Ready To Eat Snack"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1780634830965-688.jpg"
-  ],
-  "specifications": {
-    "brand": "Kurkure",
-    "flavour": "Masala Munch",
-    "netQuantity": "75 g",
-    "foodType": "Vegetarian",
-    "snackType": "Puffed Snacks"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 6,
+      "productName": "Kurkure Masala Munch Crisps",
+      "slug": "kurkure-masala-munch-crisps",
+      "brand": "Kurkure",
+      "category": "Chips & Crisps",
+      "subCategory": "Puffed Snacks",
+      "weight": "75 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Crunchy puffed rice, corn and gram based snack with signature Masala Munch flavour.",
+      "highlights": [
+        "Masala Munch Flavor",
+        "Crunchy Texture",
+        "Made From Rice, Corn & Gram",
+        "Ready To Eat Snack"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1780634830965-687.jpg"
+      ],
+      "specifications": {
+        "brand": "Kurkure",
+        "flavour": "Masala Munch",
+        "netQuantity": "75 g",
+        "foodType": "Vegetarian",
+        "snackType": "Puffed Snacks"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 19
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Kurkure Masala Munch Crisps 75g",
+        "description": "Buy Kurkure Masala Munch Crisps online at wholesale prices."
+      }
+    },
     {
-      "minQty": 100,
-      "pricePerUnit": 18
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.6,
-  "seo": {
-    "title": "Kurkure Masala Munch Crisps 75g",
-    "description": "Buy Kurkure Masala Munch Crisps online at wholesale prices."
-  }
-},
-{
-  "id": 8,
-  "productName": "Kurkure Masala Munch Crisps",
-  "slug": "kurkure-masala-munch-crisps",
-  "brand": "Kurkure",
-  "category": "Chips & Crisps",
-  "subCategory": "Puffed Snacks",
-  "weight": "75 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Crunchy puffed rice, corn and gram based snack with signature Masala Munch flavour.",
-  "highlights": [
-    "Masala Munch Flavor",
-    "Crunchy Texture",
-    "Made From Rice, Corn & Gram",
-    "Ready To Eat Snack"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1780634830965-690.jpg"
-  ],
-  "specifications": {
-    "brand": "Kurkure",
-    "flavour": "Masala Munch",
-    "netQuantity": "75 g",
-    "foodType": "Vegetarian",
-    "snackType": "Puffed Snacks"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 7,
+      "productName": "Kurkure Masala Munch Crisps",
+      "slug": "kurkure-masala-munch-crisps",
+      "brand": "Kurkure",
+      "category": "Chips & Crisps",
+      "subCategory": "Puffed Snacks",
+      "weight": "75 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Crunchy puffed rice, corn and gram based snack with signature Masala Munch flavour.",
+      "highlights": [
+        "Masala Munch Flavor",
+        "Crunchy Texture",
+        "Made From Rice, Corn & Gram",
+        "Ready To Eat Snack"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1780634830965-688.jpg"
+      ],
+      "specifications": {
+        "brand": "Kurkure",
+        "flavour": "Masala Munch",
+        "netQuantity": "75 g",
+        "foodType": "Vegetarian",
+        "snackType": "Puffed Snacks"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 18
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Kurkure Masala Munch Crisps 75g",
+        "description": "Buy Kurkure Masala Munch Crisps online at wholesale prices."
+      }
+    },
     {
-      "minQty": 500,
-      "pricePerUnit": 17
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.6,
-  "seo": {
-    "title": "Kurkure Masala Munch Crisps 75g",
-    "description": "Buy Kurkure Masala Munch Crisps online at wholesale prices."
-  }
-},
-{
-  "id": 9,
-  "productName": "Kurkure Masala Munch Crisps",
-  "slug": "kurkure-masala-munch-crisps",
-  "brand": "Kurkure",
-  "category": "Chips & Crisps",
-  "subCategory": "Puffed Snacks",
-  "weight": "75 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Crunchy puffed rice, corn and gram based snack with signature Masala Munch flavour.",
-  "highlights": [
-    "Masala Munch Flavor",
-    "Crunchy Texture",
-    "Made From Rice, Corn & Gram",
-    "Ready To Eat Snack"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778220050094-8976.jpg"
-  ],
-  "specifications": {
-    "brand": "Kurkure",
-    "flavour": "Masala Munch",
-    "netQuantity": "75 g",
-    "foodType": "Vegetarian",
-    "snackType": "Puffed Snacks"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 8,
+      "productName": "Kurkure Masala Munch Crisps",
+      "slug": "kurkure-masala-munch-crisps",
+      "brand": "Kurkure",
+      "category": "Chips & Crisps",
+      "subCategory": "Puffed Snacks",
+      "weight": "75 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Crunchy puffed rice, corn and gram based snack with signature Masala Munch flavour.",
+      "highlights": [
+        "Masala Munch Flavor",
+        "Crunchy Texture",
+        "Made From Rice, Corn & Gram",
+        "Ready To Eat Snack"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1780634830965-690.jpg"
+      ],
+      "specifications": {
+        "brand": "Kurkure",
+        "flavour": "Masala Munch",
+        "netQuantity": "75 g",
+        "foodType": "Vegetarian",
+        "snackType": "Puffed Snacks"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 500,
+          "pricePerUnit": 17
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Kurkure Masala Munch Crisps 75g",
+        "description": "Buy Kurkure Masala Munch Crisps online at wholesale prices."
+      }
+    },
     {
-      "minQty": 1000,
-      "pricePerUnit": 16
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.6,
-  "seo": {
-    "title": "Kurkure Masala Munch Crisps 75g",
-    "description": "Buy Kurkure Masala Munch Crisps online at wholesale prices."
-  }
-},
-{
-  "id": 10,
-  "productName": "Kurkure Masala Munch Crisps",
-  "slug": "kurkure-masala-munch-crisps",
-  "brand": "Kurkure",
-  "category": "Chips & Crisps",
-  "subCategory": "Puffed Snacks",
-  "weight": "75 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Crunchy puffed rice, corn and gram based snack with signature Masala Munch flavour.",
-  "highlights": [
-    "Masala Munch Flavor",
-    "Crunchy Texture",
-    "Made From Rice, Corn & Gram",
-    "Ready To Eat Snack"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1780634830965-691.jpg"
-  ],
-  "specifications": {
-    "brand": "Kurkure",
-    "flavour": "Masala Munch",
-    "netQuantity": "75 g",
-    "foodType": "Vegetarian",
-    "snackType": "Puffed Snacks"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 9,
+      "productName": "Kurkure Masala Munch Crisps",
+      "slug": "kurkure-masala-munch-crisps",
+      "brand": "Kurkure",
+      "category": "Chips & Crisps",
+      "subCategory": "Puffed Snacks",
+      "weight": "75 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Crunchy puffed rice, corn and gram based snack with signature Masala Munch flavour.",
+      "highlights": [
+        "Masala Munch Flavor",
+        "Crunchy Texture",
+        "Made From Rice, Corn & Gram",
+        "Ready To Eat Snack"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778220050094-8976.jpg"
+      ],
+      "specifications": {
+        "brand": "Kurkure",
+        "flavour": "Masala Munch",
+        "netQuantity": "75 g",
+        "foodType": "Vegetarian",
+        "snackType": "Puffed Snacks"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 1000,
+          "pricePerUnit": 16
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Kurkure Masala Munch Crisps 75g",
+        "description": "Buy Kurkure Masala Munch Crisps online at wholesale prices."
+      }
+    },
     {
-      "minQty": 5000,
-      "pricePerUnit": 15
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": true,
-  "gst": 12,
-  "rating": 4.6,
-  "seo": {
-    "title": "Kurkure Masala Munch Crisps 75g",
-    "description": "Buy Kurkure Masala Munch Crisps online at wholesale prices."
-  }
-},
-{
-  "id": 11,
-  "productName": "Crax Crunchy Pipes Salted Puffs Snacks",
-  "slug": "crax-crunchy-pipes-salted-puffs-snacks",
-  "brand": "Crax",
-  "category": "Chips & Crisps",
-  "subCategory": "Puffed Snacks",
-  "weight": "73 g",
-  "mrp": 60,
-  "sellingPrice": 33,
-  "discountPercentage": 45,
-  "description": "Light and crispy salted puff snacks with a crunchy texture and delicious taste.",
-  "highlights": [
-    "Crunchy Pipes",
-    "Salted Flavor",
-    "Ready To Eat",
-    "Vegetarian Snack"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/f62b5e0d-ea12-4d36-9a9a-81d15b7cccb4.jpg"
-  ],
-  "specifications": {
-    "brand": "Crax",
-    "flavour": "Salted",
-    "netQuantity": "73 g",
-    "foodType": "Vegetarian",
-    "snackType": "Puffed Snacks"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 33,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 10,
+      "productName": "Kurkure Masala Munch Crisps",
+      "slug": "kurkure-masala-munch-crisps",
+      "brand": "Kurkure",
+      "category": "Chips & Crisps",
+      "subCategory": "Puffed Snacks",
+      "weight": "75 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Crunchy puffed rice, corn and gram based snack with signature Masala Munch flavour.",
+      "highlights": [
+        "Masala Munch Flavor",
+        "Crunchy Texture",
+        "Made From Rice, Corn & Gram",
+        "Ready To Eat Snack"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1780634830965-691.jpg"
+      ],
+      "specifications": {
+        "brand": "Kurkure",
+        "flavour": "Masala Munch",
+        "netQuantity": "75 g",
+        "foodType": "Vegetarian",
+        "snackType": "Puffed Snacks"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 5000,
+          "pricePerUnit": 15
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Kurkure Masala Munch Crisps 75g",
+        "description": "Buy Kurkure Masala Munch Crisps online at wholesale prices."
+      }
+    },
     {
-      "minQty": 50,
-      "pricePerUnit": 31
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.4,
-  "seo": {
-    "title": "Crax Crunchy Pipes Salted Puffs Snacks 73g",
-    "description": "Buy Crax Crunchy Pipes Salted Puffs Snacks online at wholesale prices."
-  }
-},
-{
-  "id": 12,
-  "productName": "Crax Crunchy Pipes Salted Puffs Snacks",
-  "slug": "crax-crunchy-pipes-salted-puffs-snacks",
-  "brand": "Crax",
-  "category": "Chips & Crisps",
-  "subCategory": "Puffed Snacks",
-  "weight": "73 g",
-  "mrp": 60,
-  "sellingPrice": 33,
-  "discountPercentage": 45,
-  "description": "Light and crispy salted puff snacks with a crunchy texture and delicious taste.",
-  "highlights": [
-    "Crunchy Pipes",
-    "Salted Flavor",
-    "Ready To Eat",
-    "Vegetarian Snack"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778473839715-1389.jpg"
-  ],
-  "specifications": {
-    "brand": "Crax",
-    "flavour": "Salted",
-    "netQuantity": "73 g",
-    "foodType": "Vegetarian",
-    "snackType": "Puffed Snacks"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 33,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 11,
+      "productName": "Crax Crunchy Pipes Salted Puffs Snacks",
+      "slug": "crax-crunchy-pipes-salted-puffs-snacks",
+      "brand": "Crax",
+      "category": "Chips & Crisps",
+      "subCategory": "Puffed Snacks",
+      "weight": "73 g",
+      "mrp": 60,
+      "sellingPrice": 33,
+      "discountPercentage": 45,
+      "description": "Light and crispy salted puff snacks with a crunchy texture and delicious taste.",
+      "highlights": [
+        "Crunchy Pipes",
+        "Salted Flavor",
+        "Ready To Eat",
+        "Vegetarian Snack"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/f62b5e0d-ea12-4d36-9a9a-81d15b7cccb4.jpg"
+      ],
+      "specifications": {
+        "brand": "Crax",
+        "flavour": "Salted",
+        "netQuantity": "73 g",
+        "foodType": "Vegetarian",
+        "snackType": "Puffed Snacks"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 33,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 31
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.4,
+      "seo": {
+        "title": "Crax Crunchy Pipes Salted Puffs Snacks 73g",
+        "description": "Buy Crax Crunchy Pipes Salted Puffs Snacks online at wholesale prices."
+      }
+    },
     {
-      "minQty": 100,
-      "pricePerUnit": 29
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.4,
-  "seo": {
-    "title": "Crax Crunchy Pipes Salted Puffs Snacks 73g",
-    "description": "Buy Crax Crunchy Pipes Salted Puffs Snacks online at wholesale prices."
-  }
-},
-{
-  "id": 13,
-  "productName": "Crax Crunchy Pipes Salted Puffs Snacks",
-  "slug": "crax-crunchy-pipes-salted-puffs-snacks",
-  "brand": "Crax",
-  "category": "Chips & Crisps",
-  "subCategory": "Puffed Snacks",
-  "weight": "73 g",
-  "mrp": 60,
-  "sellingPrice": 33,
-  "discountPercentage": 45,
-  "description": "Light and crispy salted puff snacks with a crunchy texture and delicious taste.",
-  "highlights": [
-    "Crunchy Pipes",
-    "Salted Flavor",
-    "Ready To Eat",
-    "Vegetarian Snack"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778041150974-7603.jpg"
-  ],
-  "specifications": {
-    "brand": "Crax",
-    "flavour": "Salted",
-    "netQuantity": "73 g",
-    "foodType": "Vegetarian",
-    "snackType": "Puffed Snacks"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 33,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 12,
+      "productName": "Crax Crunchy Pipes Salted Puffs Snacks",
+      "slug": "crax-crunchy-pipes-salted-puffs-snacks",
+      "brand": "Crax",
+      "category": "Chips & Crisps",
+      "subCategory": "Puffed Snacks",
+      "weight": "73 g",
+      "mrp": 60,
+      "sellingPrice": 33,
+      "discountPercentage": 45,
+      "description": "Light and crispy salted puff snacks with a crunchy texture and delicious taste.",
+      "highlights": [
+        "Crunchy Pipes",
+        "Salted Flavor",
+        "Ready To Eat",
+        "Vegetarian Snack"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778473839715-1389.jpg"
+      ],
+      "specifications": {
+        "brand": "Crax",
+        "flavour": "Salted",
+        "netQuantity": "73 g",
+        "foodType": "Vegetarian",
+        "snackType": "Puffed Snacks"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 33,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 29
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.4,
+      "seo": {
+        "title": "Crax Crunchy Pipes Salted Puffs Snacks 73g",
+        "description": "Buy Crax Crunchy Pipes Salted Puffs Snacks online at wholesale prices."
+      }
+    },
     {
-      "minQty": 500,
-      "pricePerUnit": 27
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.4,
-  "seo": {
-    "title": "Crax Crunchy Pipes Salted Puffs Snacks 73g",
-    "description": "Buy Crax Crunchy Pipes Salted Puffs Snacks online at wholesale prices."
-  }
-},
-{
-  "id": 14,
-  "productName": "Crax Crunchy Pipes Salted Puffs Snacks",
-  "slug": "crax-crunchy-pipes-salted-puffs-snacks",
-  "brand": "Crax",
-  "category": "Chips & Crisps",
-  "subCategory": "Puffed Snacks",
-  "weight": "73 g",
-  "mrp": 60,
-  "sellingPrice": 33,
-  "discountPercentage": 45,
-  "description": "Light and crispy salted puff snacks with a crunchy texture and delicious taste.",
-  "highlights": [
-    "Crunchy Pipes",
-    "Salted Flavor",
-    "Ready To Eat",
-    "Vegetarian Snack"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778243110777-2144.jpg"
-  ],
-  "specifications": {
-    "brand": "Crax",
-    "flavour": "Salted",
-    "netQuantity": "73 g",
-    "foodType": "Vegetarian",
-    "snackType": "Puffed Snacks"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 33,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 13,
+      "productName": "Crax Crunchy Pipes Salted Puffs Snacks",
+      "slug": "crax-crunchy-pipes-salted-puffs-snacks",
+      "brand": "Crax",
+      "category": "Chips & Crisps",
+      "subCategory": "Puffed Snacks",
+      "weight": "73 g",
+      "mrp": 60,
+      "sellingPrice": 33,
+      "discountPercentage": 45,
+      "description": "Light and crispy salted puff snacks with a crunchy texture and delicious taste.",
+      "highlights": [
+        "Crunchy Pipes",
+        "Salted Flavor",
+        "Ready To Eat",
+        "Vegetarian Snack"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778041150974-7603.jpg"
+      ],
+      "specifications": {
+        "brand": "Crax",
+        "flavour": "Salted",
+        "netQuantity": "73 g",
+        "foodType": "Vegetarian",
+        "snackType": "Puffed Snacks"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 33,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 500,
+          "pricePerUnit": 27
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.4,
+      "seo": {
+        "title": "Crax Crunchy Pipes Salted Puffs Snacks 73g",
+        "description": "Buy Crax Crunchy Pipes Salted Puffs Snacks online at wholesale prices."
+      }
+    },
     {
-      "minQty": 1000,
-      "pricePerUnit": 25
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.4,
-  "seo": {
-    "title": "Crax Crunchy Pipes Salted Puffs Snacks 73g",
-    "description": "Buy Crax Crunchy Pipes Salted Puffs Snacks online at wholesale prices."
-  }
-},
-{
-  "id": 15,
-  "productName": "Crax Crunchy Pipes Salted Puffs Snacks",
-  "slug": "crax-crunchy-pipes-salted-puffs-snacks",
-  "brand": "Crax",
-  "category": "Chips & Crisps",
-  "subCategory": "Puffed Snacks",
-  "weight": "73 g",
-  "mrp": 60,
-  "sellingPrice": 33,
-  "discountPercentage": 45,
-  "description": "Light and crispy salted puff snacks with a crunchy texture and delicious taste.",
-  "highlights": [
-    "Crunchy Pipes",
-    "Salted Flavor",
-    "Ready To Eat",
-    "Vegetarian Snack"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778473839715-1389.jpg"
-  ],
-  "specifications": {
-    "brand": "Crax",
-    "flavour": "Salted",
-    "netQuantity": "73 g",
-    "foodType": "Vegetarian",
-    "snackType": "Puffed Snacks"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 33,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 14,
+      "productName": "Crax Crunchy Pipes Salted Puffs Snacks",
+      "slug": "crax-crunchy-pipes-salted-puffs-snacks",
+      "brand": "Crax",
+      "category": "Chips & Crisps",
+      "subCategory": "Puffed Snacks",
+      "weight": "73 g",
+      "mrp": 60,
+      "sellingPrice": 33,
+      "discountPercentage": 45,
+      "description": "Light and crispy salted puff snacks with a crunchy texture and delicious taste.",
+      "highlights": [
+        "Crunchy Pipes",
+        "Salted Flavor",
+        "Ready To Eat",
+        "Vegetarian Snack"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778243110777-2144.jpg"
+      ],
+      "specifications": {
+        "brand": "Crax",
+        "flavour": "Salted",
+        "netQuantity": "73 g",
+        "foodType": "Vegetarian",
+        "snackType": "Puffed Snacks"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 33,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 1000,
+          "pricePerUnit": 25
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.4,
+      "seo": {
+        "title": "Crax Crunchy Pipes Salted Puffs Snacks 73g",
+        "description": "Buy Crax Crunchy Pipes Salted Puffs Snacks online at wholesale prices."
+      }
+    },
     {
-      "minQty": 5000,
-      "pricePerUnit": 23
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": true,
-  "gst": 12,
-  "rating": 4.4,
-  "seo": {
-    "title": "Crax Crunchy Pipes Salted Puffs Snacks 73g",
-    "description": "Buy Crax Crunchy Pipes Salted Puffs Snacks online at wholesale prices."
-  }
-},
-{
-  "id": 16,
-  "productName": "4700BC Pineapple Salsa Nachos",
-  "slug": "4700bc-pineapple-salsa-nachos",
-  "brand": "4700BC",
-  "category": "Nachos",
-  "subCategory": "Fried Snacks",
-  "weight": "60 g",
-  "mrp": 60,
-  "sellingPrice": 47,
-  "discountPercentage": 21,
-  "description": "Premium crispy nachos with a unique pineapple salsa flavour, offering a sweet and tangy snacking experience.",
-  "highlights": [
-    "Pineapple Salsa Flavor",
-    "Crunchy Nachos",
-    "Premium Snack",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1773034390367-57.jpg"
-  ],
-  "specifications": {
-    "brand": "4700BC",
-    "flavour": "Pineapple Salsa",
-    "netQuantity": "60 g",
-    "foodType": "Vegetarian",
-    "snackType": "Nachos"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 47,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 15,
+      "productName": "Crax Crunchy Pipes Salted Puffs Snacks",
+      "slug": "crax-crunchy-pipes-salted-puffs-snacks",
+      "brand": "Crax",
+      "category": "Chips & Crisps",
+      "subCategory": "Puffed Snacks",
+      "weight": "73 g",
+      "mrp": 60,
+      "sellingPrice": 33,
+      "discountPercentage": 45,
+      "description": "Light and crispy salted puff snacks with a crunchy texture and delicious taste.",
+      "highlights": [
+        "Crunchy Pipes",
+        "Salted Flavor",
+        "Ready To Eat",
+        "Vegetarian Snack"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1778473839715-1389.jpg"
+      ],
+      "specifications": {
+        "brand": "Crax",
+        "flavour": "Salted",
+        "netQuantity": "73 g",
+        "foodType": "Vegetarian",
+        "snackType": "Puffed Snacks"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 33,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 5000,
+          "pricePerUnit": 23
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.4,
+      "seo": {
+        "title": "Crax Crunchy Pipes Salted Puffs Snacks 73g",
+        "description": "Buy Crax Crunchy Pipes Salted Puffs Snacks online at wholesale prices."
+      }
+    },
     {
-      "minQty": 50,
-      "pricePerUnit": 44
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "4700BC Pineapple Salsa Nachos 60g",
-    "description": "Buy 4700BC Pineapple Salsa Nachos online at wholesale prices."
-  }
-},
-{
-  "id": 17,
-  "productName": "4700BC Pineapple Salsa Nachos",
-  "slug": "4700bc-pineapple-salsa-nachos",
-  "brand": "4700BC",
-  "category": "Nachos",
-  "subCategory": "Fried Snacks",
-  "weight": "60 g",
-  "mrp": 60,
-  "sellingPrice": 47,
-  "discountPercentage": 21,
-  "description": "Premium crispy nachos with a unique pineapple salsa flavour, offering a sweet and tangy snacking experience.",
-  "highlights": [
-    "Pineapple Salsa Flavor",
-    "Crunchy Nachos",
-    "Premium Snack",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1773034390367-60.jpg"
-  ],
-  "specifications": {
-    "brand": "4700BC",
-    "flavour": "Pineapple Salsa",
-    "netQuantity": "60 g",
-    "foodType": "Vegetarian",
-    "snackType": "Nachos"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 47,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 16,
+      "productName": "4700BC Pineapple Salsa Nachos",
+      "slug": "4700bc-pineapple-salsa-nachos",
+      "brand": "4700BC",
+      "category": "Nachos",
+      "subCategory": "Fried Snacks",
+      "weight": "60 g",
+      "mrp": 60,
+      "sellingPrice": 47,
+      "discountPercentage": 21,
+      "description": "Premium crispy nachos with a unique pineapple salsa flavour, offering a sweet and tangy snacking experience.",
+      "highlights": [
+        "Pineapple Salsa Flavor",
+        "Crunchy Nachos",
+        "Premium Snack",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1773034390367-57.jpg"
+      ],
+      "specifications": {
+        "brand": "4700BC",
+        "flavour": "Pineapple Salsa",
+        "netQuantity": "60 g",
+        "foodType": "Vegetarian",
+        "snackType": "Nachos"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 47,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 44
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "4700BC Pineapple Salsa Nachos 60g",
+        "description": "Buy 4700BC Pineapple Salsa Nachos online at wholesale prices."
+      }
+    },
     {
-      "minQty": 100,
-      "pricePerUnit": 42
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "4700BC Pineapple Salsa Nachos 60g",
-    "description": "Buy 4700BC Pineapple Salsa Nachos online at wholesale prices."
-  }
-},
-{
-  "id": 18,
-  "productName": "4700BC Pineapple Salsa Nachos",
-  "slug": "4700bc-pineapple-salsa-nachos",
-  "brand": "4700BC",
-  "category": "Nachos",
-  "subCategory": "Fried Snacks",
-  "weight": "60 g",
-  "mrp": 60,
-  "sellingPrice": 47,
-  "discountPercentage": 21,
-  "description": "Premium crispy nachos with a unique pineapple salsa flavour, offering a sweet and tangy snacking experience.",
-  "highlights": [
-    "Pineapple Salsa Flavor",
-    "Crunchy Nachos",
-    "Premium Snack",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1773034390367-62.jpg"
-  ],
-  "specifications": {
-    "brand": "4700BC",
-    "flavour": "Pineapple Salsa",
-    "netQuantity": "60 g",
-    "foodType": "Vegetarian",
-    "snackType": "Nachos"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 47,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 17,
+      "productName": "4700BC Pineapple Salsa Nachos",
+      "slug": "4700bc-pineapple-salsa-nachos",
+      "brand": "4700BC",
+      "category": "Nachos",
+      "subCategory": "Fried Snacks",
+      "weight": "60 g",
+      "mrp": 60,
+      "sellingPrice": 47,
+      "discountPercentage": 21,
+      "description": "Premium crispy nachos with a unique pineapple salsa flavour, offering a sweet and tangy snacking experience.",
+      "highlights": [
+        "Pineapple Salsa Flavor",
+        "Crunchy Nachos",
+        "Premium Snack",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1773034390367-60.jpg"
+      ],
+      "specifications": {
+        "brand": "4700BC",
+        "flavour": "Pineapple Salsa",
+        "netQuantity": "60 g",
+        "foodType": "Vegetarian",
+        "snackType": "Nachos"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 47,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 42
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "4700BC Pineapple Salsa Nachos 60g",
+        "description": "Buy 4700BC Pineapple Salsa Nachos online at wholesale prices."
+      }
+    },
     {
-      "minQty": 500,
-      "pricePerUnit": 40
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "4700BC Pineapple Salsa Nachos 60g",
-    "description": "Buy 4700BC Pineapple Salsa Nachos online at wholesale prices."
-  }
-},
-{
-  "id": 19,
-  "productName": "4700BC Pineapple Salsa Nachos",
-  "slug": "4700bc-pineapple-salsa-nachos",
-  "brand": "4700BC",
-  "category": "Nachos",
-  "subCategory": "Fried Snacks",
-  "weight": "60 g",
-  "mrp": 60,
-  "sellingPrice": 47,
-  "discountPercentage": 21,
-  "description": "Premium crispy nachos with a unique pineapple salsa flavour, offering a sweet and tangy snacking experience.",
-  "highlights": [
-    "Pineapple Salsa Flavor",
-    "Crunchy Nachos",
-    "Premium Snack",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1773034390367-57.jpg"
-  ],
-  "specifications": {
-    "brand": "4700BC",
-    "flavour": "Pineapple Salsa",
-    "netQuantity": "60 g",
-    "foodType": "Vegetarian",
-    "snackType": "Nachos"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 47,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 18,
+      "productName": "4700BC Pineapple Salsa Nachos",
+      "slug": "4700bc-pineapple-salsa-nachos",
+      "brand": "4700BC",
+      "category": "Nachos",
+      "subCategory": "Fried Snacks",
+      "weight": "60 g",
+      "mrp": 60,
+      "sellingPrice": 47,
+      "discountPercentage": 21,
+      "description": "Premium crispy nachos with a unique pineapple salsa flavour, offering a sweet and tangy snacking experience.",
+      "highlights": [
+        "Pineapple Salsa Flavor",
+        "Crunchy Nachos",
+        "Premium Snack",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1773034390367-62.jpg"
+      ],
+      "specifications": {
+        "brand": "4700BC",
+        "flavour": "Pineapple Salsa",
+        "netQuantity": "60 g",
+        "foodType": "Vegetarian",
+        "snackType": "Nachos"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 47,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 500,
+          "pricePerUnit": 40
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "4700BC Pineapple Salsa Nachos 60g",
+        "description": "Buy 4700BC Pineapple Salsa Nachos online at wholesale prices."
+      }
+    },
     {
-      "minQty": 1000,
-      "pricePerUnit": 38
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "4700BC Pineapple Salsa Nachos 60g",
-    "description": "Buy 4700BC Pineapple Salsa Nachos online at wholesale prices."
-  }
-},
-{
-  "id": 20,
-  "productName": "4700BC Pineapple Salsa Nachos",
-  "slug": "4700bc-pineapple-salsa-nachos",
-  "brand": "4700BC",
-  "category": "Nachos",
-  "subCategory": "Fried Snacks",
-  "weight": "60 g",
-  "mrp": 60,
-  "sellingPrice": 47,
-  "discountPercentage": 21,
-  "description": "Premium crispy nachos with a unique pineapple salsa flavour, offering a sweet and tangy snacking experience.",
-  "highlights": [
-    "Pineapple Salsa Flavor",
-    "Crunchy Nachos",
-    "Premium Snack",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1773034390367-57.jpg"
-  ],
-  "specifications": {
-    "brand": "4700BC",
-    "flavour": "Pineapple Salsa",
-    "netQuantity": "60 g",
-    "foodType": "Vegetarian",
-    "snackType": "Nachos"
-  },
-  "pricing": {
-    "mrp": 60,
-    "sellingPrice": 47,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 19,
+      "productName": "4700BC Pineapple Salsa Nachos",
+      "slug": "4700bc-pineapple-salsa-nachos",
+      "brand": "4700BC",
+      "category": "Nachos",
+      "subCategory": "Fried Snacks",
+      "weight": "60 g",
+      "mrp": 60,
+      "sellingPrice": 47,
+      "discountPercentage": 21,
+      "description": "Premium crispy nachos with a unique pineapple salsa flavour, offering a sweet and tangy snacking experience.",
+      "highlights": [
+        "Pineapple Salsa Flavor",
+        "Crunchy Nachos",
+        "Premium Snack",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1773034390367-57.jpg"
+      ],
+      "specifications": {
+        "brand": "4700BC",
+        "flavour": "Pineapple Salsa",
+        "netQuantity": "60 g",
+        "foodType": "Vegetarian",
+        "snackType": "Nachos"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 47,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 1000,
+          "pricePerUnit": 38
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "4700BC Pineapple Salsa Nachos 60g",
+        "description": "Buy 4700BC Pineapple Salsa Nachos online at wholesale prices."
+      }
+    },
     {
-      "minQty": 5000,
-      "pricePerUnit": 35
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": true,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "4700BC Pineapple Salsa Nachos 60g",
-    "description": "Buy 4700BC Pineapple Salsa Nachos online at wholesale prices."
-  }
-},
-{
-  "id": 21,
-  "productName": "Lay's Classic Salted Potato Chips",
-  "slug": "lays-classic-salted-potato-chips",
-  "brand": "Lay's",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "51 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Classic salted potato chips made from quality potatoes with a perfectly balanced salty taste.",
-  "highlights": [
-    "Classic Salted Flavor",
-    "Made From Potatoes",
-    "Crispy Texture",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776375127483-57.jpg"
-  ],
-  "specifications": {
-    "brand": "Lay's",
-    "flavour": "Classic Salted",
-    "netQuantity": "51 g",
-    "foodType": "Vegetarian",
-    "chipType": "Potato Chips"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 20,
+      "productName": "4700BC Pineapple Salsa Nachos",
+      "slug": "4700bc-pineapple-salsa-nachos",
+      "brand": "4700BC",
+      "category": "Nachos",
+      "subCategory": "Fried Snacks",
+      "weight": "60 g",
+      "mrp": 60,
+      "sellingPrice": 47,
+      "discountPercentage": 21,
+      "description": "Premium crispy nachos with a unique pineapple salsa flavour, offering a sweet and tangy snacking experience.",
+      "highlights": [
+        "Pineapple Salsa Flavor",
+        "Crunchy Nachos",
+        "Premium Snack",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1773034390367-57.jpg"
+      ],
+      "specifications": {
+        "brand": "4700BC",
+        "flavour": "Pineapple Salsa",
+        "netQuantity": "60 g",
+        "foodType": "Vegetarian",
+        "snackType": "Nachos"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 47,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 5000,
+          "pricePerUnit": 35
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "4700BC Pineapple Salsa Nachos 60g",
+        "description": "Buy 4700BC Pineapple Salsa Nachos online at wholesale prices."
+      }
+    },
     {
-      "minQty": 50,
-      "pricePerUnit": 19
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.7,
-  "seo": {
-    "title": "Lay's Classic Salted Potato Chips 51g",
-    "description": "Buy Lay's Classic Salted Potato Chips online at wholesale prices."
-  }
-},
-{
-  "id": 22,
-  "productName": "Lay's Classic Salted Potato Chips",
-  "slug": "lays-classic-salted-potato-chips",
-  "brand": "Lay's",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "51 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Classic salted potato chips made from quality potatoes with a perfectly balanced salty taste.",
-  "highlights": [
-    "Classic Salted Flavor",
-    "Made From Potatoes",
-    "Crispy Texture",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776375127483-48.jpg"
-  ],
-  "specifications": {
-    "brand": "Lay's",
-    "flavour": "Classic Salted",
-    "netQuantity": "51 g",
-    "foodType": "Vegetarian",
-    "chipType": "Potato Chips"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 21,
+      "productName": "Lay's Classic Salted Potato Chips",
+      "slug": "lays-classic-salted-potato-chips",
+      "brand": "Lay's",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "51 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Classic salted potato chips made from quality potatoes with a perfectly balanced salty taste.",
+      "highlights": [
+        "Classic Salted Flavor",
+        "Made From Potatoes",
+        "Crispy Texture",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776375127483-57.jpg"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Classic Salted",
+        "netQuantity": "51 g",
+        "foodType": "Vegetarian",
+        "chipType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 19
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "Lay's Classic Salted Potato Chips 51g",
+        "description": "Buy Lay's Classic Salted Potato Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 100,
-      "pricePerUnit": 18
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.7,
-  "seo": {
-    "title": "Lay's Classic Salted Potato Chips 51g",
-    "description": "Buy Lay's Classic Salted Potato Chips online at wholesale prices."
-  }
-},
-{
-  "id": 23,
-  "productName": "Lay's Classic Salted Potato Chips",
-  "slug": "lays-classic-salted-potato-chips",
-  "brand": "Lay's",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "51 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Classic salted potato chips made from quality potatoes with a perfectly balanced salty taste.",
-  "highlights": [
-    "Classic Salted Flavor",
-    "Made From Potatoes",
-    "Crispy Texture",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776375127483-49.jpg"
-  ],
-  "specifications": {
-    "brand": "Lay's",
-    "flavour": "Classic Salted",
-    "netQuantity": "51 g",
-    "foodType": "Vegetarian",
-    "chipType": "Potato Chips"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 22,
+      "productName": "Lay's Classic Salted Potato Chips",
+      "slug": "lays-classic-salted-potato-chips",
+      "brand": "Lay's",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "51 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Classic salted potato chips made from quality potatoes with a perfectly balanced salty taste.",
+      "highlights": [
+        "Classic Salted Flavor",
+        "Made From Potatoes",
+        "Crispy Texture",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776375127483-48.jpg"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Classic Salted",
+        "netQuantity": "51 g",
+        "foodType": "Vegetarian",
+        "chipType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 18
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "Lay's Classic Salted Potato Chips 51g",
+        "description": "Buy Lay's Classic Salted Potato Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 500,
-      "pricePerUnit": 17
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.7,
-  "seo": {
-    "title": "Lay's Classic Salted Potato Chips 51g",
-    "description": "Buy Lay's Classic Salted Potato Chips online at wholesale prices."
-  }
-},
-{
-  "id": 24,
-  "productName": "Lay's Classic Salted Potato Chips",
-  "slug": "lays-classic-salted-potato-chips",
-  "brand": "Lay's",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "51 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Classic salted potato chips made from quality potatoes with a perfectly balanced salty taste.",
-  "highlights": [
-    "Classic Salted Flavor",
-    "Made From Potatoes",
-    "Crispy Texture",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776375127483-50.jpg"
-  ],
-  "specifications": {
-    "brand": "Lay's",
-    "flavour": "Classic Salted",
-    "netQuantity": "51 g",
-    "foodType": "Vegetarian",
-    "chipType": "Potato Chips"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 23,
+      "productName": "Lay's Classic Salted Potato Chips",
+      "slug": "lays-classic-salted-potato-chips",
+      "brand": "Lay's",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "51 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Classic salted potato chips made from quality potatoes with a perfectly balanced salty taste.",
+      "highlights": [
+        "Classic Salted Flavor",
+        "Made From Potatoes",
+        "Crispy Texture",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776375127483-49.jpg"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Classic Salted",
+        "netQuantity": "51 g",
+        "foodType": "Vegetarian",
+        "chipType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 500,
+          "pricePerUnit": 17
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "Lay's Classic Salted Potato Chips 51g",
+        "description": "Buy Lay's Classic Salted Potato Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 1000,
-      "pricePerUnit": 16
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.7,
-  "seo": {
-    "title": "Lay's Classic Salted Potato Chips 51g",
-    "description": "Buy Lay's Classic Salted Potato Chips online at wholesale prices."
-  }
-},
-{
-  "id": 25,
-  "productName": "Lay's Classic Salted Potato Chips",
-  "slug": "lays-classic-salted-potato-chips",
-  "brand": "Lay's",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "51 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Classic salted potato chips made from quality potatoes with a perfectly balanced salty taste.",
-  "highlights": [
-    "Classic Salted Flavor",
-    "Made From Potatoes",
-    "Crispy Texture",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776240040304-477.jpg"
-  ],
-  "specifications": {
-    "brand": "Lay's",
-    "flavour": "Classic Salted",
-    "netQuantity": "51 g",
-    "foodType": "Vegetarian",
-    "chipType": "Potato Chips"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 24,
+      "productName": "Lay's Classic Salted Potato Chips",
+      "slug": "lays-classic-salted-potato-chips",
+      "brand": "Lay's",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "51 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Classic salted potato chips made from quality potatoes with a perfectly balanced salty taste.",
+      "highlights": [
+        "Classic Salted Flavor",
+        "Made From Potatoes",
+        "Crispy Texture",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776375127483-50.jpg"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Classic Salted",
+        "netQuantity": "51 g",
+        "foodType": "Vegetarian",
+        "chipType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 1000,
+          "pricePerUnit": 16
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "Lay's Classic Salted Potato Chips 51g",
+        "description": "Buy Lay's Classic Salted Potato Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 5000,
-      "pricePerUnit": 15
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": true,
-  "gst": 12,
-  "rating": 4.7,
-  "seo": {
-    "title": "Lay's Classic Salted Potato Chips 51g",
-    "description": "Buy Lay's Classic Salted Potato Chips online at wholesale prices."
-  }
-},
-{
-  "id": 26,
-  "productName": "Lay's Sizzling Hot Potato Chips",
-  "slug": "lays-sizzling-hot-potato-chips",
-  "brand": "Lay's",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "52.9 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Crispy potato chips with an intense sizzling hot flavour for spicy snack lovers.",
-  "highlights": [
-    "Sizzling Hot Flavor",
-    "Made From Potatoes",
-    "Crispy Texture",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776928455745-34.jpg"
-  ],
-  "specifications": {
-    "brand": "Lay's",
-    "flavour": "Sizzling Hot",
-    "netQuantity": "52.9 g",
-    "foodType": "Vegetarian",
-    "chipType": "Potato Chips"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 25,
+      "productName": "Lay's Classic Salted Potato Chips",
+      "slug": "lays-classic-salted-potato-chips",
+      "brand": "Lay's",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "51 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Classic salted potato chips made from quality potatoes with a perfectly balanced salty taste.",
+      "highlights": [
+        "Classic Salted Flavor",
+        "Made From Potatoes",
+        "Crispy Texture",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776240040304-477.jpg"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Classic Salted",
+        "netQuantity": "51 g",
+        "foodType": "Vegetarian",
+        "chipType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 5000,
+          "pricePerUnit": 15
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "Lay's Classic Salted Potato Chips 51g",
+        "description": "Buy Lay's Classic Salted Potato Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 50,
-      "pricePerUnit": 19
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.6,
-  "seo": {
-    "title": "Lay's Sizzling Hot Potato Chips 52.9g",
-    "description": "Buy Lay's Sizzling Hot Potato Chips online at wholesale prices."
-  }
-},
-{
-  "id": 27,
-  "productName": "Lay's Sizzling Hot Potato Chips",
-  "slug": "lays-sizzling-hot-potato-chips",
-  "brand": "Lay's",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "52.9 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Crispy potato chips with an intense sizzling hot flavour for spicy snack lovers.",
-  "highlights": [
-    "Sizzling Hot Flavor",
-    "Made From Potatoes",
-    "Crispy Texture",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776928455745-35.jpg"
-  ],
-  "specifications": {
-    "brand": "Lay's",
-    "flavour": "Sizzling Hot",
-    "netQuantity": "52.9 g",
-    "foodType": "Vegetarian",
-    "chipType": "Potato Chips"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 26,
+      "productName": "Lay's Sizzling Hot Potato Chips",
+      "slug": "lays-sizzling-hot-potato-chips",
+      "brand": "Lay's",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "52.9 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Crispy potato chips with an intense sizzling hot flavour for spicy snack lovers.",
+      "highlights": [
+        "Sizzling Hot Flavor",
+        "Made From Potatoes",
+        "Crispy Texture",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776928455745-34.jpg"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Sizzling Hot",
+        "netQuantity": "52.9 g",
+        "foodType": "Vegetarian",
+        "chipType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 19
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Lay's Sizzling Hot Potato Chips 52.9g",
+        "description": "Buy Lay's Sizzling Hot Potato Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 100,
-      "pricePerUnit": 18
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.6,
-  "seo": {
-    "title": "Lay's Sizzling Hot Potato Chips 52.9g",
-    "description": "Buy Lay's Sizzling Hot Potato Chips online at wholesale prices."
-  }
-},
-{
-  "id": 28,
-  "productName": "Lay's Sizzling Hot Potato Chips",
-  "slug": "lays-sizzling-hot-potato-chips",
-  "brand": "Lay's",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "52.9 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Crispy potato chips with an intense sizzling hot flavour for spicy snack lovers.",
-  "highlights": [
-    "Sizzling Hot Flavor",
-    "Made From Potatoes",
-    "Crispy Texture",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776928455745-36.jpg"
-  ],
-  "specifications": {
-    "brand": "Lay's",
-    "flavour": "Sizzling Hot",
-    "netQuantity": "52.9 g",
-    "foodType": "Vegetarian",
-    "chipType": "Potato Chips"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 27,
+      "productName": "Lay's Sizzling Hot Potato Chips",
+      "slug": "lays-sizzling-hot-potato-chips",
+      "brand": "Lay's",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "52.9 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Crispy potato chips with an intense sizzling hot flavour for spicy snack lovers.",
+      "highlights": [
+        "Sizzling Hot Flavor",
+        "Made From Potatoes",
+        "Crispy Texture",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776928455745-35.jpg"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Sizzling Hot",
+        "netQuantity": "52.9 g",
+        "foodType": "Vegetarian",
+        "chipType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 18
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Lay's Sizzling Hot Potato Chips 52.9g",
+        "description": "Buy Lay's Sizzling Hot Potato Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 500,
-      "pricePerUnit": 17
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.6,
-  "seo": {
-    "title": "Lay's Sizzling Hot Potato Chips 52.9g",
-    "description": "Buy Lay's Sizzling Hot Potato Chips online at wholesale prices."
-  }
-},
-{
-  "id": 29,
-  "productName": "Lay's Sizzling Hot Potato Chips",
-  "slug": "lays-sizzling-hot-potato-chips",
-  "brand": "Lay's",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "52.9 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Crispy potato chips with an intense sizzling hot flavour for spicy snack lovers.",
-  "highlights": [
-    "Sizzling Hot Flavor",
-    "Made From Potatoes",
-    "Crispy Texture",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776928455745-36.jpg"
-  ],
-  "specifications": {
-    "brand": "Lay's",
-    "flavour": "Sizzling Hot",
-    "netQuantity": "52.9 g",
-    "foodType": "Vegetarian",
-    "chipType": "Potato Chips"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 28,
+      "productName": "Lay's Sizzling Hot Potato Chips",
+      "slug": "lays-sizzling-hot-potato-chips",
+      "brand": "Lay's",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "52.9 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Crispy potato chips with an intense sizzling hot flavour for spicy snack lovers.",
+      "highlights": [
+        "Sizzling Hot Flavor",
+        "Made From Potatoes",
+        "Crispy Texture",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776928455745-36.jpg"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Sizzling Hot",
+        "netQuantity": "52.9 g",
+        "foodType": "Vegetarian",
+        "chipType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 500,
+          "pricePerUnit": 17
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Lay's Sizzling Hot Potato Chips 52.9g",
+        "description": "Buy Lay's Sizzling Hot Potato Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 1000,
-      "pricePerUnit": 16
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.6,
-  "seo": {
-    "title": "Lay's Sizzling Hot Potato Chips 52.9g",
-    "description": "Buy Lay's Sizzling Hot Potato Chips online at wholesale prices."
-  }
-},
-{
-  "id": 30,
-  "productName": "Lay's Sizzling Hot Potato Chips",
-  "slug": "lays-sizzling-hot-potato-chips",
-  "brand": "Lay's",
-  "category": "Chips & Crisps",
-  "subCategory": "Potato Chips",
-  "weight": "52.9 g",
-  "mrp": 20,
-  "sellingPrice": 20,
-  "discountPercentage": 0,
-  "description": "Crispy potato chips with an intense sizzling hot flavour for spicy snack lovers.",
-  "highlights": [
-    "Sizzling Hot Flavor",
-    "Made From Potatoes",
-    "Crispy Texture",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776928455745-34.jpg"
-  ],
-  "specifications": {
-    "brand": "Lay's",
-    "flavour": "Sizzling Hot",
-    "netQuantity": "52.9 g",
-    "foodType": "Vegetarian",
-    "chipType": "Potato Chips"
-  },
-  "pricing": {
-    "mrp": 20,
-    "sellingPrice": 20,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 29,
+      "productName": "Lay's Sizzling Hot Potato Chips",
+      "slug": "lays-sizzling-hot-potato-chips",
+      "brand": "Lay's",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "52.9 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Crispy potato chips with an intense sizzling hot flavour for spicy snack lovers.",
+      "highlights": [
+        "Sizzling Hot Flavor",
+        "Made From Potatoes",
+        "Crispy Texture",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776928455745-36.jpg"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Sizzling Hot",
+        "netQuantity": "52.9 g",
+        "foodType": "Vegetarian",
+        "chipType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 1000,
+          "pricePerUnit": 16
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Lay's Sizzling Hot Potato Chips 52.9g",
+        "description": "Buy Lay's Sizzling Hot Potato Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 5000,
-      "pricePerUnit": 15
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": true,
-  "gst": 12,
-  "rating": 4.6,
-  "seo": {
-    "title": "Lay's Sizzling Hot Potato Chips 52.9g",
-    "description": "Buy Lay's Sizzling Hot Potato Chips online at wholesale prices."
-  }
-},
-{
-  "id": 31,
-  "productName": "Let's Try Namkeen Combo",
-  "slug": "lets-try-namkeen-combo",
-  "brand": "Let's Try",
-  "category": "Bhujia & Mixtures",
-  "subCategory": "Namkeen & Mixtures",
-  "weight": "162 g",
-  "mrp": 90,
-  "sellingPrice": 54,
-  "discountPercentage": 40,
-  "description": "Delicious namkeen combo featuring crunchy peanut party mix and assorted Indian snacks.",
-  "highlights": [
-    "Peanut Party Mix",
-    "Crunchy Indian Snacks",
-    "Groundnut Oil Based",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/380e249a-8b4b-44a8-abf9-59550b27cf0a.jpg"
-  ],
-  "specifications": {
-    "brand": "Let's Try",
-    "flavour": "Mixed Namkeen",
-    "netQuantity": "162 g",
-    "foodType": "Vegetarian",
-    "snackType": "Namkeen & Mixtures"
-  },
-  "pricing": {
-    "mrp": 90,
-    "sellingPrice": 54,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 30,
+      "productName": "Lay's Sizzling Hot Potato Chips",
+      "slug": "lays-sizzling-hot-potato-chips",
+      "brand": "Lay's",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "52.9 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Crispy potato chips with an intense sizzling hot flavour for spicy snack lovers.",
+      "highlights": [
+        "Sizzling Hot Flavor",
+        "Made From Potatoes",
+        "Crispy Texture",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1776928455745-34.jpg"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Sizzling Hot",
+        "netQuantity": "52.9 g",
+        "foodType": "Vegetarian",
+        "chipType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 5000,
+          "pricePerUnit": 15
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Lay's Sizzling Hot Potato Chips 52.9g",
+        "description": "Buy Lay's Sizzling Hot Potato Chips online at wholesale prices."
+      }
+    },
     {
-      "minQty": 50,
-      "pricePerUnit": 51
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "Let's Try Namkeen Combo 162g",
-    "description": "Buy Let's Try Namkeen Combo online at wholesale prices."
-  }
-},
-{
-  "id": 32,
-  "productName": "Let's Try Namkeen Combo",
-  "slug": "lets-try-namkeen-combo",
-  "brand": "Let's Try",
-  "category": "Bhujia & Mixtures",
-  "subCategory": "Namkeen & Mixtures",
-  "weight": "162 g",
-  "mrp": 90,
-  "sellingPrice": 54,
-  "discountPercentage": 40,
-  "description": "Delicious namkeen combo featuring crunchy peanut party mix and assorted Indian snacks.",
-  "highlights": [
-    "Peanut Party Mix",
-    "Crunchy Indian Snacks",
-    "Groundnut Oil Based",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/04bc6536-34cf-4b33-b5f9-d1253cce3fe4.jpg"
-  ],
-  "specifications": {
-    "brand": "Let's Try",
-    "flavour": "Mixed Namkeen",
-    "netQuantity": "162 g",
-    "foodType": "Vegetarian",
-    "snackType": "Namkeen & Mixtures"
-  },
-  "pricing": {
-    "mrp": 90,
-    "sellingPrice": 54,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 31,
+      "productName": "Let's Try Namkeen Combo",
+      "slug": "lets-try-namkeen-combo",
+      "brand": "Let's Try",
+      "category": "Bhujia & Mixtures",
+      "subCategory": "Namkeen & Mixtures",
+      "weight": "162 g",
+      "mrp": 90,
+      "sellingPrice": 54,
+      "discountPercentage": 40,
+      "description": "Delicious namkeen combo featuring crunchy peanut party mix and assorted Indian snacks.",
+      "highlights": [
+        "Peanut Party Mix",
+        "Crunchy Indian Snacks",
+        "Groundnut Oil Based",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/380e249a-8b4b-44a8-abf9-59550b27cf0a.jpg"
+      ],
+      "specifications": {
+        "brand": "Let's Try",
+        "flavour": "Mixed Namkeen",
+        "netQuantity": "162 g",
+        "foodType": "Vegetarian",
+        "snackType": "Namkeen & Mixtures"
+      },
+      "pricing": {
+        "mrp": 90,
+        "sellingPrice": 54,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 51
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Let's Try Namkeen Combo 162g",
+        "description": "Buy Let's Try Namkeen Combo online at wholesale prices."
+      }
+    },
     {
-      "minQty": 100,
-      "pricePerUnit": 49
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "Let's Try Namkeen Combo 162g",
-    "description": "Buy Let's Try Namkeen Combo online at wholesale prices."
-  }
-},
-{
-  "id": 33,
-  "productName": "Let's Try Namkeen Combo",
-  "slug": "lets-try-namkeen-combo",
-  "brand": "Let's Try",
-  "category": "Bhujia & Mixtures",
-  "subCategory": "Namkeen & Mixtures",
-  "weight": "162 g",
-  "mrp": 90,
-  "sellingPrice": 54,
-  "discountPercentage": 40,
-  "description": "Delicious namkeen combo featuring crunchy peanut party mix and assorted Indian snacks.",
-  "highlights": [
-    "Peanut Party Mix",
-    "Crunchy Indian Snacks",
-    "Groundnut Oil Based",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/33790e5c-d1c8-43ff-bb00-5b13f9e3c922.jpg"
-  ],
-  "specifications": {
-    "brand": "Let's Try",
-    "flavour": "Mixed Namkeen",
-    "netQuantity": "162 g",
-    "foodType": "Vegetarian",
-    "snackType": "Namkeen & Mixtures"
-  },
-  "pricing": {
-    "mrp": 90,
-    "sellingPrice": 54,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 32,
+      "productName": "Let's Try Namkeen Combo",
+      "slug": "lets-try-namkeen-combo",
+      "brand": "Let's Try",
+      "category": "Bhujia & Mixtures",
+      "subCategory": "Namkeen & Mixtures",
+      "weight": "162 g",
+      "mrp": 90,
+      "sellingPrice": 54,
+      "discountPercentage": 40,
+      "description": "Delicious namkeen combo featuring crunchy peanut party mix and assorted Indian snacks.",
+      "highlights": [
+        "Peanut Party Mix",
+        "Crunchy Indian Snacks",
+        "Groundnut Oil Based",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/04bc6536-34cf-4b33-b5f9-d1253cce3fe4.jpg"
+      ],
+      "specifications": {
+        "brand": "Let's Try",
+        "flavour": "Mixed Namkeen",
+        "netQuantity": "162 g",
+        "foodType": "Vegetarian",
+        "snackType": "Namkeen & Mixtures"
+      },
+      "pricing": {
+        "mrp": 90,
+        "sellingPrice": 54,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 49
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Let's Try Namkeen Combo 162g",
+        "description": "Buy Let's Try Namkeen Combo online at wholesale prices."
+      }
+    },
     {
-      "minQty": 500,
-      "pricePerUnit": 46
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "Let's Try Namkeen Combo 162g",
-    "description": "Buy Let's Try Namkeen Combo online at wholesale prices."
-  }
-},
-{
-  "id": 34,
-  "productName": "Let's Try Namkeen Combo",
-  "slug": "lets-try-namkeen-combo",
-  "brand": "Let's Try",
-  "category": "Bhujia & Mixtures",
-  "subCategory": "Namkeen & Mixtures",
-  "weight": "162 g",
-  "mrp": 90,
-  "sellingPrice": 54,
-  "discountPercentage": 40,
-  "description": "Delicious namkeen combo featuring crunchy peanut party mix and assorted Indian snacks.",
-  "highlights": [
-    "Peanut Party Mix",
-    "Crunchy Indian Snacks",
-    "Groundnut Oil Based",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1779094500636-1622.jpg"
-  ],
-  "specifications": {
-    "brand": "Let's Try",
-    "flavour": "Mixed Namkeen",
-    "netQuantity": "162 g",
-    "foodType": "Vegetarian",
-    "snackType": "Namkeen & Mixtures"
-  },
-  "pricing": {
-    "mrp": 90,
-    "sellingPrice": 54,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 33,
+      "productName": "Let's Try Namkeen Combo",
+      "slug": "lets-try-namkeen-combo",
+      "brand": "Let's Try",
+      "category": "Bhujia & Mixtures",
+      "subCategory": "Namkeen & Mixtures",
+      "weight": "162 g",
+      "mrp": 90,
+      "sellingPrice": 54,
+      "discountPercentage": 40,
+      "description": "Delicious namkeen combo featuring crunchy peanut party mix and assorted Indian snacks.",
+      "highlights": [
+        "Peanut Party Mix",
+        "Crunchy Indian Snacks",
+        "Groundnut Oil Based",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/33790e5c-d1c8-43ff-bb00-5b13f9e3c922.jpg"
+      ],
+      "specifications": {
+        "brand": "Let's Try",
+        "flavour": "Mixed Namkeen",
+        "netQuantity": "162 g",
+        "foodType": "Vegetarian",
+        "snackType": "Namkeen & Mixtures"
+      },
+      "pricing": {
+        "mrp": 90,
+        "sellingPrice": 54,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 500,
+          "pricePerUnit": 46
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Let's Try Namkeen Combo 162g",
+        "description": "Buy Let's Try Namkeen Combo online at wholesale prices."
+      }
+    },
     {
-      "minQty": 1000,
-      "pricePerUnit": 44
-    }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": false,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "Let's Try Namkeen Combo 162g",
-    "description": "Buy Let's Try Namkeen Combo online at wholesale prices."
-  }
-},
-{
-  "id": 35,
-  "productName": "Let's Try Namkeen Combo",
-  "slug": "lets-try-namkeen-combo",
-  "brand": "Let's Try",
-  "category": "Bhujia & Mixtures",
-  "subCategory": "Namkeen & Mixtures",
-  "weight": "162 g",
-  "mrp": 90,
-  "sellingPrice": 54,
-  "discountPercentage": 40,
-  "description": "Delicious namkeen combo featuring crunchy peanut party mix and assorted Indian snacks.",
-  "highlights": [
-    "Peanut Party Mix",
-    "Crunchy Indian Snacks",
-    "Groundnut Oil Based",
-    "Ready To Eat"
-  ],
-  "images": [
-    "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1779094500636-1621.jpg"
-  ],
-  "specifications": {
-    "brand": "Let's Try",
-    "flavour": "Mixed Namkeen",
-    "netQuantity": "162 g",
-    "foodType": "Vegetarian",
-    "snackType": "Namkeen & Mixtures"
-  },
-  "pricing": {
-    "mrp": 90,
-    "sellingPrice": 54,
-    "currency": "INR"
-  },
-  "bulkPricing": [
+      "id": 34,
+      "productName": "Let's Try Namkeen Combo",
+      "slug": "lets-try-namkeen-combo",
+      "brand": "Let's Try",
+      "category": "Bhujia & Mixtures",
+      "subCategory": "Namkeen & Mixtures",
+      "weight": "162 g",
+      "mrp": 90,
+      "sellingPrice": 54,
+      "discountPercentage": 40,
+      "description": "Delicious namkeen combo featuring crunchy peanut party mix and assorted Indian snacks.",
+      "highlights": [
+        "Peanut Party Mix",
+        "Crunchy Indian Snacks",
+        "Groundnut Oil Based",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/rc-upload-1779094500636-1622.jpg"
+      ],
+      "specifications": {
+        "brand": "Let's Try",
+        "flavour": "Mixed Namkeen",
+        "netQuantity": "162 g",
+        "foodType": "Vegetarian",
+        "snackType": "Namkeen & Mixtures"
+      },
+      "pricing": {
+        "mrp": 90,
+        "sellingPrice": 54,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 1000,
+          "pricePerUnit": 44
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Let's Try Namkeen Combo 162g",
+        "description": "Buy Let's Try Namkeen Combo online at wholesale prices."
+      }
+    },
     {
-      "minQty": 5000,
-      "pricePerUnit": 41
+      "id": 35,
+      "productName": "Let's Try Namkeen Combo",
+      "slug": "lets-try-namkeen-combo",
+      "brand": "Let's Try",
+      "category": "Bhujia & Mixtures",
+      "subCategory": "Namkeen & Mixtures",
+      "weight": "162 g",
+      "mrp": 90,
+      "sellingPrice": 54,
+      "discountPercentage": 40,
+      "description": "Delicious namkeen combo featuring crunchy peanut party mix and assorted Indian snacks.",
+      "highlights": [
+        "Peanut Party Mix",
+        "Crunchy Indian Snacks",
+        "Groundnut Oil Based",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://pub-56a649c88d67403e867a9e00f3b37d78.r2.dev/6f638cd54dbd9fe852a3f1f97f23161f.webp"
+      ],
+      "specifications": {
+        "brand": "Let's Try",
+        "flavour": "Mixed Namkeen",
+        "netQuantity": "162 g",
+        "foodType": "Vegetarian",
+        "snackType": "Namkeen & Mixtures"
+      },
+      "pricing": {
+        "mrp": 90,
+        "sellingPrice": 54,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 5000,
+          "pricePerUnit": 41
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Let's Try Namkeen Combo 162g",
+        "description": "Buy Let's Try Namkeen Combo online at wholesale prices."
+      }
+    },
+    {
+      "id": 36,
+      "productName": "Lay's American Style Cream & Onion",
+      "slug": "lays-american-style-cream-onion",
+      "brand": "Lay's",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "50 g",
+      "mrp": 20,
+      "sellingPrice": 20,
+      "discountPercentage": 0,
+      "description": "Crispy potato chips with a creamy and savoury onion flavour.",
+      "highlights": [
+        "Cream & Onion Flavor",
+        "Crispy Potato Chips",
+        "Rich Savoury Taste",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://www.bbassets.com/media/uploads/p/xl/40053585_2-balaji-cream-onion-chips.jpg"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Cream & Onion",
+        "netQuantity": "50 g",
+        "foodType": "Vegetarian",
+        "snackType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 50,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 18
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 17
+        },
+        {
+          "minQty": 1000,
+          "pricePerUnit": 16
+        }
+      ],
+      "stock": 5000,
+      "unit": "packet",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Lay's Cream & Onion Chips 50g",
+        "description": "Buy Lay's Cream & Onion Chips online at wholesale prices."
+      }
+    },
+    {
+      "id": 37,
+      "productName": "Lay's Spanish Tomato Tango",
+      "slug": "lays-spanish-tomato-tango",
+      "brand": "Lay's",
+      "category": "Chips & Crisps",
+      "subCategory": "Potato Chips",
+      "weight": "50 g",
+      "mrp": 30,
+      "sellingPrice": 20,
+      "discountPercentage": 40,
+      "description": "Crispy potato chips with a tangy and zesty tomato flavour.",
+      "highlights": [
+        "Tomato Tango Flavor",
+        "Tangy Taste",
+        "Crispy Texture",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://www.samyaksupermart.com/cdn/shop/files/Add_a_heading_75.png?v=1762162065&width=1445"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Spanish Tomato Tango",
+        "netQuantity": "50 g",
+        "foodType": "Vegetarian",
+        "snackType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 30,
+        "sellingPrice": 20,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 18
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 17
+        },
+        {
+          "minQty": 1000,
+          "pricePerUnit": 16
+        }
+      ],
+      "stock": 3500,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Lay's Spanish Tomato Tango Chips 50g",
+        "description": "Buy Lay's Spanish Tomato Tango Chips online at wholesale prices."
+      }
+    },
+    {
+      "id": 38,
+      "productName": "Haldiram's Khatta Meetha",
+      "slug": "haldirams-khatta-meetha",
+      "brand": "Haldiram's",
+      "category": "Namkeen",
+      "subCategory": "Mixture",
+      "weight": "200 g",
+      "mrp": 55,
+      "sellingPrice": 55,
+      "discountPercentage": 0,
+      "description": "A delicious sweet and tangy mixture of crunchy noodles, peanuts, spices and dried ingredients.",
+      "highlights": [
+        "Sweet & Tangy Flavor",
+        "Crunchy Mixture",
+        "Traditional Indian Snack",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqu7ZIEnYFvOGTycjnu3svDCcHlVqA-Q594ORWtooT1QIjuid46jL3k1o&s=10"
+      ],
+      "specifications": {
+        "brand": "Haldiram's",
+        "flavour": "Khatta Meetha",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Mixture"
+      },
+      "pricing": {
+        "mrp": 55,
+        "sellingPrice": 55,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 48
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 45
+        },
+        {
+          "minQty": 1000,
+          "pricePerUnit": 42
+        }
+      ],
+      "stock": 3500,
+      "unit": "packet",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "Haldiram's Khatta Meetha 200g",
+        "description": "Buy Haldiram's Khatta Meetha online at wholesale prices."
+      }
+    },
+    {
+      "id": 39,
+      "productName": "Haldiram's Ratlami Sev",
+      "slug": "haldirams-ratlami-sev",
+      "brand": "Haldiram's",
+      "category": "Namkeen",
+      "subCategory": "Sev",
+      "weight": "200 g",
+      "mrp": 55,
+      "sellingPrice": 55,
+      "discountPercentage": 0,
+      "description": "Crunchy and spicy Ratlami Sev prepared with gram flour and aromatic Indian spices.",
+      "highlights": [
+        "Ratlami Style Sev",
+        "Spicy Flavor",
+        "Crispy Texture",
+        "Aromatic Indian Spices"
+      ],
+      "images": [
+        "https://storage.googleapis.com/shy-pub/340140/1702987899532_ratlamisev580x8affbb77435a4ee0bcf4db30e938d310grande.jpeg"
+      ],
+      "specifications": {
+        "brand": "Haldiram's",
+        "flavour": "Spicy Masala",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Sev"
+      },
+      "pricing": {
+        "mrp": 55,
+        "sellingPrice": 55,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 48
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 45
+        },
+        {
+          "minQty": 1000,
+          "pricePerUnit": 42
+        }
+      ],
+      "stock": 4200,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Haldiram's Ratlami Sev 200g",
+        "description": "Buy Haldiram's Ratlami Sev online at wholesale prices."
+      }
+    },
+    {
+      "id": 40,
+      "productName": "Haldiram's Punjabi Mixture",
+      "slug": "haldirams-punjabi-mixture",
+      "brand": "Haldiram's",
+      "category": "Namkeen",
+      "subCategory": "Mixture",
+      "weight": "200 g",
+      "mrp": 55,
+      "sellingPrice": 55,
+      "discountPercentage": 0,
+      "description": "Crunchy Punjabi-style namkeen mixture made with sev, peanuts, lentils and traditional spices.",
+      "highlights": [
+        "Punjabi Style Mixture",
+        "Spicy & Savoury",
+        "Crunchy Texture",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://www.jamoona.com/cdn/shop/files/Haldirams-280g-Punjabi--Mischung-9038901_1.png?v=1753243001"
+      ],
+      "specifications": {
+        "brand": "Haldiram's",
+        "flavour": "Punjabi Masala",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Mixture"
+      },
+      "pricing": {
+        "mrp": 55,
+        "sellingPrice": 55,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 48
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 45
+        },
+        {
+          "minQty": 1000,
+          "pricePerUnit": 42
+        }
+      ],
+      "stock": 3800,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Haldiram's Punjabi Mixture 200g",
+        "description": "Buy Haldiram's Punjabi Mixture online at wholesale prices."
+      }
+    },
+    {
+      "id": 41,
+      "productName": "Doritos Nacho Cheese",
+      "slug": "doritos-nacho-cheese",
+      "brand": "Doritos",
+      "category": "Chips & Crisps",
+      "subCategory": "Tortilla Chips",
+      "weight": "100 g",
+      "mrp": 50,
+      "sellingPrice": 45,
+      "discountPercentage": 10,
+      "description": "Crunchy tortilla chips loaded with a bold and cheesy nacho flavour, perfect for snacking.",
+      "highlights": [
+        "Nacho Cheese Flavor",
+        "Crunchy Texture",
+        "Bold & Cheesy Taste",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/71bHFGSZviL.jpg"
+      ],
+      "specifications": {
+        "brand": "Doritos",
+        "flavour": "Nacho Cheese",
+        "netQuantity": "100 g",
+        "foodType": "Vegetarian",
+        "snackType": "Tortilla Chips"
+      },
+      "pricing": {
+        "mrp": 50,
+        "sellingPrice": 45,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 42
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 40
+        },
+        {
+          "minQty": 1000,
+          "pricePerUnit": 38
+        }
+      ],
+      "stock": 2500,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Doritos Nacho Cheese Tortilla Chips 100g",
+        "description": "Buy Doritos Nacho Cheese Tortilla Chips online at wholesale prices."
+      }
+    },
+    {
+      "id": 42,
+      "productName": "Ratlami Sev",
+      "slug": "ratlami-sev",
+      "brand": "Haldiram's",
+      "category": "Namkeen",
+      "subCategory": "Sev",
+      "weight": "200 g",
+      "mrp": 60,
+      "sellingPrice": 55,
+      "discountPercentage": 8,
+      "description": "Authentic Ratlami Sev made with gram flour and a special blend of spices from Ratlam, known for its unique spicy and tangy taste.",
+      "highlights": [
+        "Authentic Ratlami Recipe",
+        "Spicy & Tangy Flavour",
+        "Made with Gram Flour",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://storage.googleapis.com/shy-pub/340140/1702987899532_ratlamisev580x8affbb77435a4ee0bcf4db30e938d310grande.jpeg"
+      ],
+      "specifications": {
+        "brand": "Haldiram's",
+        "flavour": "Spicy",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Sev"
+      },
+      "pricing": {
+        "mrp": 60,
+        "sellingPrice": 55,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 50
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 47
+        },
+        {
+          "minQty": 1000,
+          "pricePerUnit": 44
+        }
+      ],
+      "stock": 3000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Ratlami Sev 200g - Authentic Spicy Namkeen",
+        "description": "Buy authentic Ratlami Sev online at wholesale prices. Made with special Ratlam spices."
+      }
+    },
+    {
+      "id": 43,
+      "productName": "Uncle Chips",
+      "slug": "uncle-chips",
+      "brand": "Uncle Chipps",
+      "category": "Namkeen",
+      "subCategory": "Potato Chips",
+      "weight": "50 g",
+      "mrp": 20,
+      "sellingPrice": 18,
+      "discountPercentage": 10,
+      "description": "Crispy and delicious Uncle Chips made from quality potatoes with a perfect blend of spices, offering a crunchy and flavorful snacking experience.",
+      "highlights": [
+        "Crispy & Crunchy",
+        "Delicious Spicy Flavour",
+        "Made with Quality Potatoes",
+        "Ready To Eat"
+      ],
+      "images": [
+        "https://www.quickpantry.in/cdn/shop/products/uncle-chipps-spicy-treat-potato-chips-28-g-quick-pantry.jpg?v=1710539171"
+      ],
+      "specifications": {
+        "brand": "Uncle Chipps",
+        "flavour": "Spicy",
+        "netQuantity": "50 g",
+        "foodType": "Vegetarian",
+        "snackType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 18,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 16
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 15
+        },
+        {
+          "minQty": 1000,
+          "pricePerUnit": 14
+        }
+      ],
+      "stock": 3000,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Uncle Chips 50g - Crispy & Delicious Potato Chips",
+        "description": "Buy Uncle Chips online at great prices. Enjoy crispy, crunchy and delicious potato chips with a spicy flavour."
+      }
+    },
+    {
+      "id": 44,
+      "productName": "Balaji Wafers Simply Salted",
+      "slug": "balaji-wafers-simply-salted",
+      "brand": "Balaji",
+      "category": "Namkeen",
+      "subCategory": "Potato Chips",
+      "weight": "50 g",
+      "mrp": 20,
+      "sellingPrice": 18,
+      "discountPercentage": 10,
+      "description": "Thin and crispy potato wafers with a simple classic salted flavour.",
+      "highlights": [
+        "Classic Salted",
+        "Thin & Crispy",
+        "Made with Potatoes",
+        "Light & Crunchy"
+      ],
+      "images": [
+        "https://www.bbassets.com/media/uploads/p/l/40053582_2-balaji-simply-salted-chips.jpg"
+      ],
+      "specifications": {
+        "brand": "Balaji",
+        "flavour": "Simply Salted",
+        "netQuantity": "50 g",
+        "foodType": "Vegetarian",
+        "snackType": "Potato Wafers"
+      },
+      "pricing": {
+        "mrp": 20,
+        "sellingPrice": 18,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 100,
+          "pricePerUnit": 16
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 15
+        },
+        {
+          "minQty": 1000,
+          "pricePerUnit": 14
+        }
+      ],
+      "stock": 2600,
+      "unit": "packet",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Balaji Simply Salted Wafers 50g",
+        "description": "Buy Balaji Simply Salted potato wafers online."
+      }
+    },
+    {
+      "id": 45,
+      "productName": "Lay's Assorted Flavour Combo Pack",
+      "slug": "lays-assorted-flavour-combo-pack",
+      "brand": "Lay's",
+      "category": "Namkeen",
+      "subCategory": "Combo Packs",
+      "weight": "200 g",
+      "mrp": 100,
+      "sellingPrice": 90,
+      "discountPercentage": 10,
+      "description": "A delicious assortment of Lay's favourite flavours including Classic Salted, Magic Masala, Cream & Onion and Tomato Tango.",
+      "highlights": [
+        "4 Different Flavours",
+        "Perfect Party Snack",
+        "Crispy & Crunchy",
+        "Great for Sharing"
+      ],
+      "images": [
+        "https://i.etsystatic.com/23189171/r/il/1b3cbc/6659338021/il_1080xN.6659338021_ewd8.jpg"
+      ],
+      "specifications": {
+        "brand": "Lay's",
+        "flavour": "Assorted",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Potato Chips",
+        "comboItems": [
+          "Classic Salted",
+          "Magic Masala",
+          "Cream & Onion",
+          "Tomato Tango"
+        ]
+      },
+      "pricing": {
+        "mrp": 100,
+        "sellingPrice": 90,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 85
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 80
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 75
+        }
+      ],
+      "stock": 1000,
+      "unit": "combo",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "Lay's Assorted Flavour Combo Pack - 4 Flavours",
+        "description": "Buy Lay's assorted flavour combo pack with multiple delicious and crispy potato chip flavours."
+      }
+    },
+    {
+      "id": 46,
+      "productName": "Moong Dal",
+      "slug": "moong-dal-namkeen",
+      "brand": "Balaji",
+      "category": "Namkeen",
+      "subCategory": "Dal",
+      "weight": "200 g",
+      "mrp": 85,
+      "sellingPrice": 76,
+      "discountPercentage": 11,
+      "description": "Crunchy and lightly salted moong dal namkeen, perfect for everyday snacking.",
+      "highlights": [
+        "Crunchy Moong Dal",
+        "Lightly Salted",
+        "Perfect Snack",
+        "Ready to Eat"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/61jEiNgZ0AL._AC_UF894,1000_QL80_.jpg"
+      ],
+      "specifications": {
+        "brand": "Balaji",
+        "flavour": "Salted",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Dal Namkeen"
+      },
+      "pricing": {
+        "mrp": 85,
+        "sellingPrice": 76,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 71
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 68
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 63
+        }
+      ],
+      "stock": 900,
+      "unit": "pack",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Moong Dal Namkeen - Crispy & Crunchy",
+        "description": "Buy crispy and crunchy moong dal namkeen online."
+      }
+    },
+    {
+      "id": 47,
+      "productName": "Chana Dal",
+      "slug": "chana-dal-namkeen",
+      "brand": "Balaji",
+      "category": "Namkeen",
+      "subCategory": "Dal",
+      "weight": "200 g",
+      "mrp": 80,
+      "sellingPrice": 72,
+      "discountPercentage": 10,
+      "description": "Crunchy fried chana dal seasoned with salt and spices for a delicious snack.",
+      "highlights": [
+        "Crunchy Texture",
+        "Lightly Spiced",
+        "Perfect Tea-Time Snack",
+        "Ready to Eat"
+      ],
+      "images": [
+        "https://www.bbassets.com/media/uploads/p/l/30010131_5-balaji-namkeen-chana-dal.jpg"
+      ],
+      "specifications": {
+        "brand": "Balaji",
+        "flavour": "Masala",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Dal Namkeen"
+      },
+      "pricing": {
+        "mrp": 80,
+        "sellingPrice": 72,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 67
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 64
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 60
+        }
+      ],
+      "stock": 800,
+      "unit": "pack",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Chana Dal Namkeen - Crispy & Spicy",
+        "description": "Buy crunchy and spicy chana dal namkeen online."
+      }
+    },
+    {
+      "id": 48,
+      "productName": "Masala Peanuts",
+      "slug": "masala-peanuts",
+      "brand": "Haldiram's",
+      "category": "Namkeen",
+      "subCategory": "Peanuts",
+      "weight": "200 g",
+      "mrp": 85,
+      "sellingPrice": 77,
+      "discountPercentage": 15,
+      "description": "Crunchy peanuts coated with a delicious blend of Indian spices.",
+      "highlights": [
+        "Crunchy Peanuts",
+        "Spicy Masala Coating",
+        "Great Evening Snack",
+        "Perfect with Tea"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/91MMJtT3IdL.jpg"
+      ],
+      "specifications": {
+        "brand": "Haldiram's",
+        "flavour": "Masala",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Peanut Namkeen"
+      },
+      "pricing": {
+        "mrp": 85,
+        "sellingPrice": 77,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 72
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 68
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 63
+        }
+      ],
+      "stock": 750,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "Masala Peanuts - Spicy & Crunchy Namkeen",
+        "description": "Buy spicy and crunchy masala peanuts online."
+      }
+    },
+    {
+      "id": 49,
+      "productName": "Navratan Mixture",
+      "slug": "navratan-mixture",
+      "brand": "Haldiram's",
+      "category": "Namkeen",
+      "subCategory": "Mixture",
+      "weight": "200 g",
+      "mrp": 95,
+      "sellingPrice": 85,
+      "discountPercentage": 11,
+      "description": "A tasty mixture of crunchy ingredients, nuts and spices offering a rich and savoury snacking experience.",
+      "highlights": [
+        "Rich & Savoury Taste",
+        "Crunchy Mixture",
+        "Perfect Party Snack",
+        "Great for Sharing"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/91gWy3ImLkL.jpg"
+      ],
+      "specifications": {
+        "brand": "Haldiram's",
+        "flavour": "Classic Masala",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Mixture"
+      },
+      "pricing": {
+        "mrp": 95,
+        "sellingPrice": 85,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 80
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 75
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 70
+        }
+      ],
+      "stock": 650,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Navratan Mixture - Crunchy Indian Namkeen",
+        "description": "Buy delicious and crunchy Navratan mixture online."
+      }
+    },
+    {
+      "id": 50,
+      "productName": "Bombay Mixture",
+      "slug": "bombay-mixture",
+      "brand": "Haldiram's",
+      "category": "Namkeen",
+      "subCategory": "Mixture",
+      "weight": "200 g",
+      "mrp": 90,
+      "sellingPrice": 81,
+      "discountPercentage": 10,
+      "description": "Classic Bombay-style mixture with a delicious combination of crunchy and spicy namkeen ingredients.",
+      "highlights": [
+        "Classic Bombay Style",
+        "Spicy & Crunchy",
+        "Perfect Tea-Time Snack",
+        "Ready to Eat"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/71ACZ9wB-QL._AC_UF894,1000_QL80_.jpg"
+      ],
+      "specifications": {
+        "brand": "Haldiram's",
+        "flavour": "Spicy",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Mixture"
+      },
+      "pricing": {
+        "mrp": 90,
+        "sellingPrice": 81,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 76
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 72
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 67
+        }
+      ],
+      "stock": 700,
+      "unit": "pack",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Bombay Mixture - Spicy & Crunchy Namkeen",
+        "description": "Buy classic Bombay mixture with a crunchy and spicy taste."
+      }
+    },
+    {
+      "id": 51,
+      "productName": "Peanut Chivda",
+      "slug": "peanut-chivda",
+      "brand": "Haldiram's",
+      "category": "Namkeen",
+      "subCategory": "Chivda",
+      "weight": "200 g",
+      "mrp": 90,
+      "sellingPrice": 81,
+      "discountPercentage": 10,
+      "description": "Light and crunchy chivda combined with peanuts and mild spices for a delicious snack.",
+      "highlights": [
+        "Light & Crunchy",
+        "Peanut Rich",
+        "Mildly Spiced",
+        "Perfect Tea-Time Snack"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/61aaSdwezqL._AC_UF894,1000_QL80_.jpg"
+      ],
+      "specifications": {
+        "brand": "Haldiram's",
+        "flavour": "Masala",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Chivda"
+      },
+      "pricing": {
+        "mrp": 90,
+        "sellingPrice": 81,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 76
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 72
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 67
+        }
+      ],
+      "stock": 650,
+      "unit": "pack",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Peanut Chivda - Light & Crunchy Namkeen",
+        "description": "Buy delicious peanut chivda with a crunchy and mildly spicy taste."
+      }
+    },
+    {
+      "id": 52,
+      "productName": "Cornflakes Mixture",
+      "slug": "cornflakes-mixture",
+      "brand": "Haldiram's",
+      "category": "Namkeen",
+      "subCategory": "Mixture",
+      "weight": "200 g",
+      "mrp": 95,
+      "sellingPrice": 85,
+      "discountPercentage": 11,
+      "description": "Crispy cornflakes blended with peanuts, spices and crunchy namkeen ingredients.",
+      "highlights": [
+        "Extra Crunchy",
+        "Cornflakes Based",
+        "Spicy & Savoury",
+        "Perfect Evening Snack"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/71RMSkN3c7L.jpg"
+      ],
+      "specifications": {
+        "brand": "Haldiram's",
+        "flavour": "Masala",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Mixture"
+      },
+      "pricing": {
+        "mrp": 95,
+        "sellingPrice": 85,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 80
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 75
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 70
+        }
+      ],
+      "stock": 550,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Cornflakes Mixture - Crispy & Spicy Namkeen",
+        "description": "Buy crispy cornflakes mixture with peanuts and delicious spices."
+      }
+    },
+    {
+      "id": 53,
+      "productName": "Nylon Sev",
+      "slug": "nylon-sev",
+      "brand": "Haldiram's",
+      "category": "Namkeen",
+      "subCategory": "Sev",
+      "weight": "200 g",
+      "mrp": 80,
+      "sellingPrice": 72,
+      "discountPercentage": 10,
+      "description": "Fine and crispy nylon sev with a light spicy flavour, ideal for snacks and toppings.",
+      "highlights": [
+        "Fine & Crispy",
+        "Light Spicy Taste",
+        "Perfect for Chaat",
+        "Ready to Eat"
+      ],
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Y7mT1EzFESQQWXNRGgPNPZ6prSEoJzUC2bkGclaxEWtl387jSHzc0wVf&s=10"
+      ],
+      "specifications": {
+        "brand": "Haldiram's",
+        "flavour": "Classic Masala",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Sev"
+      },
+      "pricing": {
+        "mrp": 80,
+        "sellingPrice": 72,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 67
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 64
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 59
+        }
+      ],
+      "stock": 750,
+      "unit": "pack",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Nylon Sev - Fine & Crispy Namkeen",
+        "description": "Buy fine and crispy nylon sev online for snacking and chaat."
+      }
+    },
+    {
+      "id": 54,
+      "productName": "Indori Mixture",
+      "slug": "indori-mixture",
+      "brand": "Haldiram's",
+      "category": "Namkeen",
+      "subCategory": "Mixture",
+      "weight": "200 g",
+      "mrp": 95,
+      "sellingPrice": 85,
+      "discountPercentage": 30,
+      "description": "A crunchy Indori-style mixture with a delicious combination of sev, peanuts and spices.",
+      "highlights": [
+        "Indori Style",
+        "Crunchy & Spicy",
+        "Traditional Taste",
+        "Perfect Tea-Time Snack"
+      ],
+      "images": [
+        "https://www.bbassets.com/media/uploads/p/l/100022505_2-haldirams-namkeen-mixture.jpg"
+      ],
+      "specifications": {
+        "brand": "Haldiram's",
+        "flavour": "Indori Masala",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Mixture"
+      },
+      "pricing": {
+        "mrp": 95,
+        "sellingPrice": 85,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 80
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 75
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 70
+        }
+      ],
+      "stock": 600,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "Indori Mixture - Traditional Spicy Namkeen",
+        "description": "Buy crunchy and delicious Indori-style mixture online."
+      }
+    },
+    {
+      "id": 55,
+      "productName": "Falahari Mixture",
+      "slug": "falahari-mixture",
+      "brand": "Traditional",
+      "category": "Namkeen",
+      "subCategory": "Falahari Namkeen",
+      "weight": "200 g",
+      "mrp": 110,
+      "sellingPrice": 99,
+      "discountPercentage": 10,
+      "description": "A crispy and delicious falahari mixture prepared with fasting-friendly ingredients, peanuts, potato and sendha namak.",
+      "highlights": [
+        "Fasting-Friendly",
+        "Made with Sendha Namak",
+        "Crispy & Crunchy",
+        "Perfect for Vrat"
+      ],
+      "images": [
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/NI_CATALOG/IMAGES/ciw/2026/7/13/9a315e00-5ab9-41e6-aa7c-c1dca455ae9a_1_AL1_06ae20f9-5dd3-485a-b431-8fba47072da1.png"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Classic Falahari",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Falahari Namkeen"
+      },
+      "pricing": {
+        "mrp": 110,
+        "sellingPrice": 99,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 93
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 88
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 82
+        }
+      ],
+      "stock": 500,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Falahari Mixture - Vrat Special Namkeen",
+        "description": "Buy crispy and delicious falahari mixture made with fasting-friendly ingredients."
+      }
+    },
+    {
+      "id": 56,
+      "productName": "Sabudana Chips",
+      "slug": "sabudana-chips",
+      "brand": "Traditional",
+      "category": "Namkeen",
+      "subCategory": "Falahari Namkeen",
+      "weight": "200 g",
+      "mrp": 100,
+      "sellingPrice": 90,
+      "discountPercentage": 20,
+      "description": "Crispy sabudana chips seasoned with sendha namak, making them a delicious snack option during fasting.",
+      "highlights": [
+        "Vrat-Friendly",
+        "Made with Sabudana",
+        "Crispy & Crunchy",
+        "Seasoned with Sendha Namak"
+      ],
+      "images": [
+        "https://www.bbassets.com/media/uploads/p/xl/40344518_2-haldirams-sabudana-mixture.jpg"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Salted",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Sabudana Chips"
+      },
+      "pricing": {
+        "mrp": 100,
+        "sellingPrice": 90,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 84
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 80
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 74
+        }
+      ],
+      "stock": 650,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "Sabudana Chips - Crispy Falahari Vrat Snack",
+        "description": "Buy crispy sabudana chips made with fasting-friendly ingredients."
+      }
+    },
+    {
+      "id": 57,
+      "productName": "Falahari Peanuts",
+      "slug": "falahari-peanuts",
+      "brand": "Traditional",
+      "category": "Namkeen",
+      "subCategory": "Falahari Namkeen",
+      "weight": "200 g",
+      "mrp": 105,
+      "sellingPrice": 95,
+      "discountPercentage": 10,
+      "description": "Crunchy roasted peanuts seasoned with sendha namak, suitable as a fasting snack.",
+      "highlights": [
+        "Fasting-Friendly",
+        "Crunchy Peanuts",
+        "Sendha Namak",
+        "Perfect Evening Snack"
+      ],
+      "images": [
+        "https://www.bikaji.com/pub/media/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/0/5/05_-front_-falahari-mix_pouch_w320-x-h230-mm_200gm---size-w-448-pxl-x-h-560-pxl.png"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Salted",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Falahari Peanuts"
+      },
+      "pricing": {
+        "mrp": 105,
+        "sellingPrice": 95,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 89
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 84
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 78
+        }
+      ],
+      "stock": 600,
+      "unit": "pack",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Falahari Peanuts - Vrat Special Namkeen",
+        "description": "Buy crunchy fasting-friendly peanuts seasoned with sendha namak."
+      }
+    },
+    {
+      "id": 58,
+      "productName": "Falahari Aloo Chips",
+      "slug": "falahari-aloo-chips",
+      "brand": "Traditional",
+      "category": "Namkeen",
+      "subCategory": "Falahari Namkeen",
+      "weight": "200 g",
+      "mrp": 95,
+      "sellingPrice": 85,
+      "discountPercentage": 11,
+      "description": "Thin and crispy potato chips seasoned with sendha namak for a delicious fasting snack.",
+      "highlights": [
+        "Vrat-Friendly",
+        "Crispy Potato Chips",
+        "Sendha Namak",
+        "Perfect Fasting Snack"
+      ],
+      "images": [
+        "https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/670ba0f467cf63015bb7a03d/salted-chips-yellow-420x420.jpeg"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Sendha Namak",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Falahari Chips"
+      },
+      "pricing": {
+        "mrp": 95,
+        "sellingPrice": 85,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 80
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 75
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 70
+        }
+      ],
+      "stock": 700,
+      "unit": "pack",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Falahari Aloo Chips - Vrat Special",
+        "description": "Buy crispy falahari aloo chips seasoned with sendha namak."
+      }
+    },
+    {
+      "id": 59,
+      "productName": "Falahari Potato Sticks",
+      "slug": "falahari-potato-sticks",
+      "brand": "Traditional",
+      "category": "Namkeen",
+      "subCategory": "Falahari Namkeen",
+      "weight": "200 g",
+      "mrp": 100,
+      "sellingPrice": 90,
+      "discountPercentage": 10,
+      "description": "Crispy potato sticks seasoned with sendha namak, perfect for vrat and everyday snacking.",
+      "highlights": [
+        "Crispy Potato Sticks",
+        "Vrat-Friendly",
+        "Sendha Namak",
+        "Perfect Anytime Snack"
+      ],
+      "images": [
+        "https://www.bbassets.com/media/uploads/p/l/40206305_3-haldirams-aloo-mixture.jpg"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Salted",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Falahari Snack"
+      },
+      "pricing": {
+        "mrp": 100,
+        "sellingPrice": 90,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 84
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 80
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 74
+        }
+      ],
+      "stock": 600,
+      "unit": "pack",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Falahari Potato Sticks - Crispy Vrat Snack",
+        "description": "Buy crispy falahari potato sticks seasoned with sendha namak."
+      }
+    },
+    {
+      "id": 60,
+      "productName": "Falahari Dry Fruit Mix",
+      "slug": "falahari-dry-fruit-mix",
+      "brand": "Traditional",
+      "category": "Namkeen",
+      "subCategory": "Falahari Namkeen",
+      "weight": "200 g",
+      "mrp": 180,
+      "sellingPrice": 162,
+      "discountPercentage": 40,
+      "description": "A crunchy and nutritious mix of fasting-friendly nuts and dry fruits, lightly seasoned for snacking.",
+      "highlights": [
+        "Premium Dry Fruits",
+        "Fasting-Friendly",
+        "Lightly Seasoned",
+        "Perfect for Vrat"
+      ],
+      "images": [
+        "https://5.imimg.com/data5/KR/JD/EV/GLADMIN-67066612/dry-fruit-mix-500x500.jpg"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Lightly Salted",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Dry Fruit Mix"
+      },
+      "pricing": {
+        "mrp": 180,
+        "sellingPrice": 162,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 152
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 144
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 135
+        }
+      ],
+      "stock": 350,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.8,
+      "seo": {
+        "title": "Falahari Dry Fruit Mix - Premium Vrat Snack",
+        "description": "Buy premium fasting-friendly dry fruit mix for vrat and everyday snacking."
+      }
+    },
+    {
+      "id": 61,
+      "productName": "Falahari Namkeen Combo",
+      "slug": "falahari-namkeen-combo",
+      "brand": "Traditional",
+      "category": "Namkeen",
+      "subCategory": "Combo Packs",
+      "weight": "500 g",
+      "mrp": 280,
+      "sellingPrice": 249,
+      "discountPercentage": 11,
+      "description": "A delicious assortment of fasting-friendly namkeen including sabudana chips, falahari peanuts, potato chips and falahari mixture.",
+      "highlights": [
+        "4 Falahari Varieties",
+        "Perfect for Vrat",
+        "Great for Sharing",
+        "Crispy & Crunchy"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/61wZZ84r0jL._AC_UF894,1000_QL80_.jpg"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Assorted Falahari",
+        "netQuantity": "500 g",
+        "foodType": "Vegetarian",
+        "snackType": "Falahari Combo",
+        "comboItems": [
+          "Sabudana Chips",
+          "Falahari Peanuts",
+          "Falahari Aloo Chips",
+          "Falahari Mixture"
+        ]
+      },
+      "pricing": {
+        "mrp": 280,
+        "sellingPrice": 249,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 20,
+          "pricePerUnit": 235
+        },
+        {
+          "minQty": 50,
+          "pricePerUnit": 220
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 205
+        }
+      ],
+      "stock": 300,
+      "unit": "combo",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.8,
+      "seo": {
+        "title": "Falahari Namkeen Combo - Vrat Special Combo",
+        "description": "Buy assorted falahari namkeen combo with sabudana chips, peanuts, potato chips and mixture."
+      }
+    },
+    {
+      "id": 62,
+      "productName": "Masala Potato Wafers",
+      "slug": "masala-potato-wafers",
+      "brand": "Traditional",
+      "category": "Wafers",
+      "subCategory": "Potato Wafers",
+      "weight": "200 g",
+      "mrp": 110,
+      "sellingPrice": 99,
+      "discountPercentage": 40,
+      "description": "Crunchy potato wafers coated with a delicious blend of spicy and aromatic masala seasoning.",
+      "highlights": [
+        "Crunchy potato wafers",
+        "Spicy masala flavour",
+        "Aromatic seasoning",
+        "Ideal evening snack"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/718gEDGusFL._AC_UF894,1000_QL80_.jpg"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Masala",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Potato Wafers"
+      },
+      "pricing": {
+        "mrp": 110,
+        "sellingPrice": 99,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 94
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 89
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 82
+        }
+      ],
+      "stock": 900,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Masala Potato Wafers",
+        "description": "Shop crispy and spicy masala potato wafers online."
+      }
+    },
+    {
+      "id": 63,
+      "productName": "Cream & Onion Potato Wafers",
+      "slug": "cream-onion-potato-wafers",
+      "brand": "Traditional",
+      "category": "Wafers",
+      "subCategory": "Flavoured Wafers",
+      "weight": "150 g",
+      "mrp": 90,
+      "sellingPrice": 81,
+      "discountPercentage": 35,
+      "description": "Crispy potato wafers with a creamy and mildly tangy onion flavour.",
+      "highlights": [
+        "Creamy onion flavour",
+        "Light and crispy",
+        "Mildly tangy taste",
+        "Perfect snack for parties"
+      ],
+      "images": [
+        "https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/659f9bea5f2037fe660b7ebe/img-20231205-wa0007.jpg"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Cream & Onion",
+        "netQuantity": "150 g",
+        "foodType": "Vegetarian",
+        "snackType": "Flavoured Wafers"
+      },
+      "pricing": {
+        "mrp": 90,
+        "sellingPrice": 81,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 77
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 72
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 67
+        }
+      ],
+      "stock": 800,
+      "unit": "pack",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Cream & Onion Potato Wafers",
+        "description": "Buy crispy cream and onion flavoured potato wafers."
+      }
+    },
+    {
+      "id": 64,
+      "productName": "Tomato Potato Wafers",
+      "slug": "tomato-potato-wafers",
+      "brand": "Traditional",
+      "category": "Wafers",
+      "subCategory": "Flavoured Wafers",
+      "weight": "150 g",
+      "mrp": 90,
+      "sellingPrice": 81,
+      "discountPercentage": 50,
+      "description": "Crunchy potato wafers with a tangy and savoury tomato seasoning.",
+      "highlights": [
+        "Tangy tomato flavour",
+        "Crispy texture",
+        "Savoury seasoning",
+        "Great for snacking"
+      ],
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5r8yTaJQ21SYHH49sCd6OVM5ib67pBCQg1U2G7Cuv8AHiT-HIMPZmp9s&s=10"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Tomato",
+        "netQuantity": "150 g",
+        "foodType": "Vegetarian",
+        "snackType": "Flavoured Wafers"
+      },
+      "pricing": {
+        "mrp": 90,
+        "sellingPrice": 81,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 77
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 72
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 67
+        }
+      ],
+      "stock": 850,
+      "unit": "pack",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.4,
+      "seo": {
+        "title": "Tomato Potato Wafers",
+        "description": "Enjoy crispy potato wafers with delicious tangy tomato flavour."
+      }
+    },
+    {
+      "id": 65,
+      "productName": "Chilli Lemon Potato Wafers",
+      "slug": "chilli-lemon-potato-wafers",
+      "brand": "Traditional",
+      "category": "Wafers",
+      "subCategory": "Spicy Wafers",
+      "weight": "150 g",
+      "mrp": 100,
+      "sellingPrice": 90,
+      "discountPercentage": 15,
+      "description": "Crunchy potato wafers with a zesty combination of chilli and lemon flavours.",
+      "highlights": [
+        "Chilli lemon flavour",
+        "Zesty and tangy taste",
+        "Crispy texture",
+        "Ideal for spicy snack lovers"
+      ],
+      "images": [
+        "https://images.jdmagicbox.com/quickquotes/images_main/gochlechwach350gm-272838389-uu62zivz.png"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Chilli Lemon",
+        "netQuantity": "150 g",
+        "foodType": "Vegetarian",
+        "snackType": "Spicy Wafers"
+      },
+      "pricing": {
+        "mrp": 100,
+        "sellingPrice": 90,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 85
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 80
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 75
+        }
+      ],
+      "stock": 700,
+      "unit": "pack",
+      "status": "active",
+      "featured": false,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Chilli Lemon Potato Wafers",
+        "description": "Enjoy crispy potato wafers with spicy chilli and zesty lemon flavour."
+      }
+    },
+    {
+      "id": 66,
+      "productName": "Banana Wafers",
+      "slug": "banana-wafers",
+      "brand": "Traditional",
+      "category": "Wafers",
+      "subCategory": "Banana Wafers",
+      "weight": "200 g",
+      "mrp": 120,
+      "sellingPrice": 108,
+      "discountPercentage": 10,
+      "description": "Thin and crispy banana wafers prepared for a delicious crunchy snacking experience.",
+      "highlights": [
+        "Crispy banana wafers",
+        "Thin and crunchy slices",
+        "Lightly salted",
+        "Popular Indian snack"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/71Z2h6w3drL.jpg"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Salted",
+        "netQuantity": "200 g",
+        "foodType": "Vegetarian",
+        "snackType": "Banana Wafers"
+      },
+      "pricing": {
+        "mrp": 120,
+        "sellingPrice": 108,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 102
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 96
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 90
+        }
+      ],
+      "stock": 850,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.8,
+      "seo": {
+        "title": "Crispy Banana Wafers",
+        "description": "Buy crispy and crunchy salted banana wafers online."
+      }
+    },
+    {
+      "id": 67,
+      "productName": "Wafers Variety Combo",
+      "slug": "wafers-variety-combo",
+      "brand": "Traditional",
+      "category": "Wafers",
+      "subCategory": "Combo Packs",
+      "weight": "600 g",
+      "mrp": 320,
+      "sellingPrice": 285,
+      "discountPercentage": 11,
+      "description": "A delicious combination of popular wafer flavours packed together for parties and family snacking.",
+      "highlights": [
+        "Multiple wafer flavours",
+        "Perfect party snack",
+        "Family-friendly combo",
+        "Great value pack"
+      ],
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR22NYlODMNQiHHHJmUbrTmeIbFSUwqEZdfBuRFbmMhm307t7oMUTXJRgY&s=10"
+      ],
+      "specifications": {
+        "brand": "Traditional",
+        "flavour": "Mixed Flavours",
+        "netQuantity": "600 g",
+        "foodType": "Vegetarian",
+        "snackType": "Wafers Combo",
+        "comboItems": [
+          "Classic Salted Potato Wafers",
+          "Masala Potato Wafers",
+          "Cream & Onion Potato Wafers",
+          "Tomato Potato Wafers"
+        ]
+      },
+      "pricing": {
+        "mrp": 320,
+        "sellingPrice": 285,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 20,
+          "pricePerUnit": 270
+        },
+        {
+          "minQty": 50,
+          "pricePerUnit": 255
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 240
+        }
+      ],
+      "stock": 500,
+      "unit": "combo",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.8,
+      "seo": {
+        "title": "Wafers Variety Combo Pack",
+        "description": "Buy a mixed wafers combo with classic, masala, cream onion and tomato flavours."
+      }
+    },
+    {
+      "id": 68,
+      "productName": "Too Yumm Sour Cream & Onion Veggie Stix",
+      "slug": "too-yumm-sour-cream-onion-veggie-stix",
+      "brand": "Too Yumm!",
+      "category": "Wafers & Chips",
+      "subCategory": "Veggie Stix",
+      "weight": "70 g",
+      "mrp": 35,
+      "sellingPrice": 32,
+      "discountPercentage": 45,
+      "description": "Crunchy veggie stix with a delicious sour cream and onion flavour for a tasty snacking experience.",
+      "highlights": [
+        "Sour cream & onion flavour",
+        "Crispy veggie stix",
+        "Ready to eat",
+        "Perfect evening snack"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/81oSRvJIeQL.jpg"
+      ],
+      "specifications": {
+        "brand": "Too Yumm!",
+        "flavour": "Sour Cream & Onion",
+        "netQuantity": "70 g",
+        "foodType": "Vegetarian",
+        "snackType": "Veggie Stix"
+      },
+      "pricing": {
+        "mrp": 35,
+        "sellingPrice": 32,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 30
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 28
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 26
+        }
+      ],
+      "stock": 1000,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Too Yumm Sour Cream & Onion Veggie Stix",
+        "description": "Buy Too Yumm Sour Cream & Onion Veggie Stix online."
+      }
+    },
+    {
+      "id": 69,
+      "productName": "Too Yumm Bhujia Sev Snacks",
+      "slug": "too-yumm-bhujia-sev-snacks",
+      "brand": "Too Yumm!",
+      "category": "Namkeen",
+      "subCategory": "Bhujia & Sev",
+      "weight": "140 g",
+      "mrp": 55,
+      "sellingPrice": 49,
+      "discountPercentage": 11,
+      "description": "Crunchy bhujia sev snack with a delicious Indian-style masala flavour.",
+      "highlights": [
+        "Crispy bhujia sev",
+        "Masala flavour",
+        "No palm oil",
+        "No sugar",
+        "Perfect tea-time snack"
+      ],
+      "images": [
+        "https://tooyumm.com/cdn/shop/files/AlooBhujia1.jpg?v=1765004568"
+      ],
+      "specifications": {
+        "brand": "Too Yumm!",
+        "flavour": "Masala",
+        "netQuantity": "140 g",
+        "foodType": "Vegetarian",
+        "snackType": "Bhujia Sev"
+      },
+      "pricing": {
+        "mrp": 55,
+        "sellingPrice": 49,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 46
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 44
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 41
+        }
+      ],
+      "stock": 900,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Too Yumm Bhujia Sev Snacks",
+        "description": "Buy crunchy Too Yumm Bhujia Sev Snacks online."
+      }
+    },
+    {
+      "id": 70,
+      "productName": "Too Yumm Dahi Papdi Chaat Multigrain Chips",
+      "slug": "too-yumm-dahi-papdi-chaat-multigrain-chips",
+      "brand": "Too Yumm!",
+      "category": "Wafers & Chips",
+      "subCategory": "Multigrain Chips",
+      "weight": "70 g",
+      "mrp": 35,
+      "sellingPrice": 32,
+      "discountPercentage": 9,
+      "description": "Crispy multigrain chips inspired by the delicious flavours of dahi papdi chaat.",
+      "highlights": [
+        "Dahi papdi chaat flavour",
+        "Multigrain chips",
+        "Crispy and crunchy",
+        "Ready to eat",
+        "Perfect anytime snack"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/61k5oVIwLML._AC_UF894,1000_QL80_.jpg"
+      ],
+      "specifications": {
+        "brand": "Too Yumm!",
+        "flavour": "Dahi Papdi Chaat",
+        "netQuantity": "70 g",
+        "foodType": "Vegetarian",
+        "snackType": "Multigrain Chips"
+      },
+      "pricing": {
+        "mrp": 35,
+        "sellingPrice": 32,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 30
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 28
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 26
+        }
+      ],
+      "stock": 1000,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Too Yumm Dahi Papdi Chaat Multigrain Chips",
+        "description": "Shop Too Yumm Dahi Papdi Chaat Multigrain Chips online."
+      }
+    },
+    {
+      "id": 71,
+      "productName": "Too Yumm Munchy Masala Karare",
+      "slug": "too-yumm-munchy-masala-karare",
+      "brand": "Too Yumm!",
+      "category": "Namkeen",
+      "subCategory": "Karare Snacks",
+      "weight": "80 g",
+      "mrp": 25,
+      "sellingPrice": 18,
+      "discountPercentage": 28,
+      "description": "Crunchy and flavourful karare snacks with a spicy munchy masala seasoning.",
+      "highlights": [
+        "Munchy masala flavour",
+        "Crunchy texture",
+        "Spicy Indian seasoning",
+        "Perfect snack for tea time"
+      ],
+      "images": [
+        "https://5.imimg.com/data5/SELLER/Default/2023/12/368196310/BW/HB/FK/23726055/whatsapp-image-2023-12-13-at-7-28-17-pm.jpeg"
+      ],
+      "specifications": {
+        "brand": "Too Yumm!",
+        "flavour": "Munchy Masala",
+        "netQuantity": "80 g",
+        "foodType": "Vegetarian",
+        "snackType": "Karare"
+      },
+      "pricing": {
+        "mrp": 25,
+        "sellingPrice": 18,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 17
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 16
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 15
+        }
+      ],
+      "stock": 1200,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Too Yumm Munchy Masala Karare",
+        "description": "Buy crunchy Too Yumm Munchy Masala Karare online."
+      }
+    },
+    {
+      "id": 72,
+      "productName": "Too Yumm Extra Cheesy Crunchy Cornado",
+      "slug": "too-yumm-extra-cheesy-crunchy-cornado",
+      "brand": "Too Yumm!",
+      "category": "Wafers & Chips",
+      "subCategory": "Corn Snacks",
+      "weight": "50 g",
+      "mrp": 35,
+      "sellingPrice": 24,
+      "discountPercentage": 31,
+      "description": "Crunchy corn snack with a delicious extra cheesy flavour, perfect for quick snacking.",
+      "highlights": [
+        "Extra cheesy flavour",
+        "Crunchy corn snack",
+        "Crispy texture",
+        "Ready to eat",
+        "Perfect for snack time"
+      ],
+      "images": [
+        "https://tooyumm.com/cdn/shop/files/1_75daac37-48fe-4d7e-9c0e-e24a1b819fdd.jpg?v=1772618992"
+      ],
+      "specifications": {
+        "brand": "Too Yumm!",
+        "flavour": "Extra Cheesy",
+        "netQuantity": "50 g",
+        "foodType": "Vegetarian",
+        "snackType": "Corn Snack"
+      },
+      "pricing": {
+        "mrp": 35,
+        "sellingPrice": 24,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 23
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 21
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 19
+        }
+      ],
+      "stock": 950,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.3,
+      "seo": {
+        "title": "Too Yumm Extra Cheesy Crunchy Cornado",
+        "description": "Buy Too Yumm Extra Cheesy Crunchy Cornado online."
+      }
+    },
+    {
+      "id": 73,
+      "productName": "Too Yumm! Classic Salted Potato Chips",
+      "slug": "too-yumm-classic-salted-potato-chips",
+      "brand": "Too Yumm!",
+      "category": "Wafers & Chips",
+      "subCategory": "Potato Chips",
+      "weight": "50 g",
+      "mrp": 30,
+      "sellingPrice": 27,
+      "discountPercentage": 10,
+      "description": "Crispy potato chips with a classic salted flavour, perfect for everyday snacking.",
+      "highlights": [
+        "Classic salted flavour",
+        "Crispy potato chips",
+        "Perfect tea-time snack",
+        "Ready to eat"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/71eYOvsWczL.jpg"
+      ],
+      "specifications": {
+        "brand": "Too Yumm!",
+        "flavour": "Classic Salted",
+        "netQuantity": "50 g",
+        "foodType": "Vegetarian",
+        "snackType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 30,
+        "sellingPrice": 27,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 25
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 23
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 21
+        }
+      ],
+      "stock": 1000,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Too Yumm Classic Salted Potato Chips",
+        "description": "Buy crispy Too Yumm Classic Salted Potato Chips online."
+      }
+    },
+    {
+      "id": 74,
+      "productName": "Too Yumm! Spicy Masala Multigrain Chips",
+      "slug": "too-yumm-spicy-masala-multigrain-chips",
+      "brand": "Too Yumm!",
+      "category": "Wafers & Chips",
+      "subCategory": "Multigrain Chips",
+      "weight": "70 g",
+      "mrp": 35,
+      "sellingPrice": 32,
+      "discountPercentage": 45,
+      "description": "Crunchy multigrain chips seasoned with a bold and spicy masala flavour.",
+      "highlights": [
+        "Spicy masala flavour",
+        "Multigrain chips",
+        "Crunchy texture",
+        "Great anytime snack"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/617V+-AX95L._AC_UF894,1000_QL80_AIweblab1381794,T1_.jpg"
+      ],
+      "specifications": {
+        "brand": "Too Yumm!",
+        "flavour": "Spicy Masala",
+        "netQuantity": "70 g",
+        "foodType": "Vegetarian",
+        "snackType": "Multigrain Chips"
+      },
+      "pricing": {
+        "mrp": 35,
+        "sellingPrice": 32,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 30
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 28
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 26
+        }
+      ],
+      "stock": 850,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Too Yumm Spicy Masala Multigrain Chips",
+        "description": "Shop crispy Too Yumm Spicy Masala Multigrain Chips online."
+      }
+    },
+    {
+      "id": 75,
+      "productName": "Too Yumm! Multigrain Chips Combo",
+      "slug": "too-yumm-multigrain-chips-combo",
+      "brand": "Too Yumm!",
+      "category": "Wafers & Chips",
+      "subCategory": "Combo Packs",
+      "weight": "280 g",
+      "mrp": 140,
+      "sellingPrice": 125,
+      "discountPercentage": 11,
+      "description": "A delicious assorted combo of Too Yumm multigrain chips in different flavours.",
+      "highlights": [
+        "Multiple flavours",
+        "Multigrain chips",
+        "Perfect party snack",
+        "Great for family sharing"
+      ],
+      "images": [
+        "https://tooyumm.com/cdn/shop/files/Portfolio.png?crop=center&height=2048&v=1765886714&width=2048"
+      ],
+      "specifications": {
+        "brand": "Too Yumm!",
+        "flavour": "Mixed Flavours",
+        "netQuantity": "280 g",
+        "foodType": "Vegetarian",
+        "snackType": "Chips Combo",
+        "comboItems": [
+          "Dahi Papdi Chaat Multigrain Chips",
+          "Chilli Lemon Multigrain Chips",
+          "Spicy Masala Multigrain Chips",
+          "Sour Cream & Onion Veggie Stix"
+        ]
+      },
+      "pricing": {
+        "mrp": 140,
+        "sellingPrice": 125,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 20,
+          "pricePerUnit": 118
+        },
+        {
+          "minQty": 50,
+          "pricePerUnit": 112
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 105
+        }
+      ],
+      "stock": 500,
+      "unit": "combo",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "Too Yumm Multigrain Chips Combo",
+        "description": "Buy assorted Too Yumm multigrain chips combo online."
+      }
+    },
+    {
+      "id": 76,
+      "productName": "Beyond Snack Kerala Banana Chips Original Style",
+      "slug": "beyond-snack-kerala-banana-chips-original-style",
+      "brand": "Beyond Snack",
+      "category": "Wafers & Chips",
+      "subCategory": "Banana Chips",
+      "weight": "100 g",
+      "mrp": 99,
+      "sellingPrice": 89,
+      "discountPercentage": 10,
+      "description": "Crispy Kerala banana chips made in traditional Kerala style with thinly sliced bananas and a delicious crunchy texture.",
+      "highlights": [
+        "Authentic Kerala style banana chips",
+        "Thin and crispy slices",
+        "Crunchy texture",
+        "Original style flavour",
+        "Perfect tea-time snack"
+      ],
+      "images": [
+        "https://www.beyondsnack.in/cdn/shop/files/Original_Style_Front_1.png?v=1758704881&width=1200"
+      ],
+      "specifications": {
+        "brand": "Beyond Snack",
+        "flavour": "Original Style",
+        "netQuantity": "100 g",
+        "foodType": "Vegetarian",
+        "snackType": "Banana Chips",
+        "origin": "Kerala"
+      },
+      "pricing": {
+        "mrp": 99,
+        "sellingPrice": 89,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 84
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 79
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 74
+        }
+      ],
+      "stock": 800,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "Beyond Snack Kerala Banana Chips Original Style",
+        "description": "Buy crispy Beyond Snack Kerala Banana Chips Original Style online."
+      }
+    },
+    {
+      "id": 77,
+      "productName": "5 PM Banana Chips Classic Salted",
+      "slug": "5-pm-banana-chips-classic-salted",
+      "brand": "5 PM",
+      "category": "Wafers & Chips",
+      "subCategory": "Banana Chips",
+      "weight": "400 g",
+      "mrp": 299,
+      "sellingPrice": 269,
+      "discountPercentage": 25,
+      "description": "Crispy banana chips made from fresh bananas, finely sliced and fried for a delicious crunchy snack with a classic salted flavour.",
+      "highlights": [
+        "Classic salted banana chips",
+        "Fresh bananas finely sliced",
+        "Crispy and crunchy texture",
+        "No preservatives added",
+        "No artificial colours",
+        "Premium quality snack"
+      ],
+      "images": [
+        "https://www.515pm.in/cdn/shop/files/B08XLTV1DJ.MAIN_1.jpg?v=1760330763&width=1946"
+      ],
+      "specifications": {
+        "brand": "5 PM",
+        "flavour": "Classic Salted",
+        "netQuantity": "400 g",
+        "foodType": "Vegetarian",
+        "snackType": "Banana Chips",
+        "origin": "India"
+      },
+      "pricing": {
+        "mrp": 299,
+        "sellingPrice": 269,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 20,
+          "pricePerUnit": 255
+        },
+        {
+          "minQty": 50,
+          "pricePerUnit": 245
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 230
+        }
+      ],
+      "stock": 700,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.7,
+      "seo": {
+        "title": "5 PM Banana Chips Classic Salted 400g",
+        "description": "Buy 5 PM Classic Salted Banana Chips 400g online. Crispy and crunchy banana chips for delicious snacking."
+      }
+    },
+    {
+      "id": 78,
+      "productName": "Crispy Beetroot Chips",
+      "slug": "crispy-beetroot-chips",
+      "brand": "Healthy Bites",
+      "category": "Wafers & Chips",
+      "subCategory": "Vegetable Chips",
+      "weight": "100 g",
+      "mrp": 149,
+      "sellingPrice": 129,
+      "discountPercentage": 13,
+      "description": "Crispy beetroot chips made from thinly sliced beetroot with a delicious lightly salted flavour, perfect for guilt-free style snacking.",
+      "highlights": [
+        "Made from beetroot",
+        "Thin and crispy slices",
+        "Lightly salted flavour",
+        "Crunchy texture",
+        "Perfect anytime snack",
+        "Ready to eat"
+      ],
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdJgqoy0YbKdIEtwW42X0wL-p8VHTXIaj39uKY8Bix-oiRgUDeh6d3H8U&s=10"
+      ],
+      "specifications": {
+        "brand": "Healthy Bites",
+        "flavour": "Classic Salted",
+        "netQuantity": "100 g",
+        "foodType": "Vegetarian",
+        "snackType": "Vegetable Chips",
+        "mainIngredient": "Beetroot"
+      },
+      "pricing": {
+        "mrp": 149,
+        "sellingPrice": 129,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 20,
+          "pricePerUnit": 122
+        },
+        {
+          "minQty": 50,
+          "pricePerUnit": 115
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 108
+        }
+      ],
+      "stock": 600,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Crispy Beetroot Chips 100g",
+        "description": "Buy crispy beetroot chips online. Delicious and crunchy vegetable chips for everyday snacking."
+      }
+    },
+    {
+      "id": 79,
+      "productName": "Too Yumm! Smoking Hot Bhoot Chips",
+      "slug": "too-yumm-smoking-hot-bhoot-chips",
+      "brand": "Too Yumm!",
+      "category": "Wafers & Chips",
+      "subCategory": "Spicy Chips",
+      "weight": "50 g",
+      "mrp": 35,
+      "sellingPrice": 32,
+      "discountPercentage": 35,
+      "description": "Extremely spicy and crunchy potato chips created with Naagin hot sauce for a bold and fiery snacking experience.",
+      "highlights": [
+        "Smoking hot flavour",
+        "Created with Naagin hot sauce",
+        "Extremely spicy taste",
+        "Crispy potato chips",
+        "Bold and fiery flavour",
+        "Ready to eat"
+      ],
+      "images": [
+        "https://5.imimg.com/data5/SELLER/Default/2023/12/368322289/EP/MF/HE/23726055/too-yumm-bhoot-potato-flavoured-chips-500x500.jpg"
+      ],
+      "specifications": {
+        "brand": "Too Yumm!",
+        "flavour": "Naagin Hot Sauce",
+        "netQuantity": "50 g",
+        "foodType": "Vegetarian",
+        "snackType": "Spicy Potato Chips",
+        "spiceLevel": "Extra Spicy"
+      },
+      "pricing": {
+        "mrp": 35,
+        "sellingPrice": 32,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 30
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 28
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 26
+        }
+      ],
+      "stock": 700,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Too Yumm Smoking Hot Bhoot Chips",
+        "description": "Buy Too Yumm Smoking Hot Bhoot Chips created with Naagin Hot Sauce online."
+      }
+    },
+    {
+      "id": 80,
+      "productName": "Bingo! Thriller Tomato Chips",
+      "slug": "bingo-thriller-tomato-chips",
+      "brand": "Bingo!",
+      "category": "Wafers & Chips",
+      "subCategory": "Potato Chips",
+      "weight": "50 g",
+      "mrp": 30,
+      "sellingPrice": 27,
+      "discountPercentage": 40,
+      "description": "Crispy potato chips with a bold and tangy tomato flavour for an exciting snacking experience.",
+      "highlights": [
+        "Tangy tomato flavour",
+        "Crispy potato chips",
+        "Bold seasoning",
+        "Ready to eat"
+      ],
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlqqryDK1E7PKD5fH87nHzj8vFNCo-BBB1ckNfRI1BNep5XevHWL_V9Mw&s=10"
+      ],
+      "specifications": {
+        "brand": "Bingo!",
+        "flavour": "Thriller Tomato",
+        "netQuantity": "50 g",
+        "foodType": "Vegetarian",
+        "snackType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 30,
+        "sellingPrice": 27,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 25
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 23
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 21
+        }
+      ],
+      "stock": 900,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Bingo Thriller Tomato Chips",
+        "description": "Buy crispy Bingo Thriller Tomato Chips online."
+      }
+    },
+    {
+      "id": 81,
+      "productName": "Bingo! Masala Massacre Chips",
+      "slug": "bingo-masala-massacre-chips",
+      "brand": "Bingo!",
+      "category": "Wafers & Chips",
+      "subCategory": "Potato Chips",
+      "weight": "50 g",
+      "mrp": 30,
+      "sellingPrice": 27,
+      "discountPercentage": 25,
+      "description": "Crunchy potato chips packed with a bold and spicy masala flavour.",
+      "highlights": [
+        "Spicy masala flavour",
+        "Crunchy potato chips",
+        "Bold Indian seasoning",
+        "Perfect snack"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/71aWkWis0DL._AC_UF894,1000_QL80_.jpg"
+      ],
+      "specifications": {
+        "brand": "Bingo!",
+        "flavour": "Masala Massacre",
+        "netQuantity": "50 g",
+        "foodType": "Vegetarian",
+        "snackType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 30,
+        "sellingPrice": 27,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 25
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 23
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 21
+        }
+      ],
+      "stock": 850,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.6,
+      "seo": {
+        "title": "Bingo Masala Massacre Chips",
+        "description": "Shop spicy and crunchy Bingo Masala Massacre Chips."
+      }
+    },
+    {
+      "id": 82,
+      "productName": "Bingo! Banjing Butter & Garlic Chips",
+      "slug": "bingo-banjing-butter-garlic-chips",
+      "brand": "Bingo!",
+      "category": "Wafers & Chips",
+      "subCategory": "Flavoured Chips",
+      "weight": "50 g",
+      "mrp": 30,
+      "sellingPrice": 27,
+      "discountPercentage": 10,
+      "description": "Crispy chips with a rich combination of buttery flavour and aromatic garlic seasoning.",
+      "highlights": [
+        "Butter & garlic flavour",
+        "Crispy texture",
+        "Rich seasoning",
+        "Ready to eat"
+      ],
+      "images": [
+        "https://rukmini1.flixcart.com/image/1500/1500/xif0q/chips/s/l/r/-original-imahhnpfeswszeks.jpeg?q=70"
+      ],
+      "specifications": {
+        "brand": "Bingo!",
+        "flavour": "Butter & Garlic",
+        "netQuantity": "50 g",
+        "foodType": "Vegetarian",
+        "snackType": "Flavoured Chips"
+      },
+      "pricing": {
+        "mrp": 30,
+        "sellingPrice": 27,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 25
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 23
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 21
+        }
+      ],
+      "stock": 800,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Bingo Banjing Butter Garlic Chips",
+        "description": "Buy crispy Bingo Butter Garlic Chips online."
+      }
+    },
+    {
+      "id": 83,
+      "productName": "Bingo! Knockin Korean Chips",
+      "slug": "bingo-knockin-korean-chips",
+      "brand": "Bingo!",
+      "category": "Wafers & Chips",
+      "subCategory": "Flavoured Chips",
+      "weight": "50 g",
+      "mrp": 30,
+      "sellingPrice": 27,
+      "discountPercentage": 30,
+      "description": "Crispy potato chips inspired by bold Korean-style flavours and seasoning.",
+      "highlights": [
+        "Korean-inspired flavour",
+        "Bold seasoning",
+        "Crispy potato chips",
+        "Unique flavour experience"
+      ],
+      "images": [
+        "https://www.bbassets.com/media/uploads/p/l/40361478_2-bingo-knockin-korean-style-potato-chips.jpg"
+      ],
+      "specifications": {
+        "brand": "Bingo!",
+        "flavour": "Korean Style",
+        "netQuantity": "50 g",
+        "foodType": "Vegetarian",
+        "snackType": "Flavoured Chips"
+      },
+      "pricing": {
+        "mrp": 30,
+        "sellingPrice": 27,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 25
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 23
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 21
+        }
+      ],
+      "stock": 750,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Bingo Knockin Korean Chips",
+        "description": "Shop crunchy Bingo Knockin Korean Chips online."
+      }
+    },
+    {
+      "id": 84,
+      "productName": "Bingo! Crushin Pink Salt Chips",
+      "slug": "bingo-crushin-pink-salt-chips",
+      "brand": "Bingo!",
+      "category": "Wafers & Chips",
+      "subCategory": "Potato Chips",
+      "weight": "50 g",
+      "mrp": 30,
+      "sellingPrice": 27,
+      "discountPercentage": 45,
+      "description": "Crunchy potato chips seasoned with pink salt for a simple and delicious flavour.",
+      "highlights": [
+        "Pink salt flavour",
+        "Crispy potato chips",
+        "Light seasoning",
+        "Crunchy texture"
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/71kQ4bEHpsL.jpg"
+      ],
+      "specifications": {
+        "brand": "Bingo!",
+        "flavour": "Pink Salt",
+        "netQuantity": "50 g",
+        "foodType": "Vegetarian",
+        "snackType": "Potato Chips"
+      },
+      "pricing": {
+        "mrp": 30,
+        "sellingPrice": 27,
+        "currency": "INR"
+      },
+      "bulkPricing": [
+        {
+          "minQty": 50,
+          "pricePerUnit": 25
+        },
+        {
+          "minQty": 100,
+          "pricePerUnit": 23
+        },
+        {
+          "minQty": 500,
+          "pricePerUnit": 21
+        }
+      ],
+      "stock": 800,
+      "unit": "pack",
+      "status": "active",
+      "featured": true,
+      "gst": 12,
+      "rating": 4.5,
+      "seo": {
+        "title": "Bingo Crushin Pink Salt Chips",
+        "description": "Buy crispy Bingo Crushin Pink Salt Chips online."
+      }
     }
-  ],
-  "stock": 5000,
-  "unit": "packet",
-  "status": "active",
-  "featured": true,
-  "gst": 12,
-  "rating": 4.5,
-  "seo": {
-    "title": "Let's Try Namkeen Combo 162g",
-    "description": "Buy Let's Try Namkeen Combo online at wholesale prices."
-  }
-}
- ]
+  ]
 }
