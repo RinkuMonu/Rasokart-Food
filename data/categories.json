@@ -7,7 +7,8 @@
     "subCategories": [
       { "name": "Chips & Crisps", "slug": "chips-crisps" },
       { "name": "Nachos", "slug": "nachos" },
-      { "name": "Wafers", "slug": "wafers" }
+      { "name": "Wafers", "slug": "wafers" },
+      { "name": "Kurkure & Extruded", "slug": "kurkure" }
     ]
   },
   {
@@ -19,63 +20,6 @@
       { "name": "Bhujia & Mixtures", "slug": "bhujia-mixtures" },
       { "name": "Sev", "slug": "sev" },
       { "name": "Peanuts", "slug": "peanuts" }
-    ]
-  },
-  {
-    "id": "biscuits",
-    "slug": "biscuits",
-    "name": "Biscuits",
-    "image": "/images/categories/biscuits.svg",
-    "subCategories": [
-      { "name": "Cookies", "slug": "cookies" },
-      { "name": "Cream Biscuits", "slug": "cream-biscuits" },
-      { "name": "Digestive", "slug": "digestive" },
-      { "name": "Salty Biscuits", "slug": "salty-biscuits" }
-    ]
-  },
-  {
-    "id": "chocolates",
-    "slug": "chocolates",
-    "name": "Chocolates",
-    "image": "/images/categories/chocolates.svg",
-    "subCategories": [
-      { "name": "Dark Chocolate", "slug": "dark-chocolate" },
-      { "name": "Milk Chocolate", "slug": "milk-chocolate" },
-      { "name": "Assorted & Gifting", "slug": "assorted-gifting" }
-    ]
-  },
-  {
-    "id": "cold-drinks",
-    "slug": "cold-drinks",
-    "name": "Cold Drinks",
-    "image": "/images/categories/cold-drinks.svg",
-    "subCategories": [
-      { "name": "Soft Drinks", "slug": "soft-drinks" },
-      { "name": "Juices", "slug": "juices" },
-      { "name": "Energy Drinks", "slug": "energy-drinks" }
-    ]
-  },
-  {
-    "id": "beverages",
-    "slug": "beverages",
-    "name": "Beverages",
-    "image": "/images/categories/beverages.svg",
-    "subCategories": [
-      { "name": "Tea", "slug": "tea" },
-      { "name": "Coffee", "slug": "coffee" },
-      { "name": "Health Drinks", "slug": "health-drinks" }
-    ]
-  },
-  {
-    "id": "grocery",
-    "slug": "grocery",
-    "name": "Grocery",
-    "image": "/images/categories/grocery.svg",
-    "subCategories": [
-      { "name": "Dals & Pulses", "slug": "dals-pulses" },
-      { "name": "Rice & Grains", "slug": "rice-grains" },
-      { "name": "Spices & Masalas", "slug": "spices-masalas" },
-      { "name": "Cooking Oil", "slug": "cooking-oil" }
     ]
   }
 ]

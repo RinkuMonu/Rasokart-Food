@@ -16,17 +16,6 @@ import { usePathname } from 'next/navigation';
 import { useCart } from '@/lib/cart-context';
 import { useWishlist } from '@/hooks/useWishlist';
 import productsData from '@/data/products.json';
-import categoriesData from '@/data/categories.json';
-
-// We map the JSON data so it includes subCategories safely (defaulting to empty array if missing)
-const horizontalNavCategories = categoriesData.map(cat => ({
-  name: cat.name,
-  slug: cat.slug,
-  href: `/products?category=${cat.slug}`,
-  subCategories: cat.subCategories || []
-}));
-
-const allNavCategories = horizontalNavCategories;
 
 export function Navigation() {
   const [query, setQuery] = useState('');
@@ -246,79 +235,66 @@ export function Navigation() {
         <div className="max-w-7xl mx-auto px-4">
           <nav className="flex items-center justify-between w-full h-[46px] md:min-w-0 min-w-max">
             
-            {/* All Categories Dropdown */}
-            <div className="relative group h-full flex items-center pr-4 border-r border-gray-100">
-              <Link 
-                href="/products"
-                className={`flex items-center gap-2 text-[15px] font-bold transition relative h-full ${
-                  pathname === '/products' ? 'text-green-700' : 'text-gray-800 hover:text-green-600'
-                }`}
+            {/* Left Links */}
+            <div className="flex items-center gap-4 lg:gap-6 h-full">
+              <Link
+                href="/"
+                className="flex items-center text-[14px] font-bold text-green-600 transition relative h-full px-2"
               >
-                <LayoutGrid size={18} className={pathname === '/products' ? 'text-green-600' : 'text-green-600 group-hover:text-green-700 transition'} />
-                <span>All Categories</span>
-                <ChevronDown size={16} className="text-gray-400 group-hover:rotate-180 transition-transform duration-200" />
-                <div className={`absolute bottom-0 left-0 w-full h-[3px] bg-green-500 rounded-t-md transition-transform duration-300 origin-left ${
-                  pathname === '/products' ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
-                }`} />
+                Home
+                <div className="absolute bottom-0 left-0 w-full h-[3px] bg-yellow-400" />
               </Link>
               
-              {/* Massive All Categories Dropdown */}
-              <div className="absolute top-full left-0 w-64 bg-white border border-gray-100 rounded-b-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 overflow-hidden transform origin-top scale-95 group-hover:scale-100">
-                <div className="py-2">
-                  {allNavCategories.map((cat, idx) => (
-                    <Link
-                      key={idx}
-                      href={cat.href}
-                      className="flex items-center justify-between px-5 py-3 text-sm font-medium text-gray-700 hover:bg-green-50 hover:text-green-700 transition-colors"
-                    >
-                      {cat.name}
-                      {cat.subCategories.length > 0 && <span className="text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full">{cat.subCategories.length}</span>}
-                    </Link>
-                  ))}
-                </div>
-              </div>
+              <Link
+                href="/products"
+                className="flex items-center text-[14px] font-medium text-gray-600 hover:text-gray-900 transition relative h-full px-2"
+              >
+                All Snacks
+              </Link>
             </div>
 
-            {/* Dynamic & Static Categories with Subcategory Dropdowns */}
-            {horizontalNavCategories.map((cat) => {
-              // Extract the category param from URL if we were using a real router hook, 
-              // but since this is just UI styling based on pathname, it's ok.
-              const isActive = false; // We can improve active state checking if needed
-              
-              return (
-                <div key={cat.name} className="relative group h-full">
-                  <Link
-                    href={cat.href}
-                    className={`flex items-center gap-1 text-[14px] font-medium transition relative h-full px-2 ${
-                      isActive ? 'text-green-600' : 'text-gray-700 hover:text-green-600'
-                    }`}
-                  >
-                    {cat.name}
-                    {cat.subCategories.length > 0 && (
-                      <ChevronDown size={14} className="text-gray-400 group-hover:rotate-180 transition-transform duration-200" />
-                    )}
-                    <div className={`absolute bottom-0 left-0 w-full h-[3px] bg-green-500 rounded-t-md transition-transform duration-300 origin-left scale-x-0 group-hover:scale-x-100`} />
-                  </Link>
+            <div className="h-4 w-px bg-gray-200 mx-2" />
 
-                  {/* Subcategory Dropdown (Enlarged) */}
-                  {cat.subCategories.length > 0 && (
-                    <div className="absolute top-full left-0 w-56 bg-white border border-gray-100 rounded-xl shadow-[0_10px_40px_-10px_rgba(0,0,0,0.1)] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 overflow-hidden transform origin-top scale-95 group-hover:scale-100 mt-2">
-                      <div className="py-2">
-                        {cat.subCategories.map((sub: any, idx: number) => (
-                          <Link
-                            key={idx}
-                            href={`${cat.href}&sub=${sub.slug}`}
-                            className="block px-5 py-3 text-[15px] font-medium text-gray-700 hover:bg-green-50 hover:text-green-700 transition-colors border-b border-gray-50 last:border-0"
-                          >
-                            {sub.name}
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              );
-            })}
+            {/* Center Category Links */}
+            <div className="flex items-center justify-center gap-4 lg:gap-6 h-full flex-1">
+              {[
+                { name: 'Bhujia & Mixtures', slug: 'bhujia-mixtures' },
+                { name: 'Chips & Crisps', slug: 'chips-crisps' },
+                { name: 'Nachos', slug: 'nachos' },
+                { name: 'Namkeen', slug: 'namkeen' },
+                { name: 'Wafers', slug: 'wafers' },
+                { name: 'Wafers & Chips', slug: 'wafers-chips' }
+              ].map((cat) => (
+                <Link
+                  key={cat.name}
+                  href={`/products?category=${cat.slug}`}
+                  className="group flex items-center text-[14px] font-medium text-gray-600 hover:text-gray-900 transition relative h-full px-2"
+                >
+                  {cat.name}
+                  <div className="absolute bottom-0 left-0 w-full h-[3px] bg-green-500 rounded-t-md transition-transform duration-300 origin-left scale-x-0 group-hover:scale-x-100" />
+                </Link>
+              ))}
+            </div>
+
+            <div className="h-4 w-px bg-gray-200 mx-2" />
+
+            {/* Right Links */}
+            <div className="flex items-center gap-4 lg:gap-6 h-full">
+              <Link
+                href="/products?sort=best-sellers"
+                className="flex items-center text-[14px] font-medium text-gray-600 hover:text-gray-900 transition relative h-full px-2"
+              >
+                Best Sellers
+              </Link>
+              
+              <Link
+                href="/products?sort=deals"
+                className="flex items-center gap-1.5 text-[14px] font-medium text-gray-600 hover:text-gray-900 transition relative h-full px-2 pr-4"
+              >
+                <span className="bg-red-500 text-white text-[9px] px-1.5 py-[2px] rounded-full font-bold leading-none flex items-center justify-center tracking-wider">HOT</span>
+                Deals
+              </Link>
+            </div>
 
           </nav>
         </div>
