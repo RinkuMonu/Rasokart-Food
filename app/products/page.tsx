@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, Suspense } from 'react';
+import { useSearchParams, useRouter } from 'next/navigation';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import { ProductCard } from '@/components/ProductCard';
@@ -9,7 +10,10 @@ import { motion } from 'framer-motion';
 import productsData from '@/data/products.json';
 import categoriesData from '@/data/categories.json';
 
-export default function ProductsPage() {
+function ProductsContent() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
   const [sortBy, setSortBy] = useState('featured');
@@ -25,68 +29,63 @@ export default function ProductsPage() {
           .filter((cat): cat is string => Boolean(cat))
       )
     ).sort();
-    return unique;
+    
+    // Also include static categories so they show up in the sidebar even if empty
+    categoriesData.forEach(c => {
+      if (!unique.includes(c.name)) unique.push(c.name);
+    });
+    
+    return unique.sort();
   }, [products]);
 
-  // Sync category from URL query parameters (slugs) if present or when history changes
+  // Sync category from URL query parameters reactively
   useEffect(() => {
-    const syncFromUrl = () => {
-      if (typeof window !== 'undefined') {
-        const params = new URLSearchParams(window.location.search);
-        const catParam = params.get('category');
-        if (catParam) {
-          const catInfo = categoriesData.find(
-            (c) =>
-              c.id === catParam ||
-              c.slug === catParam ||
-              c.name.toLowerCase() === catParam.toLowerCase()
-          );
-          const matched =
-            catInfo?.name ||
-            categories.find(
-              (c) =>
-                c.toLowerCase() === catParam.toLowerCase() ||
-                c.toLowerCase().replace(/[^a-z0-9]+/g, '-') === catParam.toLowerCase()
-            );
-          if (matched) {
-            setSelectedCategory(matched);
-          } else {
-            setSelectedCategory(catParam);
-          }
-        } else {
-          setSelectedCategory('');
-        }
-      }
-    };
-
-    syncFromUrl();
-    window.addEventListener('popstate', syncFromUrl);
-    return () => window.removeEventListener('popstate', syncFromUrl);
-  }, [categories]);
-
-  // Update selected category and update URL slug in browser address bar
-  const handleCategorySelect = (categoryName: string) => {
-    setSelectedCategory(categoryName);
-
-    if (typeof window !== 'undefined') {
-      const url = new URL(window.location.href);
-      if (categoryName) {
-        const catInfo = categoriesData.find(
-          (c) => c.name.trim().toLowerCase() === categoryName.trim().toLowerCase()
+    const catParam = searchParams.get('category');
+    if (catParam) {
+      const catInfo = categoriesData.find(
+        (c) =>
+          c.id === catParam ||
+          c.slug === catParam ||
+          c.name.toLowerCase() === catParam.toLowerCase()
+      );
+      const matched =
+        catInfo?.name ||
+        categories.find(
+          (c) =>
+            c.toLowerCase() === catParam.toLowerCase() ||
+            c.toLowerCase().replace(/[^a-z0-9]+/g, '-') === catParam.toLowerCase()
         );
-        const slug =
-          catInfo?.slug ||
-          catInfo?.id ||
-          categoryName
-            .toLowerCase()
-            .replace(/[^a-z0-9]+/g, '-')
-            .replace(/(^-|-$)/g, '');
-        url.searchParams.set('category', slug);
+      if (matched) {
+        setSelectedCategory(matched);
       } else {
-        url.searchParams.delete('category');
+        setSelectedCategory(catParam);
       }
-      window.history.pushState(null, '', url.toString());
+    } else {
+      setSelectedCategory('');
     }
+  }, [searchParams, categories]);
+
+  // Update selected category and update URL
+  const handleCategorySelect = (categoryName: string) => {
+    const params = new URLSearchParams(searchParams.toString());
+    
+    if (categoryName) {
+      const catInfo = categoriesData.find(
+        (c) => c.name.trim().toLowerCase() === categoryName.trim().toLowerCase()
+      );
+      const slug =
+        catInfo?.slug ||
+        catInfo?.id ||
+        categoryName
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/(^-|-$)/g, '');
+      params.set('category', slug);
+    } else {
+      params.delete('category');
+    }
+    
+    router.push(`/products?${params.toString()}`);
   };
 
   const handleClearFilters = () => {
@@ -321,5 +320,13 @@ export default function ProductsPage() {
       </main>
       <Footer />
     </>
+  );
+}
+
+export default function ProductsPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+      <ProductsContent />
+    </Suspense>
   );
 }

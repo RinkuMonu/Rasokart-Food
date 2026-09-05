@@ -1,13 +1,15 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import {
   TrendingDown,
   Award,
   Truck,
   Users,
   Leaf,
-  Sparkles
+  Sparkles,
+  ChevronDown
 } from 'lucide-react';
 import benefitsData from '@/data/benefits.json';
 
@@ -49,6 +51,8 @@ const iconColors = [
 ];
 
 export function BenefitsSection() {
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -135,7 +139,7 @@ export function BenefitsSection() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-7"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-7 items-start"
         >
           {benefitsData.benefits.map((benefit, index) => {
             const IconComponent = icons[index];
@@ -148,7 +152,8 @@ export function BenefitsSection() {
                 key={benefit.title}
                 variants={itemVariants}
                 whileHover={{ y: -6, transition: { duration: 0.2 } }}
-                className="group relative flex flex-col bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden"
+                onClick={() => setExpandedIndex(expandedIndex === index ? null : index)}
+                className="group relative flex flex-col bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden cursor-pointer"
               >
                 {/* Top accent gradient line */}
                 <div
@@ -184,6 +189,35 @@ export function BenefitsSection() {
                   <p className="text-sm sm:text-[15px] text-gray-500 leading-relaxed">
                     {benefit.description}
                   </p>
+
+                  {/* Read More Toggle */}
+                  <div className="mt-4 flex items-center gap-1 text-sm font-semibold text-green-700">
+                    {expandedIndex === index ? 'Read less' : 'Read more'}
+                    <ChevronDown 
+                      size={16} 
+                      className={`transition-transform duration-300 ${expandedIndex === index ? 'rotate-180' : ''}`}
+                    />
+                  </div>
+
+                  {/* Expanded Detail */}
+                  <AnimatePresence>
+                    {expandedIndex === index && (
+                      <motion.div
+                        initial={{ opacity: 0, height: 0, marginTop: 0 }}
+                        animate={{ opacity: 1, height: 'auto', marginTop: 16 }}
+                        exit={{ opacity: 0, height: 0, marginTop: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="overflow-hidden"
+                      >
+                        <div className="pt-4 border-t border-gray-100">
+                          <p className="text-sm text-gray-700 font-medium leading-relaxed">
+                            {/* @ts-ignore - detail added dynamically to json */}
+                            {benefit.detail}
+                          </p>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
 
                 </div>
               </motion.div>
