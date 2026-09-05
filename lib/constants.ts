@@ -55,29 +55,3 @@ export const CATEGORIES = [
   }
 ];
 
-export const BENEFITS = [
-  {
-    title: 'Bulk Savings',
-    description: 'Save up to 30% with our wholesale pricing on large orders'
-  },
-  {
-    title: 'Premium Quality',
-    description: 'Hand-selected ingredients sourced from trusted local and international suppliers'
-  },
-  {
-    title: 'Reliable Delivery',
-    description: 'Consistent, on-time delivery with flexible scheduling options'
-  },
-  {
-    title: 'Expert Support',
-    description: 'Dedicated account managers to help optimize your sourcing'
-  },
-  {
-    title: 'Sustainability',
-    description: 'Commitment to sustainable sourcing and eco-friendly practices'
-  },
-  {
-    title: 'Variety',
-    description: 'Extensive selection of specialty and organic ingredients'
-  }
-];

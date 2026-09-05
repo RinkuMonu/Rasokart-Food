@@ -9,7 +9,7 @@ import {
   Leaf,
   Sparkles
 } from 'lucide-react';
-import { BENEFITS } from '@/lib/constants';
+import benefitsData from '@/data/benefits.json';
 
 const icons = [
   TrendingDown,
@@ -69,7 +69,7 @@ export function BenefitsSection() {
   };
 
   return (
-    <section className="relative py-20 lg:py-24 overflow-hidden bg-gradient-to-b from-[#f9f6f0] via-white to-[#f3f8f4]">
+    <section className="relative py-10 lg:py-12 overflow-hidden bg-gradient-to-b from-[#f9f6f0] via-white to-[#f3f8f4]">
 
       {/* Decorative background blobs */}
       <div
@@ -137,7 +137,7 @@ export function BenefitsSection() {
           viewport={{ once: true }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-7"
         >
-          {BENEFITS.map((benefit, index) => {
+          {benefitsData.benefits.map((benefit, index) => {
             const IconComponent = icons[index];
             const accentGradient = accentColors[index % accentColors.length];
             const iconBg = iconBgColors[index % iconBgColors.length];
