@@ -2,27 +2,33 @@
   "benefits": [
     {
       "title": "Bulk Savings",
-      "description": "Save up to 30% with our wholesale pricing on large orders"
+      "description": "Save up to 30% with our wholesale pricing on large orders",
+      "detail": "Enjoy tiered discounts as your order volume increases. We offer customized pricing for B2B partners, no hidden fees, and transparent bulk discount structures."
     },
     {
       "title": "Premium Quality",
-      "description": "Hand-selected ingredients sourced from trusted local and international suppliers"
+      "description": "Hand-selected ingredients sourced from trusted local and international suppliers",
+      "detail": "Our quality control team rigorously tests every batch. We source directly from top manufacturers and farms ensuring 100% authentic and fresh products."
     },
     {
       "title": "Reliable Delivery",
-      "description": "Consistent, on-time delivery with flexible scheduling options"
+      "description": "Consistent, on-time delivery with flexible scheduling options",
+      "detail": "Track your orders in real-time. We have a robust logistics network that ensures your stock arrives when you need it, minimizing your downtime."
     },
     {
       "title": "Expert Support",
-      "description": "Dedicated account managers to help optimize your sourcing"
+      "description": "Dedicated account managers to help optimize your sourcing",
+      "detail": "Get access to 24/7 customer support and a dedicated relationship manager who understands your business needs and helps you plan your inventory."
     },
     {
       "title": "Sustainability",
-      "description": "Commitment to sustainable sourcing and eco-friendly practices"
+      "description": "Commitment to sustainable sourcing and eco-friendly practices",
+      "detail": "We prioritize eco-friendly packaging and partner with brands that maintain sustainable practices to help reduce the environmental footprint."
     },
     {
       "title": "Variety",
-      "description": "Extensive selection of specialty and organic ingredients"
+      "description": "Extensive selection of specialty and organic ingredients",
+      "detail": "From daily essentials to niche imported snacks, our catalog features over 5,000+ SKUs. You can find everything your business needs under one roof."
     }
   ]
 }

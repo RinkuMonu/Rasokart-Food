@@ -4583,6 +4583,76 @@
         "title": "Bingo Crushin Pink Salt Chips",
         "description": "Buy crispy Bingo Crushin Pink Salt Chips online."
       }
+    },
+    {
+      "id": "85",
+      "productName": "Hide & Seek Chocolate Chip Cookies",
+      "description": "Delicious chocolate chip cookies for the perfect snack.",
+      "price": 40,
+      "sellingPrice": 35,
+      "category": "Biscuits",
+      "subCategory": "Cookies",
+      "image": "/placeholder.svg",
+      "brand": "Parle",
+      "stockCount": 150,
+      "isAvailable": true,
+      "weight": "100g"
+    },
+    {
+      "id": "86",
+      "productName": "Dairy Milk Silk",
+      "description": "Smooth and creamy chocolate.",
+      "price": 80,
+      "sellingPrice": 75,
+      "category": "Chocolates",
+      "subCategory": "Milk Chocolate",
+      "image": "/placeholder.svg",
+      "brand": "Cadbury",
+      "stockCount": 200,
+      "isAvailable": true,
+      "weight": "60g"
+    },
+    {
+      "id": "87",
+      "productName": "Coca Cola",
+      "description": "Refreshing carbonated soft drink.",
+      "price": 40,
+      "sellingPrice": 38,
+      "category": "Cold Drinks",
+      "subCategory": "Soft Drinks",
+      "image": "/placeholder.svg",
+      "brand": "Coca Cola",
+      "stockCount": 500,
+      "isAvailable": true,
+      "weight": "750ml"
+    },
+    {
+      "id": "88",
+      "productName": "Tata Tea Gold",
+      "description": "Premium blend of Assam tea.",
+      "price": 150,
+      "sellingPrice": 140,
+      "category": "Beverages",
+      "subCategory": "Tea",
+      "image": "/placeholder.svg",
+      "brand": "Tata",
+      "stockCount": 100,
+      "isAvailable": true,
+      "weight": "250g"
+    },
+    {
+      "id": "89",
+      "productName": "Toor Dal",
+      "description": "High quality unpolished Toor Dal.",
+      "price": 160,
+      "sellingPrice": 145,
+      "category": "Grocery",
+      "subCategory": "Dals & Pulses",
+      "image": "/placeholder.svg",
+      "brand": "Tata Sampann",
+      "stockCount": 50,
+      "isAvailable": true,
+      "weight": "1kg"
     }
   ]
 }
