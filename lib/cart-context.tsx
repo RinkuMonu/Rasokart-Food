@@ -40,12 +40,19 @@ export function CartProvider({
 }) {
   const [items, setItems] = useState<CartItem[]>([]);
   const [isHydrated, setIsHydrated] = useState(false);
+  const [cartKey, setCartKey] = useState('Rasokart Foods Private Limited_cart_guest');
 
   useEffect(() => {
     try {
-      const savedCart = localStorage.getItem(
-        'Rasokart Foods Private Limited_cart'
-      );
+      const userStr = localStorage.getItem('loggedInUser');
+      const user = userStr ? JSON.parse(userStr) : null;
+      const key = user?.email 
+        ? `Rasokart Foods Private Limited_cart_${user.email}` 
+        : 'Rasokart Foods Private Limited_cart_guest';
+      
+      setCartKey(key);
+
+      const savedCart = localStorage.getItem(key);
 
       if (savedCart) {
         setItems(JSON.parse(savedCart));
@@ -64,7 +71,7 @@ export function CartProvider({
     if (isHydrated) {
       try {
         localStorage.setItem(
-          'Rasokart Foods Private Limited_cart',
+          cartKey,
           JSON.stringify(items)
         );
       } catch (error) {
@@ -74,7 +81,7 @@ export function CartProvider({
         );
       }
     }
-  }, [items, isHydrated]);
+  }, [items, isHydrated, cartKey]);
 
   const addToCart = (newItem: CartItem) => {
     setItems((prevItems) => {

@@ -1,7 +1,6 @@
 // Cart Service
 import { storageService } from "./storageService";
-
-const CART_KEY = "rasokart_cart";
+import { authService } from "./authService";
 
 export interface CartItem {
   id: string;
@@ -13,8 +12,13 @@ export interface CartItem {
 }
 
 export const cartService = {
+  getCartKey(): string {
+    const user = authService.getCurrentUser();
+    return user ? `rasokart_cart_${user.id}` : "rasokart_cart_guest";
+  },
+
   getCart(): CartItem[] {
-    return storageService.get<CartItem[]>(CART_KEY) ?? [];
+    return storageService.get<CartItem[]>(this.getCartKey()) ?? [];
   },
 
   addItem(item: CartItem): CartItem[] {
@@ -25,13 +29,13 @@ export const cartService = {
     } else {
       cart.push(item);
     }
-    storageService.set(CART_KEY, cart);
+    storageService.set(this.getCartKey(), cart);
     return cart;
   },
 
   removeItem(productId: string): CartItem[] {
     const cart = this.getCart().filter((c) => c.productId !== productId);
-    storageService.set(CART_KEY, cart);
+    storageService.set(this.getCartKey(), cart);
     return cart;
   },
 
@@ -39,11 +43,11 @@ export const cartService = {
     const cart = this.getCart().map((c) =>
       c.productId === productId ? { ...c, quantity } : c
     );
-    storageService.set(CART_KEY, cart);
+    storageService.set(this.getCartKey(), cart);
     return cart;
   },
 
   clearCart(): void {
-    storageService.remove(CART_KEY);
+    storageService.remove(this.getCartKey());
   },
 };

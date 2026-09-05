@@ -59,7 +59,7 @@ const handleLogin = () => {
 
   // 1 second baad home page
   setTimeout(() => {
-    router.push('/');
+    window.location.href = '/';
   }, 1000);
 };
 const router = useRouter();
